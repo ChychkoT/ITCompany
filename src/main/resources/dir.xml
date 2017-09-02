@@ -1,0 +1,27 @@
+<xml>
+  <Directors>
+	    <Director>
+		  <Name>Sergeev Ivan</Name>
+		  <Date>12/01/1987</Date>
+		  <Address>
+		    <country>Belarus</country> 
+			<city>Minsk</city>
+			<street>Lenina</street>
+			<house>38</house>  	 
+		  </Address>
+		  <Salary>3000</Salary>
+        </Director>	
+		<Director>
+		  <Name>Andreev Ivan</Name>
+		  <Date>13/02/1988</Date>
+		  <Address>
+		    <country>Belarus</country> 
+			<city>Minsk</city>
+			<street>Semenova</street>
+			<house>50</house>  	 
+		  </Address>
+		  <Salary>3100</Salary>
+        </Director>	
+  </Directors>
+</xml>	  
+	  

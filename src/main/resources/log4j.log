@@ -1,0 +1,1341 @@
+2017-08-31 22:21:13 ERROR Main:223 - Example 1: error message: Message is null
+2017-08-31 22:23:13 INFO  Main:50 - 
+
+2017-08-31 22:23:13 ERROR Main:223 - Example 1: error message: Message is null
+2017-08-31 22:23:27 ERROR Main:223 - Example 1: error message: Message is null
+2017-08-31 22:23:53 INFO  Main:47 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address{country BELARUS, city Minsk, street Sovetskaya, house 16}
+Salary: 550$
+2017-08-31 22:23:53 INFO  Main:50 - 
+
+2017-08-31 22:23:53 ERROR Main:223 - Example 1: error message: Message is null
+2017-08-31 22:24:42 INFO  Main:47 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address{country BELARUS, city Minsk, street Sovetskaya, house 16}
+Salary: 550$
+2017-08-31 22:24:42 INFO  Main:50 - 
+
+2017-08-31 22:24:42 INFO  Main:55 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+address.Address@7530d0a
+Salary: 550$
+2017-08-31 22:24:42 INFO  Main:57 - -1141584984
+2017-08-31 22:24:42 INFO  Main:58 - -1141584984
+2017-08-31 22:24:42 INFO  Main:60 - true
+2017-08-31 22:24:42 INFO  Main:61 - false
+2017-08-31 22:24:42 INFO  Main:69 - Name: Vasya4 
+Date of birth: 05 января 1989
+null
+Salary: 800$
+2017-08-31 22:24:42 ERROR Main:223 - Example 1: error message: Message is null
+2017-08-31 23:50:31 INFO  Main:47 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address{country BELARUS, city Minsk, street Sovetskaya, house 16}
+Salary: 550$
+2017-08-31 23:50:31 INFO  Main:50 - 
+
+2017-08-31 23:50:31 INFO  Main:55 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+address.Address@7530d0a
+Salary: 550$
+2017-08-31 23:50:31 INFO  Main:57 - -1141584984
+2017-08-31 23:50:31 INFO  Main:58 - -1141584984
+2017-08-31 23:50:31 INFO  Main:60 - true
+2017-08-31 23:50:31 INFO  Main:61 - false
+2017-08-31 23:50:31 INFO  Main:69 - Name: Vasya4 
+Date of birth: 05 января 1989
+null
+Salary: 800$
+2017-08-31 23:50:31 INFO  Main:77 - 
+Name:Vasya1 
+2017-08-31 23:50:31 INFO  Main:79 - 
+Name:Vasya1 
+2017-08-31 23:50:31 INFO  Main:81 - 
+Name:Vasya1 
+2017-08-31 23:50:31 INFO  Main:83 - 
+Name:Vasya1 
+2017-08-31 23:50:31 INFO  Main:85 - 
+Name:Vasya1 
+2017-08-31 23:50:31 INFO  Main:87 - 
+Name:Vasya1 
+2017-08-31 23:50:31 INFO  Main:89 - 
+
+-------------Array of objects---------------
+2017-08-31 23:50:31 INFO  Main:115 - 
+
+Name: Dima1
+Salary: 5600
+2017-08-31 23:50:31 INFO  Main:116 - Adress: BELARUS, Minsk, Sadovaja, 25
+2017-08-31 23:50:31 INFO  Main:115 - 
+
+Name: Dima2
+Salary: 6600
+2017-08-31 23:50:31 INFO  Main:116 - Adress: RUSSIA, Moskva, Sadovaja, 25
+2017-08-31 23:50:31 INFO  Main:115 - 
+
+Name: Dima8
+Salary: 8000
+2017-08-31 23:50:31 INFO  Main:116 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-08-31 23:50:31 INFO  Main:115 - 
+
+Name: Dima10
+Salary: 5900
+2017-08-31 23:50:31 INFO  Main:116 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-08-31 23:50:31 INFO  Main:124 - 
+
+-------------Interface---------------
+2017-08-31 23:50:31 INFO  Main:134 - 
+
+-------------StringUtils---------------
+2017-08-31 23:50:31 INFO  Main:140 - true
+2017-08-31 23:50:31 INFO  Main:141 - false
+2017-08-31 23:50:31 INFO  Main:142 - false
+2017-08-31 23:50:31 INFO  Main:143 - false
+2017-08-31 23:50:31 INFO  Main:145 - 
+
+2017-08-31 23:50:31 INFO  Main:147 - true
+2017-08-31 23:50:31 INFO  Main:148 - true
+2017-08-31 23:50:31 INFO  Main:149 - true
+2017-08-31 23:50:31 INFO  Main:150 - false
+2017-08-31 23:50:31 INFO  Main:151 - false
+2017-08-31 23:50:31 INFO  Main:153 - 
+
+2017-08-31 23:50:31 INFO  Main:155 - true
+2017-08-31 23:50:31 INFO  Main:156 - true
+2017-08-31 23:50:31 INFO  Main:157 - false
+2017-08-31 23:50:31 INFO  Main:158 - false
+2017-08-31 23:50:31 INFO  Main:159 - false
+2017-08-31 23:50:31 INFO  Main:161 - 
+
+-------------StringBilder and StringBuffer---------------
+2017-08-31 23:50:31 INFO  Main:166 - 1:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:50:31 INFO  Main:173 - 2:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:50:31 INFO  Main:177 - 3:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:50:31 INFO  Main:179 - 4:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:50:31 INFO  Main:180 - 64
+2017-08-31 23:50:31 INFO  Main:181 - Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:50:31 INFO  Main:183 - 
+
+-------------File---------------
+2017-08-31 23:50:31 INFO  Main:188 - Class Object is the root of the class hierarchy. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class.
+2017-08-31 23:50:31 INFO  Main:189 - 
+
+2017-08-31 23:50:31 INFO  Main:206 - Class - repeat 1 
+Object - repeat 2 
+is - repeat 2 
+the - repeat 3 
+root - repeat 1 
+of - repeat 2 
+class - repeat 4 
+hierarchy - repeat 1 
+Every - repeat 1 
+has - repeat 1 
+superclass - repeat 1 
+All - repeat 1 
+objects - repeat 1 
+including - repeat 1 
+arrays - repeat 1 
+implement - repeat 1 
+methods - repeat 1 
+this - repeat 1 
+
+2017-08-31 23:50:31 INFO  Main:212 - 
+
+-------------My Exception tests---------------
+2017-08-31 23:50:31 ERROR Main:221 - Example 1: error message: Message is null
+2017-08-31 23:50:31 INFO  Main:226 - Example 2: Hello, Vasya1 
+2017-08-31 23:50:31 INFO  Main:232 - 
+
+----------Collections-----------
+2017-08-31 23:50:31 INFO  Main:253 - 
+Size: 9999
+2017-08-31 23:50:31 INFO  Main:265 - 
+Size: 5000
+2017-08-31 23:50:31 INFO  Main:275 - 
+Size: 9999
+2017-08-31 23:50:31 INFO  Main:279 - 
+run  50  milliseconds
+2017-08-31 23:50:31 INFO  Main:280 - 
+run Link   0  milliseconds
+2017-08-31 23:50:31 INFO  Main:289 - 
+
+Name: Dima2
+Salary: 2000
+2017-08-31 23:50:31 INFO  Main:292 - 
+keys [1, 2, 3]
+2017-08-31 23:50:31 INFO  Main:295 - 
+values [
+
+Name: Dima1
+Salary: 1000, 
+
+Name: Dima2
+Salary: 2000, 
+
+Name: Dima3
+Salary: 3000]
+2017-08-31 23:50:31 INFO  Main:299 - 
+values [
+
+Name: Olga
+Salary: 2500, 
+
+Name: Dima3
+Salary: 3000]
+2017-08-31 23:50:31 INFO  Main:320 - 4.0
+2017-08-31 23:50:31 INFO  Main:320 - 7.0
+2017-08-31 23:50:31 INFO  Main:320 - 8.0
+2017-08-31 23:50:31 INFO  Main:320 - 10.0
+2017-08-31 23:50:31 INFO  Main:325 - 
+
+---------functional interface-----------
+2017-08-31 23:50:31 INFO  Main:329 - 
+
+Name: Tom
+Salary: 1000
+2017-08-31 23:50:31 INFO  Main:330 - 
+
+Name: Anna
+Salary: 1300
+2017-08-31 23:50:31 INFO  Main:333 - 
+
+----------Collections and Stream-----------
+2017-08-31 23:50:31 INFO  Main:344 - 
+
+2017-08-31 23:50:31 INFO  Main:360 - Tom
+2017-08-31 23:50:31 INFO  Main:360 - Dima
+2017-08-31 23:50:31 INFO  Main:362 - 
+2017-08-31 23:50:31 INFO  Main:360 - Anna
+2017-08-31 23:50:31 INFO  Main:360 - Sveta
+2017-08-31 23:50:31 INFO  Main:362 - 
+2017-08-31 23:50:31 INFO  Main:369 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address{country BELARUS, city Minsk, street Sovetskaya, house 16}
+Salary: 550$
+2017-08-31 23:52:08 INFO  Main:47 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address{country BELARUS, city Minsk, street Sovetskaya, house 16}
+Salary: 550$
+2017-08-31 23:52:08 INFO  Main:52 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address{country BELARUS, city Minsk, street Sovetskaya, house 16}
+Salary: 550$
+2017-08-31 23:52:08 INFO  Main:54 - 
+
+2017-08-31 23:52:08 INFO  Main:59 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+address.Address@7530d0a
+Salary: 550$
+2017-08-31 23:52:08 INFO  Main:61 - -1141584984
+2017-08-31 23:52:08 INFO  Main:62 - -1141584984
+2017-08-31 23:52:08 INFO  Main:64 - true
+2017-08-31 23:52:08 INFO  Main:65 - false
+2017-08-31 23:52:08 INFO  Main:73 - Name: Vasya4 
+Date of birth: 05 января 1989
+null
+Salary: 800$
+2017-08-31 23:52:08 INFO  Main:81 - 
+Name:Vasya1 
+2017-08-31 23:52:08 INFO  Main:83 - 
+Name:Vasya1 
+2017-08-31 23:52:08 INFO  Main:85 - 
+Name:Vasya1 
+2017-08-31 23:52:08 INFO  Main:87 - 
+Name:Vasya1 
+2017-08-31 23:52:08 INFO  Main:89 - 
+Name:Vasya1 
+2017-08-31 23:52:08 INFO  Main:91 - 
+Name:Vasya1 
+2017-08-31 23:52:08 INFO  Main:93 - 
+
+-------------Array of objects---------------
+2017-08-31 23:52:08 INFO  Main:119 - 
+
+Name: Dima1
+Salary: 5600
+2017-08-31 23:52:08 INFO  Main:120 - Adress: BELARUS, Minsk, Sadovaja, 25
+2017-08-31 23:52:08 INFO  Main:119 - 
+
+Name: Dima2
+Salary: 6600
+2017-08-31 23:52:08 INFO  Main:120 - Adress: RUSSIA, Moskva, Sadovaja, 25
+2017-08-31 23:52:08 INFO  Main:119 - 
+
+Name: Dima8
+Salary: 8000
+2017-08-31 23:52:08 INFO  Main:120 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-08-31 23:52:08 INFO  Main:119 - 
+
+Name: Dima10
+Salary: 5900
+2017-08-31 23:52:08 INFO  Main:120 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-08-31 23:52:08 INFO  Main:128 - 
+
+-------------Interface---------------
+2017-08-31 23:52:08 INFO  Main:138 - 
+
+-------------StringUtils---------------
+2017-08-31 23:52:08 INFO  Main:144 - true
+2017-08-31 23:52:08 INFO  Main:145 - false
+2017-08-31 23:52:08 INFO  Main:146 - false
+2017-08-31 23:52:08 INFO  Main:147 - false
+2017-08-31 23:52:08 INFO  Main:149 - 
+
+2017-08-31 23:52:08 INFO  Main:151 - true
+2017-08-31 23:52:08 INFO  Main:152 - true
+2017-08-31 23:52:08 INFO  Main:153 - true
+2017-08-31 23:52:08 INFO  Main:154 - false
+2017-08-31 23:52:08 INFO  Main:155 - false
+2017-08-31 23:52:08 INFO  Main:157 - 
+
+2017-08-31 23:52:08 INFO  Main:159 - true
+2017-08-31 23:52:08 INFO  Main:160 - true
+2017-08-31 23:52:08 INFO  Main:161 - false
+2017-08-31 23:52:08 INFO  Main:162 - false
+2017-08-31 23:52:08 INFO  Main:163 - false
+2017-08-31 23:52:08 INFO  Main:165 - 
+
+-------------StringBilder and StringBuffer---------------
+2017-08-31 23:52:08 INFO  Main:170 - 1:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:52:08 INFO  Main:177 - 2:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:52:08 INFO  Main:181 - 3:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:52:08 INFO  Main:183 - 4:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:52:08 INFO  Main:184 - 64
+2017-08-31 23:52:08 INFO  Main:185 - Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-08-31 23:52:08 INFO  Main:187 - 
+
+-------------File---------------
+2017-08-31 23:52:08 INFO  Main:192 - Class Object is the root of the class hierarchy. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class.
+2017-08-31 23:52:08 INFO  Main:193 - 
+
+2017-08-31 23:52:09 INFO  Main:210 - Class - repeat 1 
+Object - repeat 2 
+is - repeat 2 
+the - repeat 3 
+root - repeat 1 
+of - repeat 2 
+class - repeat 4 
+hierarchy - repeat 1 
+Every - repeat 1 
+has - repeat 1 
+superclass - repeat 1 
+All - repeat 1 
+objects - repeat 1 
+including - repeat 1 
+arrays - repeat 1 
+implement - repeat 1 
+methods - repeat 1 
+this - repeat 1 
+
+2017-08-31 23:52:09 INFO  Main:216 - 
+
+-------------My Exception tests---------------
+2017-08-31 23:52:09 ERROR Main:225 - Example 1: error message: Message is null
+2017-08-31 23:52:09 INFO  Main:230 - Example 2: Hello, Vasya1 
+2017-08-31 23:52:09 INFO  Main:236 - 
+
+----------Collections-----------
+2017-08-31 23:52:09 INFO  Main:257 - 
+Size: 9999
+2017-08-31 23:52:09 INFO  Main:269 - 
+Size: 5000
+2017-08-31 23:52:09 INFO  Main:279 - 
+Size: 9999
+2017-08-31 23:52:09 INFO  Main:283 - 
+run  40  milliseconds
+2017-08-31 23:52:09 INFO  Main:284 - 
+run Link   10  milliseconds
+2017-08-31 23:52:09 INFO  Main:293 - 
+
+Name: Dima2
+Salary: 2000
+2017-08-31 23:52:09 INFO  Main:296 - 
+keys [1, 2, 3]
+2017-08-31 23:52:09 INFO  Main:299 - 
+values [
+
+Name: Dima1
+Salary: 1000, 
+
+Name: Dima2
+Salary: 2000, 
+
+Name: Dima3
+Salary: 3000]
+2017-08-31 23:52:09 INFO  Main:303 - 
+values [
+
+Name: Olga
+Salary: 2500, 
+
+Name: Dima3
+Salary: 3000]
+2017-08-31 23:52:09 INFO  Main:324 - 4.0
+2017-08-31 23:52:09 INFO  Main:324 - 7.0
+2017-08-31 23:52:09 INFO  Main:324 - 8.0
+2017-08-31 23:52:09 INFO  Main:324 - 10.0
+2017-08-31 23:52:09 INFO  Main:329 - 
+
+---------functional interface-----------
+2017-08-31 23:52:09 INFO  Main:333 - 
+
+Name: Tom
+Salary: 1000
+2017-08-31 23:52:09 INFO  Main:334 - 
+
+Name: Anna
+Salary: 1300
+2017-08-31 23:52:09 INFO  Main:337 - 
+
+----------Collections and Stream-----------
+2017-08-31 23:52:09 INFO  Main:348 - 
+
+2017-08-31 23:52:09 INFO  Main:364 - Tom
+2017-08-31 23:52:09 INFO  Main:364 - Dima
+2017-08-31 23:52:09 INFO  Main:366 - 
+2017-08-31 23:52:09 INFO  Main:364 - Anna
+2017-08-31 23:52:09 INFO  Main:364 - Sveta
+2017-08-31 23:52:09 INFO  Main:366 - 
+2017-08-31 23:58:22 INFO  ITCompanyXML:111 - Start Element : Director
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Sergeev Ivan
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		      
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 3000
+2017-08-31 23:58:22 INFO  ITCompanyXML:168 - 
+
+
+
+2017-08-31 23:58:22 INFO  ITCompanyXML:111 - Start Element : Director
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Andreev Ivan
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 3100
+2017-08-31 23:58:22 INFO  ITCompanyXML:168 - 
+
+
+
+2017-08-31 23:58:22 INFO  ITCompanyXML:113 - Start Element : HrManager
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Sergeeva Anna
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 2000
+2017-08-31 23:58:22 INFO  ITCompanyXML:113 - Start Element : HrManager
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Andreeva Ivnna
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 2100
+2017-08-31 23:58:22 INFO  ITCompanyXML:115 - Start Element : BackEnd
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Ivanov Anton
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 2500
+2017-08-31 23:58:22 INFO  ITCompanyXML:115 - Start Element : BackEnd
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Antonova Inna
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 2100
+2017-08-31 23:58:22 INFO  ITCompanyXML:117 - Start Element : FrontEnd
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Belaja Cveta
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 2150
+2017-08-31 23:58:22 INFO  ITCompanyXML:117 - Start Element : FrontEnd
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Temnij Oleg
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 2250
+2017-08-31 23:58:22 INFO  ITCompanyXML:119 - Start Element : Marketolog
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Sidorov Roman
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 1000
+2017-08-31 23:58:22 INFO  ITCompanyXML:119 - Start Element : Marketolog
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Sidorovich Elena
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 1500
+2017-08-31 23:58:22 INFO  ITCompanyXML:121 - Start Element : Sale
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Kiseleva Elena
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 1700
+2017-08-31 23:58:22 INFO  ITCompanyXML:121 - Start Element : Sale
+2017-08-31 23:58:22 INFO  ITCompanyXML:142 - Name: Kiselevskaja Olga
+2017-08-31 23:58:22 INFO  ITCompanyXML:150 - Address: 
+		    
+2017-08-31 23:58:22 INFO  ITCompanyXML:158 - Salary: 1950
+2017-08-31 23:58:22 INFO  ITCompanyXML:206 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
+2017-08-31 23:58:22 INFO  ITCompanyXML:206 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
+2017-09-01 00:00:32 INFO  ITCompanyXML:111 - Start Element : Director
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Sergeev Ivan
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		      
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 3000
+2017-09-01 00:00:32 INFO  ITCompanyXML:167 - End Element : Director
+2017-09-01 00:00:32 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:111 - Start Element : Director
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Andreev Ivan
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 3100
+2017-09-01 00:00:32 INFO  ITCompanyXML:167 - End Element : Director
+2017-09-01 00:00:32 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:113 - Start Element : HrManager
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Sergeeva Anna
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 2000
+2017-09-01 00:00:32 INFO  ITCompanyXML:170 - End Element : HrManager
+2017-09-01 00:00:32 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:113 - Start Element : HrManager
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Andreeva Ivnna
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:00:32 INFO  ITCompanyXML:170 - End Element : HrManager
+2017-09-01 00:00:32 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:115 - Start Element : BackEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Ivanov Anton
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 2500
+2017-09-01 00:00:32 INFO  ITCompanyXML:173 - End Element : BackEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:115 - Start Element : BackEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Antonova Inna
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:00:32 INFO  ITCompanyXML:173 - End Element : BackEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:117 - Start Element : FrontEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Belaja Cveta
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 2150
+2017-09-01 00:00:32 INFO  ITCompanyXML:176 - End Element : FrontEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:117 - Start Element : FrontEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Temnij Oleg
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 2250
+2017-09-01 00:00:32 INFO  ITCompanyXML:176 - End Element : FrontEnd
+2017-09-01 00:00:32 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:119 - Start Element : Marketolog
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Sidorov Roman
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 1000
+2017-09-01 00:00:32 INFO  ITCompanyXML:179 - End Element : Marketolog
+2017-09-01 00:00:32 INFO  ITCompanyXML:180 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:119 - Start Element : Marketolog
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Sidorovich Elena
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 1500
+2017-09-01 00:00:32 INFO  ITCompanyXML:179 - End Element : Marketolog
+2017-09-01 00:00:32 INFO  ITCompanyXML:180 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:121 - Start Element : Sale
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Kiseleva Elena
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 1700
+2017-09-01 00:00:32 INFO  ITCompanyXML:182 - End Element : Sale
+2017-09-01 00:00:32 INFO  ITCompanyXML:183 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:121 - Start Element : Sale
+2017-09-01 00:00:32 INFO  ITCompanyXML:142 - Name: Kiselevskaja Olga
+2017-09-01 00:00:32 INFO  ITCompanyXML:150 - Address: 
+		    
+2017-09-01 00:00:32 INFO  ITCompanyXML:158 - Salary: 1950
+2017-09-01 00:00:32 INFO  ITCompanyXML:182 - End Element : Sale
+2017-09-01 00:00:32 INFO  ITCompanyXML:183 - 
+
+
+
+2017-09-01 00:00:32 INFO  ITCompanyXML:201 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
+2017-09-01 00:00:32 INFO  ITCompanyXML:201 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
+2017-09-01 00:04:22 INFO  ITCompanyXML:111 - Director:
+2017-09-01 00:04:22 INFO  ITCompanyXML:142 - Name: Sergeev Ivan
+2017-09-01 00:04:22 INFO  ITCompanyXML:150 - Address: 
+		      
+2017-09-01 00:04:22 INFO  ITCompanyXML:158 - Salary: 3000
+2017-09-01 00:04:22 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 00:04:22 INFO  ITCompanyXML:111 - Director:
+2017-09-01 00:04:22 INFO  ITCompanyXML:142 - Name: Andreev Ivan
+2017-09-01 00:04:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:22 INFO  ITCompanyXML:158 - Salary: 3100
+2017-09-01 00:04:22 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 00:04:22 INFO  ITCompanyXML:113 - HrManager:
+2017-09-01 00:04:22 INFO  ITCompanyXML:142 - Name: Sergeeva Anna
+2017-09-01 00:04:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:22 INFO  ITCompanyXML:158 - Salary: 2000
+2017-09-01 00:04:22 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:04:22 INFO  ITCompanyXML:113 - HrManager:
+2017-09-01 00:04:22 INFO  ITCompanyXML:142 - Name: Andreeva Ivnna
+2017-09-01 00:04:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:22 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:04:22 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:04:22 INFO  ITCompanyXML:115 - BackEnd:
+2017-09-01 00:04:22 INFO  ITCompanyXML:142 - Name: Ivanov Anton
+2017-09-01 00:04:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:22 INFO  ITCompanyXML:158 - Salary: 2500
+2017-09-01 00:04:22 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 00:04:22 INFO  ITCompanyXML:115 - BackEnd:
+2017-09-01 00:04:22 INFO  ITCompanyXML:142 - Name: Antonova Inna
+2017-09-01 00:04:22 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:04:23 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:117 - FrontEnd:
+2017-09-01 00:04:23 INFO  ITCompanyXML:142 - Name: Belaja Cveta
+2017-09-01 00:04:23 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 2150
+2017-09-01 00:04:23 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:117 - FrontEnd:
+2017-09-01 00:04:23 INFO  ITCompanyXML:142 - Name: Temnij Oleg
+2017-09-01 00:04:23 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 2250
+2017-09-01 00:04:23 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:119 - Marketolog:
+2017-09-01 00:04:23 INFO  ITCompanyXML:142 - Name: Sidorov Roman
+2017-09-01 00:04:23 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 1000
+2017-09-01 00:04:23 INFO  ITCompanyXML:180 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:119 - Marketolog:
+2017-09-01 00:04:23 INFO  ITCompanyXML:142 - Name: Sidorovich Elena
+2017-09-01 00:04:23 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 1500
+2017-09-01 00:04:23 INFO  ITCompanyXML:180 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:121 - Sale:
+2017-09-01 00:04:23 INFO  ITCompanyXML:142 - Name: Kiseleva Elena
+2017-09-01 00:04:23 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 1700
+2017-09-01 00:04:23 INFO  ITCompanyXML:183 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:121 - Sale:
+2017-09-01 00:04:23 INFO  ITCompanyXML:142 - Name: Kiselevskaja Olga
+2017-09-01 00:04:23 INFO  ITCompanyXML:150 - Address: 
+		    
+2017-09-01 00:04:23 INFO  ITCompanyXML:158 - Salary: 1950
+2017-09-01 00:04:23 INFO  ITCompanyXML:183 - 
+
+
+
+2017-09-01 00:04:23 INFO  ITCompanyXML:201 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
+2017-09-01 00:04:23 INFO  ITCompanyXML:201 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
+2017-09-01 00:05:05 INFO  ITCompanyXML:111 - Director:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Sergeev Ivan
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 12/01/1987
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		      
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 3000
+2017-09-01 00:05:05 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:111 - Director:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Andreev Ivan
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 13/02/1988
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 3100
+2017-09-01 00:05:05 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:113 - HrManager:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Sergeeva Anna
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 01/01/1990
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 2000
+2017-09-01 00:05:05 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:113 - HrManager:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Andreeva Ivnna
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 15/03/1988
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:05:05 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:115 - BackEnd:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Ivanov Anton
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 05/08/1993
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 2500
+2017-09-01 00:05:05 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:115 - BackEnd:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Antonova Inna
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 25/03/1992
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:05:05 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:117 - FrontEnd:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Belaja Cveta
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 25/06/1990
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 2150
+2017-09-01 00:05:05 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:117 - FrontEnd:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Temnij Oleg
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 06/07/1990
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 2250
+2017-09-01 00:05:05 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:119 - Marketolog:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Sidorov Roman
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 06/07/1991
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 1000
+2017-09-01 00:05:05 INFO  ITCompanyXML:180 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:119 - Marketolog:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Sidorovich Elena
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 08/08/1988
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 1500
+2017-09-01 00:05:05 INFO  ITCompanyXML:180 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:121 - Sale:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Kiseleva Elena
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 07/07/1988
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 1700
+2017-09-01 00:05:05 INFO  ITCompanyXML:183 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:121 - Sale:
+2017-09-01 00:05:05 INFO  ITCompanyXML:142 - Name: Kiselevskaja Olga
+2017-09-01 00:05:05 INFO  ITCompanyXML:146 - Date of birth: 07/02/1986
+2017-09-01 00:05:05 INFO  ITCompanyXML:150 - Address: 
+		    
+2017-09-01 00:05:05 INFO  ITCompanyXML:158 - Salary: 1950
+2017-09-01 00:05:05 INFO  ITCompanyXML:183 - 
+
+
+
+2017-09-01 00:05:05 INFO  ITCompanyXML:201 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
+2017-09-01 00:05:05 INFO  ITCompanyXML:201 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
+2017-09-01 00:07:30 INFO  ITCompanyXML:111 - Director:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Sergeev Ivan
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 12/01/1987
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		      
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 3000
+2017-09-01 00:07:30 INFO  ITCompanyXML:167 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:111 - Director:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Andreev Ivan
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 13/02/1988
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 3100
+2017-09-01 00:07:30 INFO  ITCompanyXML:167 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:113 - HrManager:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Sergeeva Anna
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 01/01/1990
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 2000
+2017-09-01 00:07:30 INFO  ITCompanyXML:169 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:113 - HrManager:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Andreeva Ivnna
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 15/03/1988
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:07:30 INFO  ITCompanyXML:169 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:115 - BackEnd:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Ivanov Anton
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 05/08/1993
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 2500
+2017-09-01 00:07:30 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:115 - BackEnd:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Antonova Inna
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 25/03/1992
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 2100
+2017-09-01 00:07:30 INFO  ITCompanyXML:171 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:117 - FrontEnd:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Belaja Cveta
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 25/06/1990
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 2150
+2017-09-01 00:07:30 INFO  ITCompanyXML:173 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:117 - FrontEnd:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Temnij Oleg
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 06/07/1990
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 2250
+2017-09-01 00:07:30 INFO  ITCompanyXML:173 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:119 - Marketolog:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Sidorov Roman
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 06/07/1991
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 1000
+2017-09-01 00:07:30 INFO  ITCompanyXML:175 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:119 - Marketolog:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Sidorovich Elena
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 08/08/1988
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 1500
+2017-09-01 00:07:30 INFO  ITCompanyXML:175 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:121 - Sale:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Kiseleva Elena
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 07/07/1988
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		     
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 1700
+2017-09-01 00:07:30 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:121 - Sale:
+2017-09-01 00:07:30 INFO  ITCompanyXML:142 - Name: Kiselevskaja Olga
+2017-09-01 00:07:30 INFO  ITCompanyXML:146 - Date of birth: 07/02/1986
+2017-09-01 00:07:30 INFO  ITCompanyXML:150 - Address: 
+		    
+2017-09-01 00:07:30 INFO  ITCompanyXML:158 - Salary: 1950
+2017-09-01 00:07:30 INFO  ITCompanyXML:177 - 
+
+
+
+2017-09-01 00:07:30 INFO  ITCompanyXML:195 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
+2017-09-01 00:07:30 INFO  ITCompanyXML:195 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
+2017-09-01 00:12:37 INFO  Main:11 - 
+
+----------DeadLock-----------
+2017-09-01 00:12:37 INFO  Main:18 - Thread 1: locked resource 1
+2017-09-01 00:12:37 INFO  Main:36 - Thread 2: locked resource 2
+2017-09-01 00:13:01 INFO  Main:16 - Thread 1: locked resource 1
+2017-09-01 00:13:01 INFO  Main:34 - Thread 2: locked resource 2
+2017-09-01 00:15:20 INFO  TreeSortRun:12 - 
+
+----------TreeSort-----------
+2017-09-01 00:15:20 INFO  TreeSortRun:24 - /n
+2017-09-01 00:15:20 INFO  TreeSortRun:27 - /n
+2017-09-01 00:17:21 INFO  Main:56 - 4 
+2017-09-01 00:17:21 INFO  Main:56 - 5 
+2017-09-01 00:17:21 INFO  Main:56 - 7 
+2017-09-01 00:17:21 INFO  Main:56 - 8 
+2017-09-01 00:17:21 INFO  Main:56 - 10 
+2017-09-01 00:17:21 INFO  Main:56 - 11 
+2017-09-01 00:17:21 INFO  Main:43 - 11 
+2017-09-01 00:17:21 INFO  Main:43 - 10 
+2017-09-01 00:17:21 INFO  Main:43 - 8 
+2017-09-01 00:17:21 INFO  Main:43 - 7 
+2017-09-01 00:17:21 INFO  Main:43 - 5 
+2017-09-01 00:17:21 INFO  Main:43 - 4 
+2017-09-01 00:17:21 INFO  Main:43 - 11 
+2017-09-01 00:17:21 INFO  Main:43 - 8 
+2017-09-01 00:17:21 INFO  Main:43 - 7 
+2017-09-01 00:17:21 INFO  Main:43 - 5 
+2017-09-01 00:17:21 INFO  Main:43 - 4 
+2017-09-01 00:19:51 INFO  TreeSortRun:13 - ----------TreeSort-----------
+2017-09-01 00:19:51 INFO  Main:56 - 4 
+2017-09-01 00:19:51 INFO  Main:56 - 5 
+2017-09-01 00:19:51 INFO  Main:56 - 7 
+2017-09-01 00:19:51 INFO  Main:56 - 8 
+2017-09-01 00:19:51 INFO  Main:56 - 10 
+2017-09-01 00:19:51 INFO  Main:56 - 11 
+2017-09-01 00:19:51 INFO  TreeSortRun:25 - /n
+2017-09-01 00:19:51 INFO  Main:43 - 11 
+2017-09-01 00:19:51 INFO  Main:43 - 10 
+2017-09-01 00:19:51 INFO  Main:43 - 8 
+2017-09-01 00:19:51 INFO  Main:43 - 7 
+2017-09-01 00:19:51 INFO  Main:43 - 5 
+2017-09-01 00:19:51 INFO  Main:43 - 4 
+2017-09-01 00:19:51 INFO  TreeSortRun:28 - /n
+2017-09-01 00:19:51 INFO  Main:43 - 11 
+2017-09-01 00:19:51 INFO  Main:43 - 8 
+2017-09-01 00:19:51 INFO  Main:43 - 7 
+2017-09-01 00:19:51 INFO  Main:43 - 5 
+2017-09-01 00:19:51 INFO  Main:43 - 4 
+2017-09-01 00:20:14 INFO  TreeSortRun:13 - ----------TreeSort-----------
+2017-09-01 00:20:14 INFO  TreeSort:56 - 4 
+2017-09-01 00:20:14 INFO  TreeSort:56 - 5 
+2017-09-01 00:20:14 INFO  TreeSort:56 - 7 
+2017-09-01 00:20:14 INFO  TreeSort:56 - 8 
+2017-09-01 00:20:14 INFO  TreeSort:56 - 10 
+2017-09-01 00:20:14 INFO  TreeSort:56 - 11 
+2017-09-01 00:20:14 INFO  TreeSortRun:25 - /n
+2017-09-01 00:20:14 INFO  TreeSort:43 - 11 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 10 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 8 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 7 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 5 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 4 
+2017-09-01 00:20:14 INFO  TreeSortRun:28 - /n
+2017-09-01 00:20:14 INFO  TreeSort:43 - 11 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 8 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 7 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 5 
+2017-09-01 00:20:14 INFO  TreeSort:43 - 4 
+2017-09-01 00:20:43 INFO  TreeSortRun:13 - ----------TreeSort-----------
+2017-09-01 00:20:43 INFO  TreeSort:56 - 4 
+2017-09-01 00:20:43 INFO  TreeSort:56 - 5 
+2017-09-01 00:20:43 INFO  TreeSort:56 - 7 
+2017-09-01 00:20:43 INFO  TreeSort:56 - 8 
+2017-09-01 00:20:43 INFO  TreeSort:56 - 10 
+2017-09-01 00:20:43 INFO  TreeSort:56 - 11 
+2017-09-01 00:20:43 INFO  TreeSortRun:25 - 
+
+2017-09-01 00:20:43 INFO  TreeSort:43 - 11 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 10 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 8 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 7 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 5 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 4 
+2017-09-01 00:20:43 INFO  TreeSortRun:28 - 
+
+2017-09-01 00:20:43 INFO  TreeSort:43 - 11 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 8 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 7 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 5 
+2017-09-01 00:20:43 INFO  TreeSort:43 - 4 
+2017-09-01 00:24:05 INFO  RunnerConnection:14 - ----------SinglTon Connection-----------
+2017-09-01 00:24:05 INFO  RunnerConnection:20 - 1 
+2017-09-01 00:24:05 INFO  RunnerConnection:20 - 2 
+2017-09-01 00:24:05 INFO  RunnerConnection:20 - 3 
+2017-09-01 00:24:05 INFO  RunnerConnection:20 - 4 
+2017-09-01 00:28:23 INFO  RunnerConnection:14 - ----------SinglTon Connection-----------
+2017-09-01 00:28:23 INFO  RunnerConnection:20 - 1 
+2017-09-01 00:28:23 INFO  SingltonConnection:23 - The new connection was given
+2017-09-01 00:28:23 INFO  RunnerConnection:20 - 2 
+2017-09-01 00:28:23 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:28:23 INFO  RunnerConnection:20 - 3 
+2017-09-01 00:28:23 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:28:23 INFO  RunnerConnection:20 - 4 
+2017-09-01 00:28:23 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-01 00:30:12 INFO  RunnerConnection:14 - ----------SinglTon Connection-----------
+2017-09-01 00:30:12 INFO  RunnerConnection:20 - 1 
+2017-09-01 00:30:12 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:12 INFO  SingltonConnection:23 - The new connection was given
+2017-09-01 00:30:12 INFO  RunnerConnection:20 - 2 
+2017-09-01 00:30:12 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:12 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:30:12 INFO  RunnerConnection:20 - 3 
+2017-09-01 00:30:12 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:12 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:30:12 INFO  RunnerConnection:20 - 4 
+2017-09-01 00:30:12 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:12 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-01 00:30:58 INFO  RunnerConnection:14 - ----------SinglTon Connection-----------
+2017-09-01 00:30:58 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:58 INFO  SingltonConnection:23 - The new connection was given
+2017-09-01 00:30:58 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:58 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:30:58 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:58 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:30:58 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:30:58 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-01 00:31:13 INFO  RunnerConnection:14 - SinglTon Connection-----------
+2017-09-01 00:31:13 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:13 INFO  SingltonConnection:23 - The new connection was given
+2017-09-01 00:31:13 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:13 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:31:13 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:13 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:31:13 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:13 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-01 00:31:30 INFO  RunnerConnection:14 - SinglTon Connection-----------
+
+
+2017-09-01 00:31:30 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:30 INFO  SingltonConnection:23 - The new connection was given
+2017-09-01 00:31:30 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:30 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:31:30 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:30 INFO  SingltonConnection:26 - The connection was given
+2017-09-01 00:31:30 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:31:30 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-01 00:32:40 INFO  RunnerConnection:14 - ---SinglTon Connection-----------
+
+
+2017-09-01 00:32:40 INFO  RunnerConnection:20 - 1
+2017-09-01 00:32:40 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:32:40 INFO  SingltonConnection:23 - The new connection was given
+2017-09-01 00:32:40 INFO  RunnerConnection:20 - 2
+2017-09-01 00:32:40 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:32:40 INFO  SingltonConnection:26 - The next connection was given
+2017-09-01 00:32:40 INFO  RunnerConnection:20 - 3
+2017-09-01 00:32:40 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:32:40 INFO  SingltonConnection:26 - The next connection was given
+2017-09-01 00:32:40 INFO  RunnerConnection:20 - 4
+2017-09-01 00:32:40 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-01 00:32:40 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-01 00:39:27 INFO  Collections:22 - ------Collections-----------
+
+2017-09-01 00:39:27 INFO  Collections:32 - 
+Size: 5000
+2017-09-01 00:39:27 INFO  Collections:43 - 
+Size: 9999
+2017-09-01 00:39:27 INFO  Collections:55 - 
+Size: 5000
+2017-09-01 00:39:27 INFO  Collections:65 - 
+Size: 9999
+2017-09-01 00:39:27 INFO  Collections:69 - 
+run  30  milliseconds
+2017-09-01 00:39:27 INFO  Collections:70 - 
+run Link   10  milliseconds
+2017-09-01 00:39:27 INFO  Collections:79 - 
+
+Name: Dima2
+Salary: 2000
+2017-09-01 00:39:27 INFO  Collections:82 - 
+keys [1, 2, 3]
+2017-09-01 00:39:27 INFO  Collections:85 - 
+values [
+
+Name: Dima1
+Salary: 1000, 
+
+Name: Dima2
+Salary: 2000, 
+
+Name: Dima3
+Salary: 3000]
+2017-09-01 00:39:27 INFO  Collections:89 - 
+values [
+
+Name: Olga
+Salary: 2500, 
+
+Name: Dima3
+Salary: 3000]
+2017-09-01 00:39:27 INFO  Collections:110 - 4.0
+2017-09-01 00:39:27 INFO  Collections:110 - 7.0
+2017-09-01 00:39:27 INFO  Collections:110 - 8.0
+2017-09-01 00:39:27 INFO  Collections:110 - 10.0
+2017-09-01 00:42:58 INFO  FileReadWrite:15 - 
+
+-------------File---------------
+2017-09-01 00:42:58 INFO  FileReadWrite:20 - Class Object is the root of the class hierarchy. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class.
+2017-09-01 00:42:58 INFO  FileReadWrite:21 - 
+
+2017-09-01 00:42:58 INFO  FileReadWrite:38 - Class - repeat 1 
+Object - repeat 2 
+is - repeat 2 
+the - repeat 3 
+root - repeat 1 
+of - repeat 2 
+class - repeat 4 
+hierarchy - repeat 1 
+Every - repeat 1 
+has - repeat 1 
+superclass - repeat 1 
+All - repeat 1 
+objects - repeat 1 
+including - repeat 1 
+arrays - repeat 1 
+implement - repeat 1 
+methods - repeat 1 
+this - repeat 1 
+
+2017-09-01 00:44:51 INFO  FileReadWrite:15 - -------------File---------------
+
+2017-09-01 00:44:51 INFO  FileReadWrite:20 - Class Object is the root of the class hierarchy. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class.
+2017-09-01 00:44:51 INFO  FileReadWrite:21 - 
+
+2017-09-01 00:44:51 INFO  FileReadWrite:38 - Class - repeat 1 
+Object - repeat 2 
+is - repeat 2 
+the - repeat 3 
+root - repeat 1 
+of - repeat 2 
+class - repeat 4 
+hierarchy - repeat 1 
+Every - repeat 1 
+has - repeat 1 
+superclass - repeat 1 
+All - repeat 1 
+objects - repeat 1 
+including - repeat 1 
+arrays - repeat 1 
+implement - repeat 1 
+methods - repeat 1 
+this - repeat 1 
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:112 - Director:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Sergeev Ivan
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 12/01/1987
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		      
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 3000
+2017-09-01 13:32:40 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:112 - Director:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Andreev Ivan
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 13/02/1988
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 3100
+2017-09-01 13:32:40 INFO  ITCompanyXML:168 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:114 - HrManager:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Sergeeva Anna
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 01/01/1990
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 2000
+2017-09-01 13:32:40 INFO  ITCompanyXML:170 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:114 - HrManager:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Andreeva Ivnna
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 15/03/1988
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 2100
+2017-09-01 13:32:40 INFO  ITCompanyXML:170 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:116 - BackEnd:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Ivanov Anton
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 05/08/1993
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 2500
+2017-09-01 13:32:40 INFO  ITCompanyXML:172 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:116 - BackEnd:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Antonova Inna
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 25/03/1992
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 2100
+2017-09-01 13:32:40 INFO  ITCompanyXML:172 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:118 - FrontEnd:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Belaja Cveta
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 25/06/1990
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 2150
+2017-09-01 13:32:40 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:118 - FrontEnd:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Temnij Oleg
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 06/07/1990
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 2250
+2017-09-01 13:32:40 INFO  ITCompanyXML:174 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:120 - Marketolog:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Sidorov Roman
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 06/07/1991
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 1000
+2017-09-01 13:32:40 INFO  ITCompanyXML:176 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:120 - Marketolog:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Sidorovich Elena
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 08/08/1988
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 1500
+2017-09-01 13:32:40 INFO  ITCompanyXML:176 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:122 - Sale:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Kiseleva Elena
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 07/07/1988
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		     
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 1700
+2017-09-01 13:32:40 INFO  ITCompanyXML:178 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:122 - Sale:
+2017-09-01 13:32:40 INFO  ITCompanyXML:143 - Name: Kiselevskaja Olga
+2017-09-01 13:32:40 INFO  ITCompanyXML:147 - Date of birth: 07/02/1986
+2017-09-01 13:32:40 INFO  ITCompanyXML:151 - Address: 
+		    
+2017-09-01 13:32:40 INFO  ITCompanyXML:159 - Salary: 1950
+2017-09-01 13:32:40 INFO  ITCompanyXML:178 - 
+
+
+
+2017-09-01 13:32:40 INFO  ITCompanyXML:197 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
+2017-09-01 13:32:40 INFO  ITCompanyXML:197 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
