@@ -36,12 +36,12 @@ public class Main {
 		BackEnd bend1 = new BackEnd("Vasya1 ", null, new Address(Country.BELARUS, "Minsk",
 				"Sovetskaya", 16), 550);
 		bend1.setDate("11/11/1995");
-		LOGGER.info(bend1.getEmloyee());
+		LOGGER.info(bend1.getEmployee());
 
 		BackEnd bend = new BackEnd("Vasya1 ", null, new Address(Country.BELARUS, "Minsk",
 				"Sovetskaya", 16), 550);
 		bend.setDate("11/11/1995");
-		LOGGER.info(bend.getEmloyee());
+		LOGGER.info(bend.getEmployee());
 		bend.develop();
 		LOGGER.info("\n");
 
@@ -238,6 +238,7 @@ public class Main {
 			}
 			LOGGER.info("");
 		}
+		
 	
 	}
 }

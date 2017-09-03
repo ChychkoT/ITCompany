@@ -4,9 +4,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-
 import address.Address;
 
 /**
@@ -14,7 +11,7 @@ import address.Address;
  * <b>address</b>, <b>salary</b>.
  * @autor Tatsiana
  */
-@XmlRootElement
+
 public abstract class EmployeesIT {
 
 	/** Field employee name */
@@ -63,7 +60,6 @@ public abstract class EmployeesIT {
 	 * 
 	 * @param name - employee name
 	 */
-	 @XmlElement
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -85,7 +81,6 @@ public abstract class EmployeesIT {
 	 * 
 	 * @param date - employee date of birth
 	 */
-	 @XmlElement
 	public void setDate(String datest) {
 		SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy");
 		Date d = stringDate(datest, formatDate);
@@ -117,7 +112,6 @@ public abstract class EmployeesIT {
 	 * 
 	 * @param salary - employee salary
 	 */
-	 @XmlElement
 	public void setSalary(int salary) {
 		this.salary = salary;
 
@@ -138,7 +132,6 @@ public abstract class EmployeesIT {
 	 * 
 	 * @param adress - employee address
 	 */
-	 @XmlElement
 	public void setAddress(Address address) {
 		this.address = address;
 	}
@@ -152,13 +145,15 @@ public abstract class EmployeesIT {
 		this.date = date;
 	}
 	
-	 public String getEmloyee()
+	 public String getEmployee()
 	    {  
 	       return "Name: " + getName() + "\n"+
 	               "Date of birth: "+ getDate() + "\n" + 
-	    		    address.getAddress() + "\n" + 
+	    		    "Address: " + getAddress().getCountry() + getAddress().getCity() +
+	    		                  getAddress().getStreet() + getAddress().getHouse()+ "\n" + 
 	                "Salary: " + getSalary() + "$"; 
 	    }
 
+	
 
 }

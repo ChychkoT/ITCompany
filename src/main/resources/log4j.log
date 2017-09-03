@@ -1339,3 +1339,1197 @@ this - repeat 1
 
 2017-09-01 13:32:40 INFO  ITCompanyXML:197 - Director{Name='Sergeev Ivan', Date=12 января 1987, Address=null, Slary='3000'}
 2017-09-01 13:32:40 INFO  ITCompanyXML:197 - Director{Name='Kiselevskaja Olga', Date=07 февраля 1986, Address=null, Slary='1950'}
+2017-09-03 18:29:22 INFO  JaxbTest:35 - 25 counts of IllegalAnnotationExceptions
+2017-09-03 18:44:34 INFO  JaxbTest:35 - unexpected element (uri:"", local:"xml"). Expected elements are <{}ITCompany>,<{}address>
+2017-09-03 18:57:09 INFO  JaxbTest:35 - unexpected element (uri:"", local:"xml"). Expected elements are <{}ITCompany>,<{}address>
+2017-09-03 18:59:10 INFO  Main:40 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 18:59:10 INFO  Main:45 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 18:59:10 INFO  Main:47 - 
+
+2017-09-03 18:59:10 INFO  Main:52 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+address.Address@3941a79c
+Salary: 550$
+2017-09-03 18:59:10 INFO  Main:54 - -1141584984
+2017-09-03 18:59:10 INFO  Main:55 - -1141584984
+2017-09-03 18:59:10 INFO  Main:57 - true
+2017-09-03 18:59:10 INFO  Main:58 - false
+2017-09-03 18:59:10 INFO  Main:66 - Name: Vasya4 
+Date of birth: 05 января 1989
+null
+Salary: 800$
+2017-09-03 18:59:10 INFO  Main:74 - 
+Name:Vasya1 
+2017-09-03 18:59:10 INFO  Main:76 - 
+Name:Vasya1 
+2017-09-03 18:59:10 INFO  Main:78 - 
+Name:Vasya1 
+2017-09-03 18:59:10 INFO  Main:80 - 
+Name:Vasya1 
+2017-09-03 18:59:10 INFO  Main:82 - 
+Name:Vasya1 
+2017-09-03 18:59:10 INFO  Main:84 - 
+Name:Vasya1 
+2017-09-03 18:59:10 INFO  Main:86 - 
+
+-------------Array of objects---------------
+2017-09-03 18:59:10 INFO  Main:112 - 
+
+Name: Dima1
+Salary: 5600
+2017-09-03 18:59:10 INFO  Main:113 - Adress: BELARUS, Minsk, Sadovaja, 25
+2017-09-03 18:59:10 INFO  Main:112 - 
+
+Name: Dima2
+Salary: 6600
+2017-09-03 18:59:10 INFO  Main:113 - Adress: RUSSIA, Moskva, Sadovaja, 25
+2017-09-03 18:59:10 INFO  Main:112 - 
+
+Name: Dima8
+Salary: 8000
+2017-09-03 18:59:10 INFO  Main:113 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-09-03 18:59:10 INFO  Main:112 - 
+
+Name: Dima10
+Salary: 5900
+2017-09-03 18:59:10 INFO  Main:113 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-09-03 18:59:10 INFO  Main:121 - 
+
+-------------Interface---------------
+2017-09-03 18:59:10 INFO  Main:131 - 
+
+-------------StringUtils---------------
+2017-09-03 18:59:10 INFO  Main:137 - true
+2017-09-03 18:59:10 INFO  Main:138 - false
+2017-09-03 18:59:10 INFO  Main:139 - false
+2017-09-03 18:59:10 INFO  Main:140 - false
+2017-09-03 18:59:10 INFO  Main:142 - 
+
+2017-09-03 18:59:10 INFO  Main:144 - true
+2017-09-03 18:59:10 INFO  Main:145 - true
+2017-09-03 18:59:10 INFO  Main:146 - true
+2017-09-03 18:59:10 INFO  Main:147 - false
+2017-09-03 18:59:10 INFO  Main:148 - false
+2017-09-03 18:59:10 INFO  Main:150 - 
+
+2017-09-03 18:59:10 INFO  Main:152 - true
+2017-09-03 18:59:10 INFO  Main:153 - true
+2017-09-03 18:59:10 INFO  Main:154 - false
+2017-09-03 18:59:10 INFO  Main:155 - false
+2017-09-03 18:59:10 INFO  Main:156 - false
+2017-09-03 18:59:10 INFO  Main:158 - 
+
+-------------StringBilder and StringBuffer---------------
+2017-09-03 18:59:10 INFO  Main:163 - 1:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 18:59:10 INFO  Main:170 - 2:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 18:59:10 INFO  Main:174 - 3:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 18:59:10 INFO  Main:176 - 4:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 18:59:10 INFO  Main:177 - 64
+2017-09-03 18:59:10 INFO  Main:178 - Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 18:59:10 INFO  Main:181 - 
+
+-------------My Exception tests---------------
+2017-09-03 18:59:10 ERROR Main:190 - Example 1: error message: Message is null
+2017-09-03 18:59:10 INFO  Main:195 - Example 2: Hello, Vasya1 
+2017-09-03 18:59:10 INFO  Main:203 - 
+
+---------functional interface-----------
+2017-09-03 18:59:11 INFO  Main:207 - 
+
+Name: Tom
+Salary: 1000
+2017-09-03 18:59:11 INFO  Main:208 - 
+
+Name: Anna
+Salary: 1300
+2017-09-03 18:59:11 INFO  Main:211 - 
+
+----------Collections and Stream-----------
+2017-09-03 18:59:11 INFO  Main:222 - 
+
+2017-09-03 18:59:11 INFO  Main:238 - Tom
+2017-09-03 18:59:11 INFO  Main:238 - Dima
+2017-09-03 18:59:11 INFO  Main:240 - 
+2017-09-03 18:59:11 INFO  Main:238 - Anna
+2017-09-03 18:59:11 INFO  Main:238 - Sveta
+2017-09-03 18:59:11 INFO  Main:240 - 
+2017-09-03 18:59:11 INFO  Main:246 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 19:00:28 INFO  Main:40 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 19:00:28 INFO  Main:45 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 19:00:28 INFO  Main:47 - 
+
+2017-09-03 19:00:28 INFO  Main:52 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+address.Address@3941a79c
+Salary: 550$
+2017-09-03 19:00:28 INFO  Main:54 - -1141584984
+2017-09-03 19:00:28 INFO  Main:55 - -1141584984
+2017-09-03 19:00:28 INFO  Main:57 - true
+2017-09-03 19:00:28 INFO  Main:58 - false
+2017-09-03 19:00:28 INFO  Main:66 - Name: Vasya4 
+Date of birth: 05 января 1989
+null
+Salary: 800$
+2017-09-03 19:00:28 INFO  Main:74 - 
+Name:Vasya1 
+2017-09-03 19:00:28 INFO  Main:76 - 
+Name:Vasya1 
+2017-09-03 19:00:28 INFO  Main:78 - 
+Name:Vasya1 
+2017-09-03 19:00:28 INFO  Main:80 - 
+Name:Vasya1 
+2017-09-03 19:00:28 INFO  Main:82 - 
+Name:Vasya1 
+2017-09-03 19:00:28 INFO  Main:84 - 
+Name:Vasya1 
+2017-09-03 19:00:28 INFO  Main:86 - 
+
+-------------Array of objects---------------
+2017-09-03 19:00:28 INFO  Main:112 - 
+
+Name: Dima1
+Salary: 5600
+2017-09-03 19:00:28 INFO  Main:113 - Adress: BELARUS, Minsk, Sadovaja, 25
+2017-09-03 19:00:28 INFO  Main:112 - 
+
+Name: Dima2
+Salary: 6600
+2017-09-03 19:00:28 INFO  Main:113 - Adress: RUSSIA, Moskva, Sadovaja, 25
+2017-09-03 19:00:28 INFO  Main:112 - 
+
+Name: Dima8
+Salary: 8000
+2017-09-03 19:00:28 INFO  Main:113 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-09-03 19:00:28 INFO  Main:112 - 
+
+Name: Dima10
+Salary: 5900
+2017-09-03 19:00:28 INFO  Main:113 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-09-03 19:00:28 INFO  Main:121 - 
+
+-------------Interface---------------
+2017-09-03 19:00:28 INFO  Main:131 - 
+
+-------------StringUtils---------------
+2017-09-03 19:00:28 INFO  Main:137 - true
+2017-09-03 19:00:28 INFO  Main:138 - false
+2017-09-03 19:00:28 INFO  Main:139 - false
+2017-09-03 19:00:28 INFO  Main:140 - false
+2017-09-03 19:00:28 INFO  Main:142 - 
+
+2017-09-03 19:00:28 INFO  Main:144 - true
+2017-09-03 19:00:28 INFO  Main:145 - true
+2017-09-03 19:00:28 INFO  Main:146 - true
+2017-09-03 19:00:28 INFO  Main:147 - false
+2017-09-03 19:00:28 INFO  Main:148 - false
+2017-09-03 19:00:28 INFO  Main:150 - 
+
+2017-09-03 19:00:28 INFO  Main:152 - true
+2017-09-03 19:00:28 INFO  Main:153 - true
+2017-09-03 19:00:28 INFO  Main:154 - false
+2017-09-03 19:00:28 INFO  Main:155 - false
+2017-09-03 19:00:28 INFO  Main:156 - false
+2017-09-03 19:00:28 INFO  Main:158 - 
+
+-------------StringBilder and StringBuffer---------------
+2017-09-03 19:00:28 INFO  Main:163 - 1:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:00:28 INFO  Main:170 - 2:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:00:28 INFO  Main:174 - 3:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:00:28 INFO  Main:176 - 4:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:00:28 INFO  Main:177 - 64
+2017-09-03 19:00:28 INFO  Main:178 - Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:00:28 INFO  Main:181 - 
+
+-------------My Exception tests---------------
+2017-09-03 19:00:28 ERROR Main:190 - Example 1: error message: Message is null
+2017-09-03 19:00:28 INFO  Main:195 - Example 2: Hello, Vasya1 
+2017-09-03 19:00:28 INFO  Main:203 - 
+
+---------functional interface-----------
+2017-09-03 19:00:28 INFO  Main:207 - 
+
+Name: Tom
+Salary: 1000
+2017-09-03 19:00:28 INFO  Main:208 - 
+
+Name: Anna
+Salary: 1300
+2017-09-03 19:00:28 INFO  Main:211 - 
+
+----------Collections and Stream-----------
+2017-09-03 19:00:28 INFO  Main:222 - 
+
+2017-09-03 19:00:28 INFO  Main:238 - Tom
+2017-09-03 19:00:28 INFO  Main:238 - Dima
+2017-09-03 19:00:28 INFO  Main:240 - 
+2017-09-03 19:00:28 INFO  Main:238 - Anna
+2017-09-03 19:00:28 INFO  Main:238 - Sveta
+2017-09-03 19:00:28 INFO  Main:240 - 
+2017-09-03 19:00:28 INFO  Main:246 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUS Minsk Sovetskaya 16
+Salary: 550$
+2017-09-03 19:02:39 INFO  Main:40 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 19:02:39 INFO  Main:45 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-03 19:02:39 INFO  Main:47 - 
+
+2017-09-03 19:02:39 INFO  Main:52 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+address.Address@3941a79c
+Salary: 550$
+2017-09-03 19:02:39 INFO  Main:54 - -1141584984
+2017-09-03 19:02:39 INFO  Main:55 - -1141584984
+2017-09-03 19:02:39 INFO  Main:57 - true
+2017-09-03 19:02:39 INFO  Main:58 - false
+2017-09-03 19:02:39 INFO  Main:66 - Name: Vasya4 
+Date of birth: 05 января 1989
+null
+Salary: 800$
+2017-09-03 19:02:39 INFO  Main:74 - 
+Name:Vasya1 
+2017-09-03 19:02:39 INFO  Main:76 - 
+Name:Vasya1 
+2017-09-03 19:02:39 INFO  Main:78 - 
+Name:Vasya1 
+2017-09-03 19:02:39 INFO  Main:80 - 
+Name:Vasya1 
+2017-09-03 19:02:39 INFO  Main:82 - 
+Name:Vasya1 
+2017-09-03 19:02:39 INFO  Main:84 - 
+Name:Vasya1 
+2017-09-03 19:02:39 INFO  Main:86 - 
+
+-------------Array of objects---------------
+2017-09-03 19:02:39 INFO  Main:112 - 
+
+Name: Dima1
+Salary: 5600
+2017-09-03 19:02:39 INFO  Main:113 - Adress: BELARUS, Minsk, Sadovaja, 25
+2017-09-03 19:02:39 INFO  Main:112 - 
+
+Name: Dima2
+Salary: 6600
+2017-09-03 19:02:39 INFO  Main:113 - Adress: RUSSIA, Moskva, Sadovaja, 25
+2017-09-03 19:02:39 INFO  Main:112 - 
+
+Name: Dima8
+Salary: 8000
+2017-09-03 19:02:39 INFO  Main:113 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-09-03 19:02:39 INFO  Main:112 - 
+
+Name: Dima10
+Salary: 5900
+2017-09-03 19:02:39 INFO  Main:113 - Adress: BELARUS, Gomel, Sadovaja, 25
+2017-09-03 19:02:39 INFO  Main:121 - 
+
+-------------Interface---------------
+2017-09-03 19:02:39 INFO  Main:131 - 
+
+-------------StringUtils---------------
+2017-09-03 19:02:39 INFO  Main:137 - true
+2017-09-03 19:02:39 INFO  Main:138 - false
+2017-09-03 19:02:39 INFO  Main:139 - false
+2017-09-03 19:02:39 INFO  Main:140 - false
+2017-09-03 19:02:39 INFO  Main:142 - 
+
+2017-09-03 19:02:39 INFO  Main:144 - true
+2017-09-03 19:02:39 INFO  Main:145 - true
+2017-09-03 19:02:39 INFO  Main:146 - true
+2017-09-03 19:02:39 INFO  Main:147 - false
+2017-09-03 19:02:39 INFO  Main:148 - false
+2017-09-03 19:02:39 INFO  Main:150 - 
+
+2017-09-03 19:02:39 INFO  Main:152 - true
+2017-09-03 19:02:39 INFO  Main:153 - true
+2017-09-03 19:02:39 INFO  Main:154 - false
+2017-09-03 19:02:39 INFO  Main:155 - false
+2017-09-03 19:02:39 INFO  Main:156 - false
+2017-09-03 19:02:39 INFO  Main:158 - 
+
+-------------StringBilder and StringBuffer---------------
+2017-09-03 19:02:39 INFO  Main:163 - 1:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:02:39 INFO  Main:170 - 2:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:02:39 INFO  Main:174 - 3:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:02:39 INFO  Main:176 - 4:Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:02:39 INFO  Main:177 - 64
+2017-09-03 19:02:39 INFO  Main:178 - Vasya1 ,Vasya3 ,Vasya4 ,Vasya5 .
+2017-09-03 19:02:39 INFO  Main:181 - 
+
+-------------My Exception tests---------------
+2017-09-03 19:02:39 ERROR Main:190 - Example 1: error message: Message is null
+2017-09-03 19:02:39 INFO  Main:195 - Example 2: Hello, Vasya1 
+2017-09-03 19:02:39 INFO  Main:203 - 
+
+---------functional interface-----------
+2017-09-03 19:02:39 INFO  Main:207 - 
+
+Name: Tom
+Salary: 1000
+2017-09-03 19:02:39 INFO  Main:208 - 
+
+Name: Anna
+Salary: 1300
+2017-09-03 19:02:39 INFO  Main:211 - 
+
+----------Collections and Stream-----------
+2017-09-03 19:02:39 INFO  Main:222 - 
+
+2017-09-03 19:02:39 INFO  Main:238 - Tom
+2017-09-03 19:02:39 INFO  Main:238 - Dima
+2017-09-03 19:02:39 INFO  Main:240 - 
+2017-09-03 19:02:39 INFO  Main:238 - Anna
+2017-09-03 19:02:39 INFO  Main:238 - Sveta
+2017-09-03 19:02:39 INFO  Main:240 - 
+2017-09-03 19:02:39 INFO  Main:246 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaya, house -  16}
+Salary: 550$
+2017-09-03 19:14:50 INFO  JaxbTest:35 - 
+2017-09-03 19:16:00 INFO  JaxbTest:35 - 
+2017-09-03 19:16:28 INFO  JaxbTest:35 - 
+2017-09-03 19:17:17 INFO  JaxbTest:36 - 
+2017-09-03 19:17:35 INFO  JaxbTest:36 - 
+2017-09-03 19:19:14 INFO  JaxbTest:48 - 
+2017-09-03 20:21:33 INFO  JacksonITCompany:30 - Unrecognized field "ITCompany" (class employees.ITCompany), not marked as ignorable (9 known properties: "marketolog", "frontend", "hrmanager", "backend", "sale", "director", "hrManager", "backEnd", "frontEnd"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompany["ITCompany"])
+2017-09-03 20:25:26 INFO  JacksonITCompany:30 - Unrecognized field "ITCompany" (class employees.ITCompany), not marked as ignorable (9 known properties: "marketolog", "frontend", "hrmanager", "backend", "sale", "director", "hrManager", "backEnd", "frontEnd"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompany["ITCompany"])
+2017-09-03 20:27:44 INFO  JaxbITCompany:33 - 
+2017-09-03 20:33:26 INFO  JaxbITCompany:30 - 
+2017-09-03 20:33:48 INFO  JaxbITCompany:30 - 
+2017-09-03 20:36:43 INFO  JaxbITCompany:33 - 
+2017-09-03 20:37:31 INFO  JaxbITCompany:33 - 
+2017-09-03 20:38:55 INFO  JaxbITCompany:33 - 
+2017-09-03 20:42:04 INFO  JacksonITCompany:29 - Unrecognized field "ITCompany" (class employees.ITCompany), not marked as ignorable (9 known properties: "marketolog", "frontend", "hrmanager", "backend", "sale", "director", "hrManager", "backEnd", "frontEnd"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompany["ITCompany"])
+2017-09-03 20:42:36 INFO  JacksonITCompany:29 - Unrecognized field "ITCompany" (class employees.ITCompany), not marked as ignorable (9 known properties: "marketolog", "frontend", "hrmanager", "backend", "sale", "director", "hrManager", "backEnd", "frontEnd"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompany["ITCompany"])
+2017-09-03 20:44:29 INFO  JaxbITCompany:29 - 
+2017-09-03 20:44:51 INFO  JaxbITCompany:29 - 
+2017-09-03 20:45:39 INFO  JacksonITCompany:29 - Unrecognized field "ITCompany" (class employees.ITCompany), not marked as ignorable (9 known properties: "marketolog", "frontend", "hrmanager", "backend", "sale", "director", "hrManager", "backEnd", "frontEnd"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompany["ITCompany"])
+2017-09-03 20:45:48 INFO  JacksonITCompany:29 - Unrecognized field "ITCompany" (class employees.ITCompany), not marked as ignorable (9 known properties: "marketolog", "frontend", "hrmanager", "backend", "sale", "director", "hrManager", "backEnd", "frontEnd"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompany["ITCompany"])
+2017-09-03 20:52:08 INFO  JacksonITCompany:29 - Unrecognized field "ITCompany" (class employees.marketing.ITCompanyJSON), not marked as ignorable (6 known properties: "marketolog", "frontEnd", "hrManager", "backEnd", "sale", "director"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.marketing.ITCompanyJSON["ITCompany"])
+2017-09-03 20:53:44 INFO  JacksonITCompany:29 - Unrecognized field "ITCompany" (class employees.ITCompanyJSON), not marked as ignorable (6 known properties: "marketolog", "frontEnd", "hrManager", "backEnd", "sale", "director"])
+ at [Source: (File); line: 2, column: 7] (through reference chain: employees.ITCompanyJSON["ITCompany"])
+2017-09-03 21:06:35 INFO  JacksonITCompany:29 - Unrecognized field "Director" (class employees.ITCompanyJSON), not marked as ignorable (6 known properties: "marketolog", "frontEnd", "hrManager", "backEnd", "sale", "director"])
+ at [Source: (File); line: 2, column: 18] (through reference chain: employees.ITCompanyJSON["Director"])
+2017-09-03 21:08:24 INFO  JacksonITCompany:29 - Cannot deserialize value of type `address.Country` from String "Belarus": value not one of declared Enum instance names: [BELARUS, LITHUANIA, POLAND, UKRAINE, LATVIA, RUSSIA]
+ at [Source: (File); line: 7, column: 19] (through reference chain: employees.ITCompanyJSON["director"]->java.util.ArrayList[0]->employees.administration.Director["address"]->address.Address["country"])
+2017-09-03 21:11:24 INFO  JacksonITCompany:29 - Problem deserializing 'setterless' property 'hrManager': get method returned null
+ at [Source: (File); line: 28, column: 15] (through reference chain: employees.ITCompanyJSON["hrManager"])
+2017-09-03 21:13:23 INFO  JacksonITCompany:29 - Cannot construct instance of `employees.administration.HrManager` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 30, column: 8] (through reference chain: employees.ITCompanyJSON["hrManager"]->java.util.ArrayList[0])
+2017-09-03 21:15:18 INFO  JacksonITCompany:29 - Problem deserializing 'setterless' property 'backEnd': get method returned null
+ at [Source: (File); line: 53, column: 13] (through reference chain: employees.ITCompanyJSON["backEnd"])
+2017-09-03 21:18:51 INFO  JacksonITCompany:29 - Problem deserializing 'setterless' property 'backEnd': get method returned null
+ at [Source: (File); line: 53, column: 13] (through reference chain: employees.ITCompanyJSON["backEnd"])
+2017-09-03 21:22:04 INFO  JacksonITCompany:29 - Cannot construct instance of `employees.development.BackEnd` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 55, column: 8] (through reference chain: employees.ITCompanyJSON["backEnd"]->java.util.ArrayList[0])
+2017-09-03 21:24:21 INFO  JacksonITCompany:29 - Problem deserializing 'setterless' property 'frontEnd': get method returned null
+ at [Source: (File); line: 78, column: 14] (through reference chain: employees.ITCompanyJSON["frontEnd"])
+2017-09-03 21:26:05 INFO  JacksonITCompany:29 - Cannot construct instance of `employees.development.FrontEnd` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 80, column: 8] (through reference chain: employees.ITCompanyJSON["frontEnd"]->java.util.ArrayList[0])
+2017-09-03 21:26:52 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-03 21:26:52 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-03 21:27:54 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-03 21:27:54 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-03 21:27:54 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-03 21:27:54 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-03 22:00:07 INFO  JaxbITCompany:29 - 
+2017-09-03 22:00:46 INFO  JaxbITCompany:29 - 
+2017-09-03 22:01:53 INFO  JaxbITCompany:29 - 
+2017-09-03 22:02:38 INFO  JaxbITCompany:29 - 
+2017-09-03 22:03:40 ERROR ITCompanyStax:132 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:03:40 ERROR ITCompanyStax:187 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:04:27 ERROR ITCompanyStax:132 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:04:27 ERROR ITCompanyStax:187 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:09:03 ERROR ITCompanyStax:132 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:09:03 ERROR ITCompanyStax:187 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:16:47 ERROR ITCompanyStax:132 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:18:16 ERROR ITCompanyStax:132 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:18:16 ERROR ITCompanyStax:187 - javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,7]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+2017-09-03 22:20:17 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-03 22:20:17 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-03 22:20:17 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-03 22:20:17 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:20:17 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-03 22:20:17 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:20:17 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-03 22:20:17 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-03 22:20:17 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-03 22:20:17 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-03 22:20:17 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-03 22:20:17 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:20:17 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:20:17 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-03 22:20:17 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-03 22:20:17 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-03 22:20:17 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-03 22:20:17 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-03 22:23:53 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-03 22:23:53 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-03 22:23:53 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:23:53 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-03 22:23:53 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:23:53 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-03 22:23:53 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-03 22:23:53 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-03 22:23:53 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-03 22:23:53 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-03 22:23:53 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:23:53 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:23:53 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-03 22:23:53 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-03 22:23:53 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-03 22:23:53 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-03 22:23:53 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-03 22:24:15 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-03 22:24:15 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-03 22:24:15 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:24:15 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-03 22:24:15 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:24:15 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-03 22:24:15 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-03 22:24:15 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-03 22:24:15 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-03 22:24:15 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-03 22:24:15 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:24:15 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:24:15 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-03 22:24:15 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-03 22:24:15 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-03 22:24:15 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-03 22:24:15 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-03 22:26:31 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-03 22:26:31 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-03 22:26:31 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:26:31 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-03 22:26:31 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:26:31 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-03 22:26:31 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-03 22:26:31 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-03 22:26:31 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-03 22:26:31 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-03 22:26:31 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:26:31 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:26:31 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-03 22:26:31 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-03 22:26:31 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-03 22:26:31 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-03 22:26:31 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-03 22:28:23 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-03 22:28:23 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-03 22:28:23 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:28:23 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-03 22:28:23 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:28:23 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-03 22:28:23 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-03 22:28:23 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-03 22:28:23 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-03 22:28:23 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-03 22:28:23 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:28:23 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-03 22:28:23 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-03 22:28:23 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-03 22:28:23 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-03 22:28:23 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:28:23 INFO  ITCompanyStax:143 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: nullSalary: 3000$
+2017-09-03 22:28:23 INFO  ITCompanyStax:143 - Name: Kiselevskaja Olga
+Date of birth: 07 февраля 1986
+Address: nullSalary: 1950$
+2017-09-03 22:29:02 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-03 22:29:02 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:58 - Director:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-03 22:29:02 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-03 22:29:02 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:60 - HrManager:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:29:02 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-03 22:29:02 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-03 22:29:02 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-03 22:29:02 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-03 22:29:02 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-03 22:29:02 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-03 22:29:02 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-03 22:29:02 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:68 - Sale:
+2017-09-03 22:29:02 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-03 22:29:02 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-03 22:29:02 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-03 22:29:02 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-03 22:29:02 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-03 22:29:02 INFO  ITCompanyStax:143 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: null
+Salary: 3000$
+2017-09-03 22:29:02 INFO  ITCompanyStax:143 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: null
+Salary: 3100$

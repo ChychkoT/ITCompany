@@ -1,10 +1,10 @@
-{"ITCompany":
-     [{"Director":[
+{
+     "director":[
 	     {
 		     "name":"Director1",
 			 "date":"01/01/1988",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk",
 				 "street":"Sovetskaja",
 				 "house":"1"
@@ -15,7 +15,7 @@
 		     "name":"Director2",
 			 "date":"01/01/1989",
 			 "address": {
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk2",
 				 "street":"Sovetskaja2",
 				 "house":"12"
@@ -23,14 +23,14 @@
 			 "salary":3002
 		 }
 	 
-	 ]},
+	 ],
 	 
-	 {"HrManager":[
+	 "hrManager":[
 	     {
 		     "name":"HrManager1",
 			 "date":"01/01/1980",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk",
 				 "street":"Sovetskaja12",
 				 "house":"11"
@@ -41,7 +41,7 @@
 		     "name":"HrManager2",
 			 "date":"01/01/1982",
 			"address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk2",
 				 "street":"Sovetskaja22",
 				 "house":"22"
@@ -49,13 +49,13 @@
 			 "salary":2002
 		 }
 	 
-	 ]},
-	 {"BackEnd":[
+	 ],
+	 "backEnd":[
 	     {
 		     "name":"BackEnd1",
 			 "date":"01/01/1980",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk",
 				 "street":"Sovetskaja123",
 				 "house":"21"
@@ -66,7 +66,7 @@
 		     "name":"BackEnd2",
 			 "date":"01/01/1982",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk2",
 				 "street":"Sovetskaja234",
 				 "house":"23"
@@ -74,13 +74,13 @@
 			 "salary":1002
 		 }
 	 
-	 ]},
-	{ "FrontEnd":[
+	 ],
+	 "frontEnd":[
 	     {
 		     "name":"FrontEnd1",
 			 "date":"01/01/1980",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk",
 				 "street":"Sovetskaja223",
 				 "house":"21"
@@ -91,7 +91,7 @@
 		     "name":"FrontEnd2",
 			 "date":"01/01/1982",
 			"address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk2",
 				 "street":"Sovetskaja334",
 				 "house":"23"
@@ -99,13 +99,13 @@
 			 "salary":1502
 		 }
 	 
-	 ]},
-	 {"Marketolog":[
+	 ],
+	 "marketolog":[
 	     {
 		     "name":"Marketolog1",
 			 "date":"01/01/1980",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk",
 				 "street":"Sovetskaja333",
 				 "house":"23"
@@ -116,7 +116,7 @@
 		     "name":"Marketolog2",
 			 "date":"01/01/1982",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk2",
 				 "street":"Sovetskaja334",
 				 "house":"24"
@@ -124,13 +124,13 @@
 			 "salary":1202
 		 }
 	 
-	 ]},
-	 {"Sale":[
+	 ],
+	 "sale":[
 	     {
 		     "name":"Sale1",
 			 "date":"01/01/1980",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk",
 				 "street":"Sovetskaja333",
 				 "house":"23"
@@ -141,7 +141,7 @@
 		     "name":"Sale2",
 			 "date":"01/01/1982",
 			 "address":{
-			     "country":"Belarus",
+			     "country":"BELARUS",
 				 "city":"Minsk2",
 				 "street":"Sovetskaja334",
 				 "house":"24"
@@ -149,7 +149,7 @@
 			 "salary":952
 		 }
 	 
-	 ]}
-	 
 	 ]
+	 
+	 
 }

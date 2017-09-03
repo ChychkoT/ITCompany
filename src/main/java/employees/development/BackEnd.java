@@ -2,19 +2,16 @@ package employees.development;
 
 import java.util.Date;
 
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
-
 import address.Address;
 
-
-@XmlRootElement(name = "BackEnd")
-@XmlType(propOrder = {"Name", "Date", "Address","Salary"})
 public class BackEnd extends Development  {
 
+	
 	public BackEnd(String name, Date date, Address address, int salary) {
 		super(name, date, address, salary);
 	}
+	
+	public BackEnd(){}
 
 	@Override
 	public void develop() {
@@ -22,13 +19,7 @@ public class BackEnd extends Development  {
 		System.out.println("BackDevelop!");
 	}
 
-	@Override
-	public String toString() {
-		return  "Name: " + getName() + "\n"+
-	               "Date of birth: "+ getDate() + "\n" + 
-	    		    getAddress() + "\n" + 
-	                "Salary: " + getSalary() + "$"; 
-	}
+
 
 	@Override
 	public int hashCode() {
@@ -65,6 +56,16 @@ public class BackEnd extends Development  {
 		System.out.println(getName() + "--- "
 				+ "Number of working hours of the developer: " + c);
 	}
+	
+	@Override
+	public String toString()
+    {  
+       return "Name: " + getName() + "\n"+
+               "Date of birth: "+ getDate() + "\n" + 
+    		    "Address: { country - " + getAddress().getCountry() +", city -  "+ getAddress().getCity() +", street -  "+
+    		                  getAddress().getStreet()+", house -  " + getAddress().getHouse()+ "}\n" + 
+                "Salary: " + getSalary() + "$"; 
+    }
 
 	
 

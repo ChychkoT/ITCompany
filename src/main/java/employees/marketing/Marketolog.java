@@ -1,14 +1,11 @@
 package employees.marketing;
 import java.util.Date;
 
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
-
 import address.Address;
 
-@XmlRootElement(name = "Marketolog")
-@XmlType(propOrder = {"Name", "Date", "Address","Salary"})
 public class Marketolog extends Marketing  {
+	
+	public Marketolog(){}
 
 	public Marketolog(String name, Date date,  Address address,
 			int salary) {
@@ -20,6 +17,15 @@ public class Marketolog extends Marketing  {
 		System.out.println("Market research");
 	}
 	
-	
+
+	@Override
+	public String toString()
+    {  
+       return "Name: " + getName() + "\n"+
+               "Date of birth: "+ getDate() + "\n" + 
+    		    "Address: { country - " + getAddress().getCountry() +", city -  "+ getAddress().getCity() +", street -  "+
+    		                  getAddress().getStreet()+", house -  " + getAddress().getHouse()+ "}\n" + 
+                "Salary: " + getSalary() + "$"; 
+    }
 
 }

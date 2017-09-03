@@ -1,6 +1,6 @@
  <xml>
     <ITCompany>
-	  <Directors>
+	  
 	    <Director>
 		  <Name>Sergeev Ivan</Name>
 		  <Date>12/01/1987</Date>
@@ -23,8 +23,8 @@
 		  </Address>
 		  <Salary>3100</Salary>
         </Director>	
-	  </Directors>
-	  <HrManagers>
+	 
+	
 	    <HrManager>
 		  <Name>Sergeeva Anna</Name>
 		  <Date>01/01/1990</Date>
@@ -47,8 +47,8 @@
 		  </Address>
 		  <Salary>2100</Salary> 
 		</HrManager>
-	  </HrManagers>
-	  <BackEnds>
+
+	 
 	    <BackEnd>
 		  <Name>Ivanov Anton</Name>
 		  <Date>05/08/1993</Date>
@@ -71,8 +71,8 @@
 		  </Address>
 		  <Salary>2100</Salary> 
 		</BackEnd>
-	  </BackEnds>
-	  <FrontEnds>
+	 
+	  
 	    <FrontEnd>
 		  <Name>Belaja Cveta</Name>
 		  <Date>25/06/1990</Date>
@@ -95,8 +95,7 @@
 		  </Address>
 		  <Salary>2250</Salary> 
 		</FrontEnd>
-	  </FrontEnds>
-	  <Marketologs>
+	 
 	    <Marketolog>
 		  <Name>Sidorov Roman</Name>
 		  <Date>06/07/1991</Date>
@@ -119,8 +118,7 @@
 		  </Address>
 		  <Salary>1500</Salary> 
 		</Marketolog>
-	  </Marketologs>
-	  <Sales>
+	
 	    <Sale>
 		  <Name>Kiseleva Elena</Name>
 		  <Date>07/07/1988</Date>
@@ -143,6 +141,6 @@
 		  </Address>
 		  <Salary>1950</Salary> 
 		</Sale>
-	  </Sales>
+	 
     </ITCompany> 	
  </xml>

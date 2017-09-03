@@ -25,8 +25,8 @@ import employees.administration.Director;
 
 
 
-public class ITCompanyXML {
-	private static final Logger LOGGER = Logger.getLogger(ITCompanyXML.class);
+public class ITCompanyStax {
+	private static final Logger LOGGER = Logger.getLogger(ITCompanyStax.class);
 	
 	 public static void main(String[] args) {
 		 
@@ -43,7 +43,7 @@ public class ITCompanyXML {
 	     try {
 	        XMLInputFactory factory = XMLInputFactory.newInstance();
 	        XMLEventReader eventReader =
-	        factory.createXMLEventReader(new FileReader("src/main/resources/ITCompanyEmployees.xml"));
+	        factory.createXMLEventReader(new FileReader("src\\main\\resources\\ITCompanyEmployees.xml"));
 
 	        while(eventReader.hasNext()) {
 	           XMLEvent event = eventReader.nextEvent();
@@ -136,17 +136,16 @@ public class ITCompanyXML {
 		 
 		 ////////////////////////////////////////////////////////////////////
 	       
-		 String fileName = "src/main/resources/ITCompanyEmployees.xml";
+		 String fileName = "src\\main\\resources\\dir.xml";
 		 
 	       List<Director> dirList = parseXMLfile(fileName);  
 	        for(Director dir : dirList){
-	        	LOGGER.info(dir.toString());
+	        	LOGGER.info(dir.toStringD());
 	        }
 	        
 	    
      }
 
-     
      private static List<Director> parseXMLfile(String fileName) {
          List<Director> dirList = new ArrayList<>();        
          Director dir = null;        

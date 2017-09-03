@@ -4,9 +4,6 @@ import java.util.Date;
 
 import address.Address;
 
-import javax.xml.bind.annotation.*;
-
-@XmlRootElement
 public class Director extends Administration {
 	
 	public Director(){}
@@ -29,13 +26,21 @@ public class Director extends Administration {
 		
 	}
 	
+	@Override
 	public String toString() {
-       return "Director{" +
-                "Name='" + getName() + '\'' +
-                ", Date=" + getDate() +
-                ", Address=" + getAddress() +
-                ", Slary='" + getSalary() + '\'' +
-                '}';
+		return "Name: " + getName() + "\n"+
+	               "Date of birth: "+ getDate() + "\n" + 
+	    		    "Address: { country - " + getAddress().getCountry() +", city -  "+ getAddress().getCity() +", street -  "+
+	    		                  getAddress().getStreet()+", house -  " + getAddress().getHouse()+ "}\n" + 
+	                "Salary: " + getSalary() + "$"; 
+    }
+	
+	
+	public String toStringD() {
+		return "Name: " + getName() + "\n"+
+	               "Date of birth: "+ getDate() + "\n" + 
+	    		    "Address: " + getAddress()+ "\n" + 
+	                "Salary: " + getSalary() + "$"; 
     }
 	
 

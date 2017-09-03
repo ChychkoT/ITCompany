@@ -10,6 +10,8 @@ import employees.EmployeesIT;
  * Development - abstract class that is inherited from class EmployeesIT 
 */
 public abstract class Development extends EmployeesIT implements IEat, ISleep {
+	
+	public Development(){}
 
 	public Development(String name, Date date, Address address,
 			int salary) {

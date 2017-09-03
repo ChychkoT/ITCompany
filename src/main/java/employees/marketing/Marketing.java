@@ -11,6 +11,8 @@ import employees.EmployeesIT;
 */
 public abstract class Marketing extends EmployeesIT implements IEat, ISleep{
 	
+	public Marketing(){}
+	
 	public Marketing(String name, Date date, Address address,
 			int salary) {
 		super(name, date,  address, salary);

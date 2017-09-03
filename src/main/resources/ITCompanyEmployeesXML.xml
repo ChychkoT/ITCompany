@@ -1,0 +1,145 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+    <ITCompany>
+	  
+	    <director>
+		  <name>Sergeev Ivan</name>
+		  <date>12/01/1987</date>
+		  <address>
+		      <country>BELARUS</country> 
+			  <city>Minsk</city>
+			  <street>Lenina</street>
+			  <house>38</house>  	 
+		  </address>
+		  <salary>3000</salary>
+        </director>	
+		<director>
+		  <name>Andreev Ivan</name>
+		  <date>13/02/1988</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Minsk</city>
+			 <street>Semenova</street>
+			 <house>50</house>  	 
+		  </address>
+		  <salary>3100</salary>
+        </director>	
+	 
+	
+	    <hrManager>
+		  <name>Sergeeva Anna</name>
+		  <date>01/01/1990</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Vitebsk</city>
+			 <street>Marksa</street>
+			 <house>12</house>  	 
+		  </address>
+		  <salary>2000</salary>
+        </hrManager>	
+		<hrManager>
+		  <name>Andreeva Ivnna</name>
+		  <date>15/03/1988</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Minsk</city>
+			 <street>Semenova</street>
+			 <house>25</house>  	 
+		  </address>
+		  <salary>2100</salary> 
+		</hrManager>
+
+	 
+	    <backEnd>
+		  <name>Ivanov Anton</name>
+		  <date>05/08/1993</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Zaclavl</city>
+			 <street>Oktyabrskaja</street>
+			 <house>12</house>  	 
+		  </fddress>
+		  <salary>2500</salary>
+        </backEnd>	
+		<backEnd>
+		  <name>Antonova Inna</name>
+		  <date>25/03/1992</date>
+		  <address>
+		     <country>Belarus</country> 
+			 <city>Minsk</city>
+			 <street>Semenova</street>
+			 <house>30</house>  	 
+		  </address>
+		  <salary>2100</salary> 
+		</backEnd>
+	 
+	  
+	    <frontEnd>
+		  <name>Belaja Cveta</name>
+		  <date>25/06/1990</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Grodno</city>
+			 <street>Severnaja</street>
+			 <house>2</house>  	 
+		  </address>
+		  <salary>2150</salary> 
+		</frontEnd>
+		<frontEnd>
+		  <name>Temnij Oleg</name>
+		  <date>06/07/1990</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Grodno</city>
+			 <street>Severnaja</street>
+			 <house>5</house>  	 
+		  </address>
+		  <salary>2250</salary> 
+		</frontEnd>
+	 
+	    <marketolog>
+		  <name>Sidorov Roman</name>
+		  <date>06/07/1991</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Minsk</city>
+			 <street>Semenova</street>
+			 <house>5</house>  	 
+		  </address>
+		  <salary>1000</salary> 
+		</marketolog>
+		<marketolog>
+		  <name>Sidorovich Elena</name>
+		  <date>08/08/1988</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Minsk</city>
+			 <street>Oktyabrskaja</street>
+			 <house>16</house>  	 
+		  </address>
+		  <salary>1500</salary> 
+		</marketolog>
+	
+	    <sale>
+		  <name>Kiseleva Elena</name>
+		  <date>07/07/1988</date>
+		  <address>
+		     <country>BELARUS</country> 
+			 <city>Minsk</city>
+			 <street>Oktyabrskaja</street>
+			 <house>56</house>  	 
+		  </address>
+		  <salary>1700</salary> 
+		</sale>
+		<sale>
+		  <name>Kiselevskaja Olga</name>
+		  <date>07/02/1986</date>
+		  <address>
+		    <country>BELARUS</country> 
+			<city>Minsk</city>
+			<street>Lenina</street>
+			<house>56</house>  	 
+		  </address>
+		  <salary>1950<salary> 
+		</sale>
+	 
+    </ITCompany> 	
