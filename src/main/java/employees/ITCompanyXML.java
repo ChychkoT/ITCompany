@@ -1,7 +1,11 @@
 package employees;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -19,22 +23,22 @@ public class ITCompanyXML {
 		super();
 		 }
 
-	@XmlElement(name="director")
-	private List<Director> director;
+	@XmlElement
+	public List<Director> director;
 	
-	@XmlElement(name="hrManager")
+	@XmlElement
 	public List<HrManager> hrManager;
 	
-	@XmlElement(name="backEnd")
+	@XmlElement
 	public List<BackEnd> backEnd;
 	
-	@XmlElement(name="frontEnd")
+	@XmlElement
 	public List<FrontEnd> frontEnd;
 	
-	@XmlElement(name="marketolog")
+	@XmlElement
 	public List<Marketolog> marketolog;
 	
-	@XmlElement(name="sale")
+	@XmlElement
 	public List<Sale> sale;
 	
 	public List<Director> getDirector() {
@@ -60,6 +64,12 @@ public class ITCompanyXML {
 	public List<Sale> getSale() {
 		return sale;
 	}
+	
+	/*public ITCompanyXML unmarshall() throws JAXBException, IOException {
+	    JAXBContext context = JAXBContext.newInstance(ITCompanyXML.class);
+	    return (ITCompanyXML) context.createUnmarshaller()
+	      .unmarshal(new FileReader("src\\main\\resources\\ITCompanyEmployeesXML.xml"));
+	}*/
 
 
 }

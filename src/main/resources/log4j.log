@@ -2533,3 +2533,291 @@ Salary: 3000$
 Date of birth: 13 февраля 1988
 Address: null
 Salary: 3100$
+2017-09-06 21:33:19 INFO  JaxbITCompany:29 - 
+2017-09-06 21:46:14 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-06 21:46:14 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-06 21:46:14 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-06 21:46:14 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-06 21:48:23 INFO  JaxbITCompany:29 - 6 counts of IllegalAnnotationExceptions
+2017-09-06 21:49:07 INFO  JaxbITCompany:29 - 5 counts of IllegalAnnotationExceptions
+2017-09-06 21:51:38 INFO  JaxbITCompany:29 - unexpected element (uri:"", local:"xml"). Expected elements are <{}ITCompany>,<{}address>
+2017-09-06 21:52:43 INFO  JaxbITCompany:29 - 
+2017-09-06 21:53:19 INFO  ITCompanyStax:58 - Director:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Sergeev Ivan
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 12/01/1987
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		      
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 3000
+2017-09-06 21:53:19 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:58 - Director:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Andreev Ivan
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 13/02/1988
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 3100
+2017-09-06 21:53:19 INFO  ITCompanyStax:114 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:60 - HrManager:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Sergeeva Anna
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 01/01/1990
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 2000
+2017-09-06 21:53:19 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:60 - HrManager:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Andreeva Ivnna
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 15/03/1988
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-06 21:53:19 INFO  ITCompanyStax:116 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Ivanov Anton
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 05/08/1993
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 2500
+2017-09-06 21:53:19 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:62 - BackEnd:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Antonova Inna
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 25/03/1992
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 2100
+2017-09-06 21:53:19 INFO  ITCompanyStax:118 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Belaja Cveta
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 25/06/1990
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 2150
+2017-09-06 21:53:19 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:64 - FrontEnd:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Temnij Oleg
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 06/07/1990
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 2250
+2017-09-06 21:53:19 INFO  ITCompanyStax:120 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Sidorov Roman
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 06/07/1991
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 1000
+2017-09-06 21:53:19 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:66 - Marketolog:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Sidorovich Elena
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 08/08/1988
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 1500
+2017-09-06 21:53:19 INFO  ITCompanyStax:122 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:68 - Sale:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Kiseleva Elena
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 07/07/1988
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		     
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 1700
+2017-09-06 21:53:19 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:68 - Sale:
+2017-09-06 21:53:19 INFO  ITCompanyStax:89 - Name: Kiselevskaja Olga
+2017-09-06 21:53:19 INFO  ITCompanyStax:93 - Date of birth: 07/02/1986
+2017-09-06 21:53:19 INFO  ITCompanyStax:97 - Address: 
+		    
+2017-09-06 21:53:19 INFO  ITCompanyStax:105 - Salary: 1950
+2017-09-06 21:53:19 INFO  ITCompanyStax:124 - 
+
+
+
+2017-09-06 21:53:19 INFO  ITCompanyStax:143 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: null
+Salary: 3000$
+2017-09-06 21:53:19 INFO  ITCompanyStax:143 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: null
+Salary: 3100$
+2017-09-06 21:56:13 INFO  JaxbITCompany:30 - 
+2017-09-06 21:57:36 INFO  JaxbITCompany:29 - 
+2017-09-06 22:00:04 INFO  JaxbITCompany:29 - 
+2017-09-06 22:09:01 INFO  JaxbITCompany:29 - 
+2017-09-06 22:09:41 INFO  JaxbITCompany:29 - 
+2017-09-06 22:10:05 INFO  JaxbITCompany:29 - 
+2017-09-06 22:13:55 INFO  JaxbITCompany:29 - 
+2017-09-06 22:13:59 INFO  JaxbITCompany:29 - 
+2017-09-06 22:14:01 INFO  JaxbITCompany:29 - 
+2017-09-06 22:14:03 INFO  JaxbITCompany:29 - 
+2017-09-06 22:14:16 INFO  JaxbITCompany:29 - 
+2017-09-06 22:14:26 INFO  JaxbITCompany:29 - 
+2017-09-06 22:14:29 INFO  JaxbITCompany:29 - 
+2017-09-06 22:15:04 INFO  JaxbITCompany:29 - 
+2017-09-06 22:20:26 INFO  JaxbITCompany:29 - 
+2017-09-06 22:23:22 INFO  JaxbITCompany:29 - 
+2017-09-06 22:23:42 INFO  JaxbITCompany:29 - 
+2017-09-06 22:26:01 INFO  JaxbITCompany:29 -  error
+2017-09-06 22:26:43 INFO  JaxbITCompany:29 -  error
+2017-09-06 22:33:27 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-06 22:33:28 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-06 22:33:29 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-06 22:33:31 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-06 22:34:31 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-06 22:34:32 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-06 22:34:32 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-06 22:34:32 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-06 22:34:40 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-06 22:34:40 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-06 22:34:40 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-06 22:34:40 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-06 22:34:43 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-06 22:34:43 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-06 22:34:43 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-06 22:34:43 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-06 22:34:49 INFO  JacksonITCompany:24 - Name: Director1
+Date of birth: 01 января 1988
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja, house -  1}
+Salary: 3000$
+2017-09-06 22:34:49 INFO  JacksonITCompany:25 - Name: Director2
+Date of birth: 01 января 1989
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja2, house -  12}
+Salary: 3002$
+2017-09-06 22:34:49 INFO  JacksonITCompany:26 - Name: HrManager1
+Date of birth: 01 января 1980
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaja12, house -  11}
+Salary: 2000$
+2017-09-06 22:34:49 INFO  JacksonITCompany:27 - Name: HrManager2
+Date of birth: 01 января 1982
+Address: { country - BELARUS, city -  Minsk2, street -  Sovetskaja22, house -  22}
+Salary: 2002$
+2017-09-06 22:36:22 INFO  JaxbITCompany:29 - 
+2017-09-06 22:39:27 INFO  JaxbITCompany:29 - 
+2017-09-06 22:39:35 INFO  JaxbITCompany:29 - 
+2017-09-06 22:51:48 INFO  JaxbITCompany:29 - 
+2017-09-06 22:51:52 INFO  JaxbITCompany:29 - 
+2017-09-06 22:55:09 INFO  JaxbITCompany:29 - 
+2017-09-06 22:55:15 INFO  JaxbITCompany:29 - 
+2017-09-06 22:55:56 INFO  JaxbITCompany:29 - 
+2017-09-06 22:55:58 INFO  JaxbITCompany:29 - 
+2017-09-06 22:56:14 INFO  JaxbITCompany:29 - 
+2017-09-06 22:57:14 INFO  JaxbITCompany:29 - 
+2017-09-06 22:57:22 INFO  JaxbITCompany:29 - 
+2017-09-06 22:58:24 INFO  JaxbITCompany:29 - 
+2017-09-06 23:10:33 INFO  JaxbITCompany:30 - 
+2017-09-06 23:14:38 INFO  JaxbITCompany:30 - 
+2017-09-06 23:14:53 INFO  JaxbITCompany:30 - 
+2017-09-06 23:23:09 INFO  JaxbITCompany:35 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-06 23:23:09 INFO  JaxbITCompany:36 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-06 23:40:51 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-06 23:40:51 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-06 23:41:29 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-06 23:41:29 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$

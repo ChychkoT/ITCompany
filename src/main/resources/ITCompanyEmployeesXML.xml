@@ -1,5 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
-    <ITCompany>
+  <ITCompany>
 	  
 	    <director>
 		  <name>Sergeev Ivan</name>
@@ -23,8 +22,7 @@
 		  </address>
 		  <salary>3100</salary>
         </director>	
-	 
-	
+
 	    <hrManager>
 		  <name>Sergeeva Anna</name>
 		  <date>01/01/1990</date>
@@ -57,7 +55,7 @@
 			 <city>Zaclavl</city>
 			 <street>Oktyabrskaja</street>
 			 <house>12</house>  	 
-		  </fddress>
+		  </address>
 		  <salary>2500</salary>
         </backEnd>	
 		<backEnd>
@@ -139,7 +137,7 @@
 			<street>Lenina</street>
 			<house>56</house>  	 
 		  </address>
-		  <salary>1950<salary> 
+		  <salary>1950</salary> 
 		</sale>
 	 
     </ITCompany> 	

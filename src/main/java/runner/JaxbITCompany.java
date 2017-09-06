@@ -2,6 +2,7 @@ package runner;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -17,6 +18,7 @@ public class JaxbITCompany {
 	private static final Logger lOGGER = LogManager.getLogger(JaxbITCompany.class);
 	
     public static void main(String[] args) throws  JAXBException {
+    	
     		
     	try {
 			JAXBContext context = JAXBContext.newInstance(ITCompanyXML.class);
@@ -29,9 +31,9 @@ public class JaxbITCompany {
 			lOGGER.info(e.getMessage());
 		} catch (FileNotFoundException e) {
 			lOGGER.info(e.getMessage());
-		}
-    	
-    	
+
+	    }
+ 	
 
     }   
 		 
