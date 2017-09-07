@@ -27,9 +27,11 @@ public class JaxbITCompany {
 			ITCompanyXML jaxbITCompany = (ITCompanyXML) unmarshaller.unmarshal(reader);
 			lOGGER.info(jaxbITCompany.getDirector().get(0).toString());
 			lOGGER.info(jaxbITCompany.getDirector().get(1).toString());
-		} catch (JAXBException e) {
-			lOGGER.info(e.getMessage());
+			lOGGER.info(jaxbITCompany.getHrManager().get(0).toString());
+			lOGGER.info(jaxbITCompany.getHrManager().get(1).toString());
 		} catch (FileNotFoundException e) {
+			lOGGER.info(e.getMessage());
+	    }catch (IOException e) {
 			lOGGER.info(e.getMessage());
 
 	    }

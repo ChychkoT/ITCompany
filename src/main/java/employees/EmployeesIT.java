@@ -4,6 +4,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+
 import address.Address;
 
 /**
@@ -63,8 +65,11 @@ public abstract class EmployeesIT {
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	/**
+	
+	
+	
+	
+	 /**
 	 * Function of obtaining the field value {@link EmployeesIT#date}
 	 * 
 	 * @return Returns a formatted date of birth
@@ -80,7 +85,7 @@ public abstract class EmployeesIT {
 	 * {@link EmployeesIT#date}
 	 * 
 	 * @param date - employee date of birth
-	 */
+	 */ 
 	public void setDate(String datest) {
 		SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy");
 		Date d = stringDate(datest, formatDate);
@@ -154,6 +159,16 @@ public abstract class EmployeesIT {
 	                "Salary: " + getSalary() + "$"; 
 	    }
 
+	 
+
+		/*public Date getDate() {
+			return date;
+		}
+		
+		 @XmlJavaTypeAdapter(DateAdapter.class)
+		public void setDate() {
+			this.date = date;
+		}*/
 	
 
 }

@@ -2821,3 +2821,69 @@ Salary: 3000$
 Date of birth: 13 февраля 1988
 Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
 Salary: 3100$
+2017-09-07 22:35:10 INFO  JaxbITCompany:27 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-07 22:35:10 INFO  JaxbITCompany:28 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-07 22:35:55 INFO  JaxbITCompany:30 - 
+2017-09-07 22:37:55 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-07 22:37:55 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-07 22:50:40 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-07 22:50:40 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-07 22:51:14 INFO  JaxbITCompany:33 - 
+2017-09-07 22:51:37 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-07 22:51:37 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-07 22:52:34 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-07 22:52:34 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-07 22:52:34 INFO  JaxbITCompany:30 - Name: Sergeeva Anna
+Date of birth: 01 января 1990
+Address: { country - BELARUS, city -  Vitebsk, street -  Marksa, house -  12}
+Salary: 2000$
+2017-09-07 22:52:34 INFO  JaxbITCompany:31 - Name: Andreeva Ivnna
+Date of birth: 15 марта 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  25}
+Salary: 2100$
+2017-09-07 22:55:09 INFO  JaxbITCompany:28 - Name: Sergeev Ivan
+Date of birth: 12 января 1987
+Address: { country - BELARUS, city -  Minsk, street -  Lenina, house -  38}
+Salary: 3000$
+2017-09-07 22:55:09 INFO  JaxbITCompany:29 - Name: Andreev Ivan
+Date of birth: 13 февраля 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  50}
+Salary: 3100$
+2017-09-07 22:55:09 INFO  JaxbITCompany:30 - Name: Sergeeva Anna
+Date of birth: 01 января 1990
+Address: { country - BELARUS, city -  Vitebsk, street -  Marksa, house -  12}
+Salary: 2000$
+2017-09-07 22:55:09 INFO  JaxbITCompany:31 - Name: Andreeva Ivnna
+Date of birth: 15 марта 1988
+Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  25}
+Salary: 2100$
