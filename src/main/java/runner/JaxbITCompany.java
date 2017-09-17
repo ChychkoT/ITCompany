@@ -1,6 +1,5 @@
 package runner;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -29,8 +28,6 @@ public class JaxbITCompany {
 			lOGGER.info(jaxbITCompany.getDirector().get(1).toString());
 			lOGGER.info(jaxbITCompany.getHrManager().get(0).toString());
 			lOGGER.info(jaxbITCompany.getHrManager().get(1).toString());
-		} catch (FileNotFoundException e) {
-			lOGGER.info(e.getMessage());
 	    }catch (IOException e) {
 			lOGGER.info(e.getMessage());
 

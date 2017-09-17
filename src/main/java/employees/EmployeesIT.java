@@ -19,6 +19,7 @@ public abstract class EmployeesIT {
 	/** Field employee name */
 	private String name;
 	/** Field employee's date of birth */
+	//@XmlJavaTypeAdapter(DateAdapter.class)
 	private Date date;
 	/** Field employee address */
 	private Address address;
