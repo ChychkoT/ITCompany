@@ -12,7 +12,7 @@ public class SingltonConnection {
 	
 	private final static int MAX_CONNECTIONS = 3;
 	private static SingltonConnection instance = null;
-	private static BlockingQueue<Connection> pool = new ArrayBlockingQueue<>(MAX_CONNECTIONS);
+	private static BlockingQueue< MySQLConnection> pool = new ArrayBlockingQueue<>(MAX_CONNECTIONS);
 	
 	
 	private static  SingltonConnection getInstance(){
@@ -35,7 +35,7 @@ public class SingltonConnection {
 	
 	
 	private static void createConection() {
-		Connection connection = new Connection();
+		 MySQLConnection connection = new  MySQLConnection();
 		pool.add(connection);
 	}
 	

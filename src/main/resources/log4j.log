@@ -2903,3 +2903,34 @@ Salary: 2000$
 Date of birth: 15 марта 1988
 Address: { country - BELARUS, city -  Minsk, street -  Semenova, house -  25}
 Salary: 2100$
+2017-09-22 00:18:21 INFO  RunnerConnection:14 - ---SinglTon Connection-----------
+
+
+2017-09-22 00:18:21 INFO  RunnerConnection:20 - 1
+2017-09-22 00:18:21 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-22 00:18:21 INFO  SingltonConnection:23 - The new connection was given
+2017-09-22 00:18:21 INFO  RunnerConnection:20 - 2
+2017-09-22 00:18:21 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-22 00:18:21 INFO  SingltonConnection:26 - The next connection was given
+2017-09-22 00:18:21 INFO  RunnerConnection:20 - 3
+2017-09-22 00:18:21 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-22 00:18:21 INFO  SingltonConnection:26 - The next connection was given
+2017-09-22 00:18:21 INFO  RunnerConnection:20 - 4
+2017-09-22 00:18:21 INFO  MyThread:8 - The MyTread started work.
+
+2017-09-22 00:18:21 ERROR SingltonConnection:31 - java.lang.IllegalStateException: Queue full
+2017-09-22 00:22:32 INFO  JDBCMySQL:26 - java.sql.SQLSyntaxErrorException: Unknown database 'jdbcdb'
+2017-09-22 00:23:10 INFO  JDBCMySQL:26 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-22 00:25:00 INFO  JDBCMySQL:26 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-22 13:58:55 INFO  JDBCMySQL:43 - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+2017-09-22 14:00:32 INFO  JDBCMySQL:43 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-22 15:01:42 ERROR MySQLConnection:27 - The driver class did not load :(
+2017-09-22 15:09:25 ERROR MySQLConnection:30 - The driver class did not load :(
+2017-09-22 15:51:37 ERROR MySQLConnection:46 - The driver class did not load :(
+2017-09-22 15:53:23 ERROR MySQLConnection:48 - The driver class did not load :(
+2017-09-22 15:54:59 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-22 15:57:12 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-22 15:57:44 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
