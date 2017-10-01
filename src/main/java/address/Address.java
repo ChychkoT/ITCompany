@@ -20,8 +20,11 @@ public class Address {
 		this.house = house;
 
 	}
-
-
+	
+	public void test() {
+		System.out.println("Hello!");
+	}
+	
 	public Country getCountry() {
 		return country;
 	}

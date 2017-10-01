@@ -29,9 +29,7 @@ public class Main {
 	private static final Logger LOGGER = Logger.getLogger(Main.class);
 
 	public static void main(String[] args) throws InterruptedException {
-		
-	
-	
+
 		
 		BackEnd bend1 = new BackEnd("Vasya1 ", null, new Address(Country.BELARUS, "Minsk",
 				"Sovetskaya", 16), 550);
@@ -241,4 +239,6 @@ public class Main {
 		
 	
 	}
+
+	
 }

@@ -160,7 +160,9 @@ public abstract class EmployeesIT {
 	                "Salary: " + getSalary() + "$"; 
 	    }
 
-	 
+	 public void emplooy(int a) {
+			System.out.println("Emplooy category" + a);
+		}
 
 		/*public Date getDate() {
 			return date;

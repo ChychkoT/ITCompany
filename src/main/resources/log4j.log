@@ -2934,3 +2934,400 @@ Salary: 2100$
 2017-09-22 15:54:59 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
 2017-09-22 15:57:12 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
 2017-09-22 15:57:44 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-22 18:00:34 ERROR MySQLConnection:42 - java.sql.SQLException: The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-24 19:34:18 ERROR MySQLConnection:42 - java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 19:37:03 ERROR MySQLConnection:48 - The driver class did not load :(
+2017-09-24 19:43:50 ERROR MySQLConnection:40 - The driver class did not load :(
+2017-09-24 19:43:50 ERROR MySQLConnection:56 - java.sql.SQLException: The url cannot be null
+2017-09-24 19:45:05 ERROR MySQLConnection:42 - java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 19:46:48 ERROR MySQLConnection:43 - java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 19:48:51 ERROR MySQLConnection:49 - java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 19:49:49 ERROR MySQLConnection:44 - java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 19:56:09 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 19:57:28 ERROR MySQLConnection:50 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:00:45 ERROR MySQLConnection:43 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:03:11 ERROR MySQLConnection:45 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:07:46 ERROR MySQLConnection:47 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:08:41 ERROR MySQLConnection:47 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:12:55 ERROR MySQLConnection:47 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:14:24 ERROR MySQLConnection:47 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 20:14:55 ERROR MySQLConnection:47 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-24 22:01:08 INFO  Main:37 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-24 22:01:08 INFO  Main:42 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: BELARUSMinskSovetskaya16
+Salary: 550$
+2017-09-24 22:01:08 INFO  Main:44 - 
+
+2017-09-24 22:01:08 INFO  Main:49 - Name: Vasya1 
+Date of birth: 11 ноября 1995
+Address: { country - BELARUS, city -  Minsk, street -  Sovetskaya, house -  16}
+Salary: 550$
+2017-09-24 22:01:08 INFO  Main:51 - -1141584984
+2017-09-24 22:01:08 INFO  Main:52 - -1141584984
+2017-09-24 22:01:08 INFO  Main:54 - true
+2017-09-24 22:01:08 INFO  Main:55 - false
+2017-09-24 22:05:39 INFO  RunnerConnectionPool:49 - Connection was closed 
+2017-09-24 22:06:05 INFO  RunnerConnectionPool:49 - Connection was closed 
+2017-09-24 22:08:11 INFO  MyThread:11 - The MyTread started work.
+
+2017-09-24 22:08:11 INFO  RunnerConnectionPool:49 - Connection was closed 
+2017-09-24 22:12:37 INFO  RunnerConnectionPool:49 - Connection was closed 
+2017-09-24 22:12:37 INFO  RunnerConnectionPool:49 - Connection was closed 
+2017-09-24 22:12:37 INFO  RunnerConnectionPool:49 - Connection was closed 
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:27 - The new connection was given
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:40 - The next connection was given
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:51 - Connection was closed 
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:40 - The next connection was given
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:40 - The next connection was given
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:51 - Connection was closed 
+2017-09-24 22:15:13 INFO  RunnerConnectionPool:51 - Connection was closed 
+2017-09-24 22:18:16 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-24 22:18:16 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-24 22:18:16 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-24 22:18:16 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-24 22:18:16 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-24 22:18:16 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-24 22:21:43 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 12:01:57 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 14:19:22 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 14:27:28 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-25 14:27:28 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-25 14:27:28 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-25 14:27:28 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-25 14:27:28 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-25 14:27:28 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-25 14:28:13 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-25 14:28:13 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-25 14:28:13 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-25 14:28:13 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-25 14:28:13 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-25 14:28:13 INFO  RunnerConnectionPool:50 - Connection was closed 
+2017-09-25 17:56:12 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 17:58:26 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 18:01:21 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 18:03:20 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-25 18:04:10 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 20:03:04 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 20:07:00 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 20:09:27 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 20:09:27 ERROR MySQLConnection:45 - no connect
+2017-09-26 20:09:44 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 20:09:44 ERROR MySQLConnection:45 - no connect
+2017-09-26 21:00:21 ERROR MySQLConnection:44 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 21:00:21 ERROR MySQLConnection:45 - no connect
+2017-09-26 21:08:59 ERROR MySQLConnection:89 - src\main\resources\env.properties (Не удается найти указанный файл)
+2017-09-26 21:09:12 ERROR MySQLConnection:125 - The url cannot be null
+2017-09-26 21:10:54 ERROR MySQLConnection:125 - The url cannot be null
+2017-09-26 21:12:06 ERROR MySQLConnection:125 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 21:16:39 ERROR MySQLConnection:55 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-26 21:16:39 ERROR MySQLConnection:56 - no connect
+2017-09-26 22:14:07 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-26 22:14:07 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-26 22:14:07 ERROR RunnerConnectionPool:21 - 
+2017-09-26 22:14:07 ERROR RunnerConnectionPool:21 - 
+2017-09-26 22:17:35 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-26 22:17:35 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-26 22:17:35 ERROR RunnerConnectionPool:21 - 
+2017-09-26 22:17:35 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-26 22:17:35 ERROR RunnerConnectionPool:21 - 
+2017-09-26 22:17:35 ERROR RunnerConnectionPool:21 - 
+2017-09-28 15:21:39 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-28 15:21:39 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-28 15:21:39 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-28 15:21:39 ERROR RunnerConnectionPool:21 - 
+2017-09-28 15:21:39 ERROR RunnerConnectionPool:21 - 
+2017-09-28 15:21:39 ERROR RunnerConnectionPool:21 - 
+2017-09-28 15:32:49 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 15:32:49 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:09:24 ERROR MySQLConnection:53 - The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-28 16:09:24 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:09:57 ERROR MySQLConnection:53 - The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-28 16:09:57 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:10:05 ERROR MySQLConnection:53 - The server time zone value 'Ìîñêîâñêîå âðåìÿ (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2017-09-28 16:10:05 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:10:33 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 16:10:33 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:12:44 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 16:12:45 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:30:29 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 16:30:29 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:36:10 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 16:36:10 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:36:39 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 16:36:39 ERROR MySQLConnection:54 - no connect
+2017-09-28 16:39:02 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 16:39:02 ERROR MySQLConnection:54 - no connect
+2017-09-28 18:34:26 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-28 18:34:26 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-28 18:34:26 INFO  RunnerConnectionPool:39 - Connection was given
+2017-09-28 18:34:26 ERROR RunnerConnectionPool:23 - 
+2017-09-28 18:34:26 ERROR RunnerConnectionPool:23 - 
+2017-09-28 18:34:26 ERROR RunnerConnectionPool:23 - 
+2017-09-28 22:59:03 ERROR MySQLConnection:53 - Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-09-28 22:59:03 ERROR MySQLConnection:54 - no connect
+2017-09-28 23:00:23 INFO  MySQLConnection:46 - Connection to the database is established :)
+2017-09-28 23:00:50 INFO  MySQLConnection:46 - Connection to the database is established :)
+2017-09-28 23:00:50 INFO  MySQLConnection:50 - Connection to the database is closed :)
+2017-09-28 23:01:31 INFO  MySQLConnection:46 - Connection to the database is established :)
+2017-09-28 23:01:31 INFO  MySQLConnection:59 - Connection to the database is closed :)
+2017-09-28 23:18:19 ERROR MySQLConnection:64 - Column 'NAME' not found.
+2017-09-28 23:18:19 ERROR MySQLConnection:65 - no connect
+2017-09-28 23:19:03 INFO  MySQLConnection:52 - 1	 Employees_id 6	Demchog Nikolaj 1987-09-03	1400
+2017-09-28 23:19:03 INFO  MySQLConnection:52 - 2	 Employees_id 7	Kotov Andrej 1985-11-11	1550
+2017-09-28 23:19:03 INFO  MySQLConnection:52 - 3	 Employees_id 8	Kotovskaja Alena 1988-10-01	2550
+2017-09-28 23:19:03 INFO  MySQLConnection:52 - 4	 Employees_id 9	Kiselev Dmitrij 1989-06-21	2000
+2017-09-28 23:20:05 ERROR MySQLConnection:64 - No value specified for parameter 1
+2017-09-28 23:20:05 ERROR MySQLConnection:65 - no connect
+2017-09-28 23:20:33 ERROR MySQLConnection:64 - No value specified for parameter 1
+2017-09-28 23:20:33 ERROR MySQLConnection:65 - no connect
+2017-09-28 23:22:07 ERROR MySQLConnection:64 - No value specified for parameter 2
+2017-09-28 23:22:07 ERROR MySQLConnection:65 - no connect
+2017-09-28 23:22:23 INFO  MySQLConnection:52 - 1	 Employees_id 6	Demchog Nikolaj 1987-09-03	1400
+2017-09-28 23:22:23 INFO  MySQLConnection:52 - 2	 Employees_id 7	Kotov Andrej 1985-11-11	1550
+2017-09-28 23:22:23 INFO  MySQLConnection:52 - 3	 Employees_id 8	Kotovskaja Alena 1988-10-01	2550
+2017-09-28 23:22:23 INFO  MySQLConnection:52 - 4	 Employees_id 9	Kiselev Dmitrij 1989-06-21	2000
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 1	 Employees_id 2	Ivanovich Elena 1992-02-10	4500
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 2	 Employees_id 3	Zaiceva Anna 1989-04-07	2500
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 3	 Employees_id 4	Sidorov Oleg 1987-05-03	2400
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 4	 Employees_id 5	Belaja Cvetlana 1986-06-08	1200
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 5	 Employees_id 6	Demchog Nikolaj 1987-09-03	1400
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 6	 Employees_id 7	Kotov Andrej 1985-11-11	1550
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 7	 Employees_id 8	Kotovskaja Alena 1988-10-01	2550
+2017-09-28 23:23:47 INFO  MySQLConnection:52 - 8	 Employees_id 9	Kiselev Dmitrij 1989-06-21	2000
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 1	 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 2	 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 3	 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 4	 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 5	 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 6	 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 7	 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:24:22 INFO  MySQLConnection:52 - 8	 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 1	 Employees_id 1	Ivanov Ilia	1990-02-11	5000
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 2	 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 3	 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 4	 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 5	 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 6	 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 7	 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 8	 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:24:45 INFO  MySQLConnection:52 - 9	 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 1	 Employees_id 1	Ivanov Ilia	1990-02-11	5000
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 2	 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 3	 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 4	 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 5	 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 6	 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 7	 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 8	 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 9	 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 10	 Employees_id 10	Sanuk Ekaterina	1987-09-12	1900
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 11	 Employees_id 11	Sanuk Ekaterina	1991-09-25	3900
+2017-09-28 23:25:01 INFO  MySQLConnection:52 - 12	 Employees_id 12	Kolchak Mihail	1992-08-15	2900
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 1	 Employees_id 1	Ivanov Ilia	1990-02-11	5000
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 2	 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 3	 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 4	 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 5	 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 6	 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 7	 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 8	 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 9	 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 10	 Employees_id 10	Sanuk Ekaterina	1987-09-12	1900
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 11	 Employees_id 11	Sanuk Ekaterina	1991-09-25	3900
+2017-09-28 23:25:13 INFO  MySQLConnection:52 - 12	 Employees_id 12	Kolchak Mihail	1992-08-15	2900
+2017-09-28 23:25:28 ERROR MySQLConnection:64 - No value specified for parameter 2
+2017-09-28 23:25:28 ERROR MySQLConnection:65 - no connect
+2017-09-28 23:25:41 ERROR MySQLConnection:64 - Parameter index out of range (0 < 1 ).
+2017-09-28 23:25:41 ERROR MySQLConnection:65 - no connect
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 1	 Employees_id 1	Ivanov Ilia	1990-02-11	5000
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 2	 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 3	 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 4	 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 5	 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 6	 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 7	 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 8	 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 9	 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 10	 Employees_id 10	Sanuk Ekaterina	1987-09-12	1900
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 11	 Employees_id 11	Sanuk Ekaterina	1991-09-25	3900
+2017-09-28 23:25:55 INFO  MySQLConnection:52 - 12	 Employees_id 12	Kolchak Mihail	1992-08-15	2900
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 1	 Employees_id 1	Ivanov Ilia	1990-02-11	5000
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 2	 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 3	 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 4	 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 5	 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 6	 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 7	 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 8	 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 9	 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 10	 Employees_id 10	Sanuk Ekaterina	1987-09-12	1900
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 11	 Employees_id 11	Sanuk Ekaterina	1991-09-25	3900
+2017-09-28 23:32:33 INFO  MySQLConnection:52 - 12	 Employees_id 12	Kolchak Mihail	1992-08-15	2900
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 1 Employees_id 1 Ivanov Ilia 1990-02-11 5000
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 2 Employees_id 2 Ivanovich Elena 1992-02-10 4500
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 3 Employees_id 3 Zaiceva Anna 1989-04-07 2500
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 4 Employees_id 4 Sidorov Oleg 1987-05-03 2400
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 5 Employees_id 5 Belaja Cvetlana 1986-06-08 1200
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 6 Employees_id 6 Demchog Nikolaj 1987-09-03 1400
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 7 Employees_id 7 Kotov Andrej 1985-11-11 1550
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 8 Employees_id 8 Kotovskaja Alena 1988-10-01 2550
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 9 Employees_id 9 Kiselev Dmitrij 1989-06-21 2000
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 10 Employees_id 10 Sanuk Ekaterina 1987-09-12 1900
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 11 Employees_id 11 Sanuk Ekaterina 1991-09-25 3900
+2017-09-28 23:33:25 INFO  MySQLConnection:52 - 12 Employees_id 12 Kolchak Mihail 1992-08-15 2900
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	1 Employees_id 1 Ivanov Ilia 1990-02-11 5000
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	2 Employees_id 2 Ivanovich Elena 1992-02-10 4500
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	3 Employees_id 3 Zaiceva Anna 1989-04-07 2500
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	4 Employees_id 4 Sidorov Oleg 1987-05-03 2400
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	5 Employees_id 5 Belaja Cvetlana 1986-06-08 1200
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	6 Employees_id 6 Demchog Nikolaj 1987-09-03 1400
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	7 Employees_id 7 Kotov Andrej 1985-11-11 1550
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	8 Employees_id 8 Kotovskaja Alena 1988-10-01 2550
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	9 Employees_id 9 Kiselev Dmitrij 1989-06-21 2000
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	10 Employees_id 10 Sanuk Ekaterina 1987-09-12 1900
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	11 Employees_id 11 Sanuk Ekaterina 1991-09-25 3900
+2017-09-28 23:34:21 INFO  MySQLConnection:52 - 	12 Employees_id 12 Kolchak Mihail 1992-08-15 2900
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	1	 Employees_id 1 Ivanov Ilia 1990-02-11 5000
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	2	 Employees_id 2 Ivanovich Elena 1992-02-10 4500
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	3	 Employees_id 3 Zaiceva Anna 1989-04-07 2500
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	4	 Employees_id 4 Sidorov Oleg 1987-05-03 2400
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	5	 Employees_id 5 Belaja Cvetlana 1986-06-08 1200
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	6	 Employees_id 6 Demchog Nikolaj 1987-09-03 1400
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	7	 Employees_id 7 Kotov Andrej 1985-11-11 1550
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	8	 Employees_id 8 Kotovskaja Alena 1988-10-01 2550
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	9	 Employees_id 9 Kiselev Dmitrij 1989-06-21 2000
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	10	 Employees_id 10 Sanuk Ekaterina 1987-09-12 1900
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	11	 Employees_id 11 Sanuk Ekaterina 1991-09-25 3900
+2017-09-28 23:34:43 INFO  MySQLConnection:52 - 	12	 Employees_id 12 Kolchak Mihail 1992-08-15 2900
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	1 Employees_id 	1 Ivanov Ilia 1990-02-11 5000
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	2 Employees_id 	2 Ivanovich Elena 1992-02-10 4500
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	3 Employees_id 	3 Zaiceva Anna 1989-04-07 2500
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	4 Employees_id 	4 Sidorov Oleg 1987-05-03 2400
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	5 Employees_id 	5 Belaja Cvetlana 1986-06-08 1200
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	6 Employees_id 	6 Demchog Nikolaj 1987-09-03 1400
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	7 Employees_id 	7 Kotov Andrej 1985-11-11 1550
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	8 Employees_id 	8 Kotovskaja Alena 1988-10-01 2550
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	9 Employees_id 	9 Kiselev Dmitrij 1989-06-21 2000
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	10 Employees_id 	10 Sanuk Ekaterina 1987-09-12 1900
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	11 Employees_id 	11 Sanuk Ekaterina 1991-09-25 3900
+2017-09-28 23:35:00 INFO  MySQLConnection:52 - 	12 Employees_id 	12 Kolchak Mihail 1992-08-15 2900
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	1 Employees_id 1 	Ivanov Ilia 	1990-02-11 	5000
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	2 Employees_id 2 	Ivanovich Elena 	1992-02-10 	4500
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	3 Employees_id 3 	Zaiceva Anna 	1989-04-07 	2500
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	4 Employees_id 4 	Sidorov Oleg 	1987-05-03 	2400
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	5 Employees_id 5 	Belaja Cvetlana 	1986-06-08 	1200
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	6 Employees_id 6 	Demchog Nikolaj 	1987-09-03 	1400
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	7 Employees_id 7 	Kotov Andrej 	1985-11-11 	1550
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	8 Employees_id 8 	Kotovskaja Alena 	1988-10-01 	2550
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	9 Employees_id 9 	Kiselev Dmitrij 	1989-06-21 	2000
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	10 Employees_id 10 	Sanuk Ekaterina 	1987-09-12 	1900
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	11 Employees_id 11 	Sanuk Ekaterina 	1991-09-25 	3900
+2017-09-28 23:35:27 INFO  MySQLConnection:52 - 	12 Employees_id 12 	Kolchak Mihail 	1992-08-15 	2900
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 1 Employees_id 1	Ivanov Ilia	1990-02-11	5000
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 2 Employees_id 2	Ivanovich Elena	1992-02-10	4500
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 3 Employees_id 3	Zaiceva Anna	1989-04-07	2500
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 4 Employees_id 4	Sidorov Oleg	1987-05-03	2400
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 5 Employees_id 5	Belaja Cvetlana	1986-06-08	1200
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 6 Employees_id 6	Demchog Nikolaj	1987-09-03	1400
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 7 Employees_id 7	Kotov Andrej	1985-11-11	1550
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 8 Employees_id 8	Kotovskaja Alena	1988-10-01	2550
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 9 Employees_id 9	Kiselev Dmitrij	1989-06-21	2000
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 10 Employees_id 10	Sanuk Ekaterina	1987-09-12	1900
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 11 Employees_id 11	Sanuk Ekaterina	1991-09-25	3900
+2017-09-28 23:36:09 INFO  MySQLConnection:52 - 12 Employees_id 12	Kolchak Mihail	1992-08-15	2900
+2017-09-29 23:46:07 ERROR EmployeesService:37 - No operations allowed after connection closed.
+2017-09-30 00:03:14 ERROR EmployeesService:37 - No operations allowed after connection closed.
+2017-09-30 00:04:31 ERROR EmployeesService:37 - No operations allowed after connection closed.
+2017-09-30 00:05:38 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:05:38 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:05:38 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:05:38 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:05:38 ERROR EmployeesService:37 - No operations allowed after connection closed.
+2017-09-30 00:15:41 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:15:41 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:15:41 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:15:41 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:15:41 ERROR EmployeesService:71 - No operations allowed after connection closed.
+2017-09-30 00:21:09 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:21:09 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:21:09 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:21:09 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:21:09 ERROR EmployeesService:72 - No operations allowed after connection closed.
+2017-09-30 00:23:40 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:23:40 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:23:40 ERROR EmployeesService:72 - No operations allowed after connection closed.
+2017-09-30 00:25:34 INFO  ConnectionDB:48 - Connection to the database is established :)
+2017-09-30 00:25:34 INFO  ConnectionDB:52 - Connection to the database is closed :)
+2017-09-30 00:25:34 ERROR EmployeesService:38 - No operations allowed after connection closed.
+2017-09-30 00:26:28 ERROR EmployeesService:38 - Table 'itdb.empoyees' doesn't exist
+2017-09-30 00:27:55 ERROR EmployeesService:38 - Unknown column 'DATE_OF_BITRTH' in 'field list'
+2017-09-30 00:29:09 ERROR EmployeesService:72 - Unknown column 'DATE_OF_BITRTH' in 'field list'
+2017-09-30 00:29:25 ERROR EmployeesService:72 - Column 'DATE_OF_BITRTH' not found.
+2017-09-30 00:29:47 ERROR EmployeesService:72 - Column 'DATE_OF_BITRTH' not found.
+2017-09-30 00:30:31 ERROR EmployeesService:72 - Column 'DATE_OF_BITRTH' not found.
+2017-09-30 00:31:21 ERROR EmployeesService:72 - Column 'DATE_OF_BITRTH' not found.
+2017-09-30 00:31:44 ERROR EmployeesService:72 - Column 'DATE_OF_BITRTH' not found.
+2017-09-30 00:32:53 ERROR EmployeesService:101 - Unknown column 'DATE_OF_BITRTH' in 'field list'
+2017-09-30 00:34:04 ERROR EmployeesService:101 - Before start of result set
+2017-09-30 00:38:40 ERROR EmployeesService:72 - No operations allowed after connection closed.
+2017-09-30 00:39:15 ERROR EmployeesService:38 - Duplicate entry '13' for key 'PRIMARY'
+2017-09-30 23:07:25 ERROR EmployeesService:101 - Before start of result set
+2017-09-30 23:07:53 ERROR EmployeesService:101 - Before start of result set
+2017-09-30 23:11:28 ERROR EmployeesService:101 - Before start of result set
+2017-09-30 23:15:53 ERROR EmployeesService:106 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-09-30 23:18:18 ERROR EmployeesService:107 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-09-30 23:19:35 ERROR EmployeesService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-09-30 23:20:05 ERROR EmployeesService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-09-30 23:28:54 ERROR EmployeesService:106 - Parameter index out of range (0 < 1 ).
+2017-09-30 23:29:29 ERROR EmployeesService:106 - Parameter index out of range (2 > number of parameters, which is 1).
+2017-09-30 23:32:15 ERROR EmployeesService:106 - Before start of result set
+2017-10-01 15:30:07 ERROR EmployeesService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-01 15:30:43 ERROR EmployeesService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-01 15:42:26 ERROR EmployeesService:98 - Parameter index out of range (4 > number of parameters, which is 1).
+2017-10-01 15:44:30 ERROR EmployeesService:99 - Parameter index out of range (2 > number of parameters, which is 1).
+2017-10-01 15:45:31 ERROR EmployeesService:104 - Before start of result set
+2017-10-01 15:46:20 ERROR EmployeesService:100 - Parameter index out of range (2 > number of parameters, which is 1).
+2017-10-01 15:47:18 ERROR EmployeesService:101 - Parameter index out of range (2 > number of parameters, which is 1).
+2017-10-01 15:48:01 ERROR EmployeesService:102 - Parameter index out of range (2 > number of parameters, which is 1).
+2017-10-01 15:51:01 ERROR EmployeesService:102 - Parameter index out of range (2 > number of parameters, which is 1).
+2017-10-01 15:52:39 ERROR EmployeesService:102 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2017-10-01 15:53:42 ERROR EmployeesService:104 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2017-10-01 17:55:15 ERROR EmployeesService:103 - Before start of result set
+2017-10-01 17:57:55 ERROR EmployeesService:103 - Before start of result set
+2017-10-01 18:00:22 ERROR EmployeesService:103 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2017-10-01 18:02:08 ERROR EmployeesService:103 - Before start of result set
+2017-10-01 18:02:24 ERROR EmployeesService:103 - Before start of result set
+2017-10-01 18:32:58 ERROR EmployeesService:72 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2017-10-01 18:34:52 ERROR EmployeesService:103 - Before start of result set
+2017-10-01 18:36:12 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:36:48 ERROR EmployeesService:103 - No operations allowed after connection closed.
+2017-10-01 18:54:47 ERROR EmployeesService:129 - Cannot delete or update a parent row: a foreign key constraint fails (`itdb`.`addresses`, CONSTRAINT `fk_ADDRESSES_EMPLOOYES1` FOREIGN KEY (`EMPLOYEES_ID`) REFERENCES `employees` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-01 18:56:50 ERROR EmployeesService:129 - Cannot delete or update a parent row: a foreign key constraint fails (`itdb`.`addresses`, CONSTRAINT `fk_ADDRESSES_EMPLOOYES1` FOREIGN KEY (`EMPLOYEES_ID`) REFERENCES `employees` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-01 19:08:23 ERROR AddressService:108 - Before start of result set
+2017-10-01 19:08:39 ERROR AddressService:108 - Illegal operation on empty result set.
+2017-10-01 19:20:51 ERROR AddressService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-01 19:23:02 ERROR AddressService:108 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2017-10-01 19:24:44 ERROR AddressService:109 - Before start of result set
+2017-10-01 19:29:35 ERROR AddressService:108 - Column 'ID' not found.
+2017-10-01 19:29:53 ERROR AddressService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-01 19:36:35 ERROR AddressService:108 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-01 19:39:26 ERROR AddressService:108 - Before start of result set
+2017-10-01 19:44:21 ERROR AddressService:108 - Before start of result set
+2017-10-01 19:45:22 ERROR AddressService:108 - Before start of result set
+2017-10-01 19:45:22 INFO  AddressService:109 - !!!
+2017-10-01 19:46:03 ERROR AddressService:108 - Before start of result set
