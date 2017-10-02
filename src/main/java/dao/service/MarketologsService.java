@@ -10,15 +10,17 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IMarketologsDao;
 import dao.tables.Marketologs;
 
-public class MarketologsService extends ConnectionDB implements IMarketologsDao{
+public class MarketologsService extends ConnectionPoolDB implements IMarketologsDao{
 	
 	private static final Logger LOGGER = Logger.getLogger(MarketologsService.class);
 
-	Connection connection = getConnection();
+	//Connection connection = getConnection();
+	Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 	@Override
 	public void insert(Marketologs marketologs) {

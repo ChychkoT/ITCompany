@@ -23,4 +23,11 @@ public class Frontends {
 		this.development_id = development_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Frontends [id_frontend=" + id_frontend + ", development_id="
+				+ development_id + "]";
+	}
+	
+
 }

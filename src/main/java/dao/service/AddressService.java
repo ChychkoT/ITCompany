@@ -10,17 +10,18 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IAddressDao;
 import dao.tables.Address;
-import dao.tables.Employees;
 
-public class AddressService extends ConnectionDB implements IAddressDao {
+public class AddressService extends ConnectionPoolDB implements IAddressDao {
 	
 
 	private static final Logger LOGGER = Logger.getLogger(AddressService.class);
 	
-	Connection connection = getConnection();
+	//Connection connection = getConnection();
+	Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 	@Override
 	public void insert(Address address) {

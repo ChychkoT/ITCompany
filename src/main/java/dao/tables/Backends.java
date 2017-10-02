@@ -23,4 +23,12 @@ public class Backends {
 		this.development_id = development_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Backends [id_backend=" + id_backend + ", development_id="
+				+ development_id + "]";
+	}
+	
+	
+
 }

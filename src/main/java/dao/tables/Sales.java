@@ -22,4 +22,10 @@ public class Sales {
 		this.marketing_id = marketing_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Sales [id_sale=" + id_sale + ", marketing_id=" + marketing_id
+				+ "]";
+	}
+    
 }

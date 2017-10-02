@@ -10,22 +10,23 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.ICountryDao;
 import dao.tables.Country;
-import dao.tables.Employees;
 
-public class CountryService extends ConnectionDB implements ICountryDao{
+public class CountryService extends ConnectionPoolDB implements ICountryDao{
 	
 private static final Logger LOGGER = Logger.getLogger(CountryService.class);
 	
-	Connection connection = getConnection();
-
+	//Connection connection = getConnection();
+   Connection connection = ConnectionPoolDB.getInstance().getConnection();
+     
 
 	@Override
 	public void insert(Country country) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO COUNTRY (ID, CONTRY_NAME) VALUES (?,?)";
+		String sql = "INSERT INTO COUNTRY (ID, COUNTRY_NAME) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
@@ -61,7 +62,7 @@ private static final Logger LOGGER = Logger.getLogger(CountryService.class);
 		    	Country country = new Country();
 		    	
 		    	country.setId(resulSet.getInt("ID"));
-		    	country.setCountry_name(resulSet.getString("CONTRY_NAME"));
+		    	country.setCountry_name(resulSet.getString("COUNTRY_NAME"));
 		    	
 		    	countrylist.add(country);
 		    }
@@ -84,7 +85,7 @@ private static final Logger LOGGER = Logger.getLogger(CountryService.class);
 	@Override
 	public void update(Country country) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE COUNTRY SET CONTRY_NAME=? WHERE ID=?";
+		String sql = "UPDATE COUNTRY SET COUNTRY_NAME=? WHERE ID=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			

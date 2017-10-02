@@ -58,6 +58,15 @@ public class Address {
 	public void setEmployees_id(int employees_id) {
 		this.employees_id = employees_id;
 	}
+
+	@Override
+	public String toString() {
+		return "Address [id=" + id + ", contry_id=" + contry_id + ", city="
+				+ city + ", street=" + street + ", house=" + house
+				+ ", employees_id=" + employees_id + "]";
+	}
+	
+	
 	
 
 }

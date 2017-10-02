@@ -10,16 +10,18 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IDirectorsDao;
 import dao.tables.Directors;
 
-public class DirectorsService extends ConnectionDB implements IDirectorsDao{
+public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
 	
 	private static final Logger LOGGER = Logger.getLogger(DirectorsService.class);
 
-	Connection connection = getConnection();
-
+	//Connection connection = getConnection();
+	Connection connection = ConnectionPoolDB.getInstance().getConnection();
+	
 	@Override
 	public void insert(Directors directors) {
 		PreparedStatement preparedStatement =null;

@@ -23,4 +23,12 @@ public class Administration {
 		this.employees_id = employees_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Administration [id_administration=" + id_administration
+				+ ", employees_id=" + employees_id + "]";
+	}
+	
+	
+
 }

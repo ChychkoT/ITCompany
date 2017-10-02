@@ -10,17 +10,18 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IFrontendsDao;
 import dao.tables.Frontends;
-import dao.tables.Marketologs;
 
-public class FrontendsService extends ConnectionDB implements IFrontendsDao{
+public class FrontendsService extends ConnectionPoolDB implements IFrontendsDao{
 	
 	private static final Logger LOGGER = Logger.getLogger(FrontendsService.class);
 
-	Connection connection = getConnection();
-
+	//Connection connection = getConnection();
+	Connection connection = ConnectionPoolDB.getInstance().getConnection();
+	
 	@Override
 	public void insert(Frontends frontends) {
 		PreparedStatement preparedStatement =null;

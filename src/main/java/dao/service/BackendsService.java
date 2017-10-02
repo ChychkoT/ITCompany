@@ -10,16 +10,17 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IBackendsDao;
 import dao.tables.Backends;
-import dao.tables.Frontends;
 
-public class BackendsService  extends ConnectionDB implements IBackendsDao{
+public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
 	
 	private static final Logger LOGGER = Logger.getLogger(BackendsService.class);
 
-	Connection connection = getConnection();
+	//Connection connection = getConnection();
+	Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 	@Override
 	public void insert(Backends backends) {

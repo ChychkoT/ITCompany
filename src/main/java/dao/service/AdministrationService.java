@@ -10,16 +10,17 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IAdministrationDao;
 import dao.tables.Administration;
-import dao.tables.Country;
 
-public class AdministrationService extends ConnectionDB implements IAdministrationDao{
+public class AdministrationService extends ConnectionPoolDB implements IAdministrationDao{
 	
 private static final Logger LOGGER = Logger.getLogger(AdministrationService.class);
 
-Connection connection = getConnection();
+//Connection connection = getConnection();
+Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 @Override
 public void insert(Administration administration) {

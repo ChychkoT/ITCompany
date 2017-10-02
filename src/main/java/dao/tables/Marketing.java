@@ -24,5 +24,11 @@ public class Marketing {
 		this.employees_id = employees_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Marketing [id_marketing=" + id_marketing + ", employees_id="
+				+ employees_id + "]";
+	}
+
 	
 }

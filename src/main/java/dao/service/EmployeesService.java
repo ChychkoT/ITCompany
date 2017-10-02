@@ -10,15 +10,17 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import dao.ConnectionDB;
+//import dao.ConnectionDB;
+import dao.ConnectionPoolDB;
 import dao.interfacesdao.IEmployeesDao;
 import dao.tables.Employees;
 
-public class EmployeesService extends ConnectionDB implements IEmployeesDao {
+public class EmployeesService extends ConnectionPoolDB implements IEmployeesDao {
 	
 	private static final Logger LOGGER = Logger.getLogger(EmployeesService.class);
 	
-	Connection connection = getConnection();
+	//Connection connection = getConnection();
+	Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 	@Override
 	public void insert(Employees employees) {

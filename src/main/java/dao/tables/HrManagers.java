@@ -23,4 +23,10 @@ public void setAdministration_id(int administration_id) {
 	this.administration_id = administration_id;
 }
 
+@Override
+public String toString() {
+	return "HrManagers [id_hrmanagers=" + id_hrmanagers
+			+ ", administration_id=" + administration_id + "]";
+}
+
 }

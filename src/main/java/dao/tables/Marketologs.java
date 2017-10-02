@@ -23,4 +23,11 @@ public class Marketologs {
 		this.marketing_id = marketing_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Marketologs [id_marketolog=" + id_marketolog
+				+ ", marketing_id=" + marketing_id + "]";
+	}
+	
+
 }

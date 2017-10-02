@@ -3331,3 +3331,5 @@ Salary: 550$
 2017-10-01 19:45:22 ERROR AddressService:108 - Before start of result set
 2017-10-01 19:45:22 INFO  AddressService:109 - !!!
 2017-10-01 19:46:03 ERROR AddressService:108 - Before start of result set
+2017-10-02 13:29:04 ERROR CountryService:70 - Column 'CONTRY_NAME' not found.
+2017-10-02 13:29:51 ERROR CountryService:70 - Column 'CONTRY_NAME' not found.

@@ -22,6 +22,12 @@ public class Directors {
 	public void setAdministration_id(int administration_id) {
 		this.administration_id = administration_id;
 	}
+
+	@Override
+	public String toString() {
+		return "Directors [id_directors=" + id_directors
+				+ ", administration_id=" + administration_id + "]";
+	}
 	
 	
 

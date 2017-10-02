@@ -3,6 +3,8 @@ package dao.tables;
 import java.sql.Date;
 
 public class Employees {
+	
+
 	private int id;
 	private String name_employee;
 	private Date date_of_birth;
@@ -44,4 +46,10 @@ public class Employees {
 		this.salary = salary;
 	}
 
+	@Override
+	public String toString() {
+		return "Employees [id=" + id + ", name_employee=" + name_employee
+				+ ", date_of_birth=" + date_of_birth + ", salary=" + salary
+				+ "]";
+	}
 }
