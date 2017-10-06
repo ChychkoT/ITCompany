@@ -29,7 +29,7 @@ public class EmployeesService extends ConnectionPoolDB implements IEmployeesDao 
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, employees.getId());
+			preparedStatement.setInt(1, employees.getId()); 
 			preparedStatement.setString(2, employees.getName_employee());
 			preparedStatement.setDate(3, employees.getDate_of_birth());
 			preparedStatement.setInt(4, employees.getSalary());
@@ -92,14 +92,11 @@ public class EmployeesService extends ConnectionPoolDB implements IEmployeesDao 
 			preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, id);
 			ResultSet resulSet = preparedStatement.executeQuery();
-	
+			resulSet.next();
 			employees.setId(resulSet.getInt("ID"));
 	    	employees.setName_employee(resulSet.getString("NAME_EMPLOYEE"));
 	    	employees.setDate_of_birth(resulSet.getDate("DATE_OF_BIRTH"));
 	    	employees.setSalary(resulSet.getInt("SALARY"));
-	    
-	    	preparedStatement.executeUpdate();
-		    
 			
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());

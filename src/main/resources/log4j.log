@@ -3333,3 +3333,11 @@ Salary: 550$
 2017-10-01 19:46:03 ERROR AddressService:108 - Before start of result set
 2017-10-02 13:29:04 ERROR CountryService:70 - Column 'CONTRY_NAME' not found.
 2017-10-02 13:29:51 ERROR CountryService:70 - Column 'CONTRY_NAME' not found.
+2017-10-02 14:55:47 ERROR EmployeesService:105 - Before start of result set
+2017-10-02 14:56:19 ERROR EmployeesService:105 - Before start of result set
+2017-10-02 14:56:46 ERROR EmployeesService:105 - Before start of result set
+2017-10-02 14:57:42 ERROR EmployeesService:105 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-02 14:59:30 INFO  EmployeesService:102 - com.mysql.cj.jdbc.result.ResultSetImpl@2cb4c3ab
+2017-10-02 16:56:12 ERROR EmployeesService:104 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+2017-10-02 17:03:29 ERROR EmployeesService:107 - Before start of result set
+2017-10-02 18:31:21 ERROR EmployeesService:104 - Before start of result set

@@ -21,7 +21,7 @@ public class DaoRunner {
 		//ConnectionDB connnectiondb = new ConnectionDB();
 		//connnectiondb.getConnection();
 		
-		EmployeesService employesservice = new EmployeesService();
+		/*EmployeesService employesservice = new EmployeesService();
 		Employees employees = new Employees();
 		employees.setId(13);
 		employees.setName_employee("Demin Ivan");
@@ -43,7 +43,7 @@ public class DaoRunner {
     	Country country = new Country();
     	country.setId(7);
     	country.setCountry_name("USA");
-    	/*
+    	
     	AdministrationService administrationService = new AdministrationService();
     	Administration administration = new Administration();
     	administration.setId_administration(5);
@@ -55,13 +55,14 @@ public class DaoRunner {
     	directors.setAdministration_id(5);
     	*/
     	
+		
 		//employesservice.insert(employees);
-		List<Employees> emploeeslist = employesservice.getAll();
+		/*List<Employees> emploeeslist = employesservice.getAll();
 		for(Employees e:emploeeslist){
 			System.out.println(e);
 			
-		}
-		//employesservice.getById(5);
+		}*/
+		//System.out.println(employesservice.getById(5));
 		//employesservice.update(employees);
 		//employesservice.delete(employees);
     	

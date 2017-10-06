@@ -19,5 +19,9 @@
 	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.1/jackson-mapper-asl-1.9.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.1/jackson-core-asl-1.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Сотис/.m2/repository/mysql/mysql-connector-java/8.0.7-dmr/mysql-connector-java-8.0.7-dmr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Сотис/.m2/repository/org/apache/ibatis/ibatis-sqlmap/2.3.4.726/ibatis-sqlmap-2.3.4.726.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Сотис/.m2/repository/org/apache/ibatis/ibatis-core/3.0/ibatis-core-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Сотис/.m2/repository/org/apache/ibatis/ibator/1.2.1.681/ibator-1.2.1.681.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Сотис/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
