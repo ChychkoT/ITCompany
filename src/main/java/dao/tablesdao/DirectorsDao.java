@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,25 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.IHrManagersDao;
-import dao.tables.HrManagers;
+import dao.interfacesdao.IDirectorsDao;
+import dao.tables.Directors;
 
-public class HrManagersService extends ConnectionPoolDB implements IHrManagersDao{
+public class DirectorsDao extends ConnectionPoolDB implements IDirectorsDao{
 	
-	private static final Logger LOGGER = Logger.getLogger(HrManagersService.class);
+	private static final Logger LOGGER = Logger.getLogger(DirectorsDao.class);
 
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();
-
+	
 	@Override
-	public void insert(HrManagers hrManagers) {
+	public void insert(Directors directors) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO HRMANAGERS (ID_HRMANAGERS, ADMINISTRATION_ID) VALUES (?,?)";
+		String sql = "INSERT INTO DIRECTORS (ID_DIRECTORS, ADMINISTRATION_ID) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, hrManagers.getId_hrmanagers());
-			preparedStatement.setInt(2, hrManagers.getAdministration_id());
+			preparedStatement.setInt(1, directors.getId_directors());
+			preparedStatement.setInt(2, directors.getAdministration_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -40,13 +40,14 @@ public class HrManagersService extends ConnectionPoolDB implements IHrManagersDa
 			close(preparedStatement);
 			close(connection);
 			}
+		
 	}
 
 	@Override
-	public List<HrManagers> getAll() {
-		List<HrManagers> hrmanagerslist = new ArrayList<>();
+	public List<Directors> getAll() {
+		List<Directors> directorslist = new ArrayList<>();
 
-		String sql = "SELECT * FROM HRMANAGERS";
+		String sql = "SELECT * FROM DIRECTORS";
 		
 		Statement preparedStatement =null;
 		try{
@@ -56,12 +57,12 @@ public class HrManagersService extends ConnectionPoolDB implements IHrManagersDa
 		    
 		    while(resulSet.next()){
 		    	
-		    	HrManagers hrManagers = new HrManagers();
+		    	Directors directors = new Directors();
 		    	
-		    	hrManagers.setId_hrmanagers(resulSet.getInt("ID_HRMANAGERS"));
-		    	hrManagers.setAdministration_id(resulSet.getInt("ADMINISTRATION_ID"));
+		    	directors.setId_directors(resulSet.getInt("ID_DIRECTORS"));
+		    	directors.setAdministration_id(resulSet.getInt("ADMINISTRATION_ID"));
 		    	
-		    	hrmanagerslist.add(hrManagers);
+		    	directorslist.add(directors);
 		    }
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());
@@ -70,24 +71,25 @@ public class HrManagersService extends ConnectionPoolDB implements IHrManagersDa
 			close(connection);
 		}
 
-		return hrmanagerslist;
+		return directorslist;
+	
 	}
 
 	@Override
-	public HrManagers getById(int id) {
+	public Directors getById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(HrManagers hrManagers) {
+	public void update(Directors directors) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE HRMANAGERS SET ADMINISTRATION_ID=? WHERE ID_HRMANAGERS=?";
+		String sql = "UPDATE DIRECTORS SET ADMINISTRATION_ID=? WHERE ID_DIRECTORS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, hrManagers.getId_hrmanagers());
-			preparedStatement.setInt(2, hrManagers.getAdministration_id());
+			preparedStatement.setInt(1, directors.getId_directors());
+			preparedStatement.setInt(2, directors.getAdministration_id());
 	    	
 			preparedStatement.executeUpdate();
 			
@@ -101,13 +103,13 @@ public class HrManagersService extends ConnectionPoolDB implements IHrManagersDa
 	}
 
 	@Override
-	public void delete(HrManagers hrManagers) {
+	public void delete(Directors directors) {
 		PreparedStatement preparedStatement =null;
-		String sql = "DELETE FROM HRMANAGERS WHERE ID_HRMANAGERS=?";
+		String sql = "DELETE FROM DIRECTORS WHERE ID_DIRECTORS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, hrManagers.getId_hrmanagers());
+			preparedStatement.setInt(1, directors.getId_directors());
 	    	
 			preparedStatement.executeUpdate();
 			
@@ -118,6 +120,6 @@ public class HrManagersService extends ConnectionPoolDB implements IHrManagersDa
 				close(connection);
 			}
 		
-		
 	}
+
 }

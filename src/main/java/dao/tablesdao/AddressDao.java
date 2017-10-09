@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,10 +15,10 @@ import dao.ConnectionPoolDB;
 import dao.interfacesdao.IAddressDao;
 import dao.tables.Address;
 
-public class AddressService extends ConnectionPoolDB implements IAddressDao {
+public class AddressDao extends ConnectionPoolDB implements IAddressDao {
 	
 
-	private static final Logger LOGGER = Logger.getLogger(AddressService.class);
+	private static final Logger LOGGER = Logger.getLogger(AddressDao.class);
 	
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();

@@ -25,11 +25,11 @@ public class EmployeesMyBatisService extends MyBatisConnectionFactory implements
 
 		@Override
 		public void insert(Employees employees) {
-			int id = -1;
+			
 	        SqlSession session = sqlSessionFactory.openSession();
 	 
 	        try {
-	            id = session.insert("Employees.insert", employees);
+	           session.insert("Employees.insert", employees);
 	        } finally {
 	            session.commit();
 	            session.close();
@@ -49,7 +49,7 @@ public class EmployeesMyBatisService extends MyBatisConnectionFactory implements
 			Employees employees = null;
 		        SqlSession session = sqlSessionFactory.openSession();
 		        try {
-		        	employees = (Employees) session.selectOne("Employees.getById", id);
+		        	employees = session.selectOne("mybatis.Employees.getById", id);
 		 
 		        } finally {
 		            session.close();
@@ -60,11 +60,11 @@ public class EmployeesMyBatisService extends MyBatisConnectionFactory implements
 
 		@Override
 		public void update(Employees employees) {
-			int id = -1;
+	
 	      SqlSession session = sqlSessionFactory.openSession();
 	      
 	      try {
-	          id = session.update("Employees.update", employees);
+	          session.update("Employees.update", employees);
 	 
 	      } finally {
 	          session.commit();
@@ -75,16 +75,15 @@ public class EmployeesMyBatisService extends MyBatisConnectionFactory implements
 
 		@Override
 		public void delete(Employees employees) {
-			int id = -1;
 			 SqlSession session = sqlSessionFactory.openSession();
 			 
 		        try {
-		            session.delete("Employees.delete", id);
+		            session.delete("Employees.delete");
 		        } finally {
 		            session.commit();
 		            session.close();
 		        }
-		        System.out.println("delete("+id+")");
+		        System.out.println("delete");
 			
 		} 
 

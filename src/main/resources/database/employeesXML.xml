@@ -14,31 +14,41 @@
     </resultMap>
  
     <select id="selectAll" resultMap="result">
-        SELECT * FROM EMPLOYEES;
+         <![CDATA[
+		 SELECT * FROM EMPLOYEES;
+		 ]]>
     </select>
  
     <select id="getById" parameterType="int" resultMap="result">
-        SELECT ID as EMPLOYEE_ID,
+        <![CDATA[
+		SELECT ID as EMPLOYEE_ID,
 		       NAME_EMPLOYEE as NAME_EMPLOYEE,
                DATE_OF_BIRTH as DATE_OF_BIRTH_EMPLOYEE,
                SALARY as SALARY_EMPLOYEE			   
 		FROM EMPLOYEES u 
 		WHERE u.ID = #{ID};
+		]]>
     </select>
  
     <insert id="insert" parameterType="Employees" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO EMPLOYEES (ID,NAME_EMPLOYEE,DATE_OF_BIRTH,SALARY) VALUES (#{ID},#{NAME_EMPLOYEE},#{DATE_OF_BIRTH},#{SALARY});
+        <![CDATA[
+		INSERT INTO EMPLOYEES (ID,NAME_EMPLOYEE,DATE_OF_BIRTH,SALARY) VALUES (#{ID},#{NAME_EMPLOYEE},#{DATE_OF_BIRTH},#{SALARY});
+		]]>
     </insert>
  
     <update id="update" parameterType="Employees">
-        UPDATE EMPLOYEES
+        <![CDATA[
+		UPDATE EMPLOYEES
         SET NAME_EMPLOYEE = #{NAME_EMPLOYEE}
 		SET DATE_OF_BIRTH = #{DATE_OF_BIRTH}
 		SET SALARY = #{SALARY}
         WHERE ID = #{ID} ;
+		]]>
     </update>
  
     <delete id="delete" parameterType="int">
-        DELETE from EMPLOYEES WHERE ID = #{ID};
+        <![CDATA[
+		DELETE from EMPLOYEES WHERE ID = #{ID};
+		]]>
     </delete>
 </mapper>

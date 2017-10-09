@@ -3341,3 +3341,73 @@ Salary: 550$
 2017-10-02 16:56:12 ERROR EmployeesService:104 - Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
 2017-10-02 17:03:29 ERROR EmployeesService:107 - Before start of result set
 2017-10-02 18:31:21 ERROR EmployeesService:104 - Before start of result set
+2017-10-08 23:52:37 ERROR ConnectionPoolDB:88 - The driver class did not load :(
+2017-10-08 23:52:37 ERROR ConnectionPoolDB:88 - The driver class did not load :(
+2017-10-08 23:55:21 ERROR ConnectionPoolDB:88 - The driver class did not load :(
+2017-10-08 23:55:21 ERROR ConnectionPoolDB:88 - The driver class did not load :(
+2017-10-09 00:15:11 ERROR SeviceOutputMarketologs:40 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 00:15:31 ERROR SeviceOutputMarketologs:40 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 00:15:40 ERROR SeviceOutputMarketologs:40 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 00:15:50 ERROR SeviceOutputMarketologs:40 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 00:16:31 ERROR SeviceOutputMarketologs:40 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 00:16:39 ERROR SeviceOutputMarketologs:40 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 11:58:05 ERROR SeviceOutputMarketologs:50 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 12:02:59 ERROR SeviceOutputMarketologs:80 - Column 'MARKETING_ID' not found.
+2017-10-09 12:32:30 ERROR SeviceOutputMarketologs:56 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 12:34:05 ERROR SeviceOutputMarketologs:56 - Column 'MARKETING_ID' not found.
+2017-10-09 12:43:54 ERROR SeviceOutputMarketologs:56 - Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-09 13:11:10 ERROR MarketologsDao:94 - No operations allowed after connection closed.
+2017-10-09 13:11:10 ERROR MarketingDao:93 - No operations allowed after connection closed.
+2017-10-09 13:11:10 ERROR EmployeesDao:102 - No operations allowed after connection closed.
+2017-10-09 13:12:01 ERROR MarketologsDao:94 - No operations allowed after connection closed.
+2017-10-09 13:12:01 ERROR MarketingDao:93 - No operations allowed after connection closed.
+2017-10-09 13:12:01 ERROR EmployeesDao:102 - No operations allowed after connection closed.
+2017-10-09 13:13:22 ERROR MarketologsDao:94 - No operations allowed after connection closed.
+2017-10-09 13:13:22 ERROR MarketingDao:93 - No operations allowed after connection closed.
+2017-10-09 13:13:22 ERROR EmployeesDao:102 - No operations allowed after connection closed.
+2017-10-09 13:14:09 ERROR MarketologsDao:94 - Illegal operation on empty result set.
+2017-10-09 13:14:09 ERROR MarketingDao:93 - Illegal operation on empty result set.
+2017-10-09 13:14:09 ERROR EmployeesDao:102 - Illegal operation on empty result set.
+2017-10-09 13:14:58 ERROR MarketologsDao:94 - Illegal operation on empty result set.
+2017-10-09 13:14:58 ERROR MarketingDao:93 - Illegal operation on empty result set.
+2017-10-09 13:14:58 ERROR EmployeesDao:102 - Illegal operation on empty result set.
+2017-10-09 13:19:51 ERROR MarketologsDao:94 - Illegal operation on empty result set.
+2017-10-09 13:19:51 ERROR MarketingDao:93 - Illegal operation on empty result set.
+2017-10-09 13:20:31 ERROR MarketingDao:93 - Illegal operation on empty result set.
+2017-10-09 13:25:27 ERROR SeviceOutputMarketologs:58 - Column 'MARKETING_ID' not found.
+2017-10-09 13:26:06 ERROR SeviceOutputMarketologs:58 - Column 'ID' not found.
+2017-10-09 13:35:14 ERROR SeviceOutputMarketologs:58 - No value specified for parameter 1
+2017-10-09 13:36:18 INFO  SeviceOutputMarketologs:53 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-09 13:36:18 INFO  SeviceOutputMarketologs:54 - Marketing [id_marketing=1, employees_id=5]
+2017-10-09 13:36:18 INFO  SeviceOutputMarketologs:55 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-09 13:37:25 INFO  SeviceOutputMarketologs:53 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-09 13:37:25 INFO  SeviceOutputMarketologs:54 - Marketing [id_marketing=1, employees_id=5]
+2017-10-09 13:37:25 INFO  SeviceOutputMarketologs:55 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-09 13:37:25 INFO  SeviceOutputMarketologs:53 - Marketologs [id_marketolog=2, marketing_id=2]
+2017-10-09 13:37:25 INFO  SeviceOutputMarketologs:54 - Marketing [id_marketing=2, employees_id=6]
+2017-10-09 13:37:25 INFO  SeviceOutputMarketologs:55 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
+2017-10-09 13:44:22 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-09 13:44:22 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=1, employees_id=5]
+2017-10-09 13:44:22 INFO  SeviceOutputMarketologs:52 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-09 13:44:22 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=2, marketing_id=2]
+2017-10-09 13:44:22 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=2, employees_id=6]
+2017-10-09 13:44:22 INFO  SeviceOutputMarketologs:52 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
+2017-10-09 13:44:44 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-09 13:44:44 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=1, employees_id=5]
+2017-10-09 13:44:44 INFO  SeviceOutputMarketologs:52 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-09 13:44:44 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=2, marketing_id=2]
+2017-10-09 13:44:44 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=2, employees_id=6]
+2017-10-09 13:44:44 INFO  SeviceOutputMarketologs:52 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
+2017-10-09 13:45:16 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-09 13:45:16 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=1, employees_id=5]
+2017-10-09 13:45:16 INFO  SeviceOutputMarketologs:52 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-09 13:45:16 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=2, marketing_id=2]
+2017-10-09 13:45:16 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=2, employees_id=6]
+2017-10-09 13:45:16 INFO  SeviceOutputMarketologs:52 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
+2017-10-09 13:45:59 ERROR SeviceOutputMarketologs:56 - No operations allowed after connection closed.
+2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=1, employees_id=5]
+2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:52 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:50 - Marketologs [id_marketolog=2, marketing_id=2]
+2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=2, employees_id=6]
+2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:52 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]

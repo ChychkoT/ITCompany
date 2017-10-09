@@ -3,16 +3,18 @@ package dao;
 import java.util.Calendar;
 import java.util.List;
 
-import dao.service.AddressService;
-import dao.service.AdministrationService;
-import dao.service.CountryService;
-import dao.service.DirectorsService;
-import dao.service.EmployeesService;
+import dao.services.SeviceOutputMarketologs;
 import dao.tables.Address;
 import dao.tables.Administration;
 import dao.tables.Country;
 import dao.tables.Directors;
 import dao.tables.Employees;
+import dao.tables.Marketologs;
+import dao.tablesdao.AddressDao;
+import dao.tablesdao.AdministrationDao;
+import dao.tablesdao.CountryDao;
+import dao.tablesdao.DirectorsDao;
+import dao.tablesdao.EmployeesDao;
 
 public class DaoRunner {
 	
@@ -66,7 +68,9 @@ public class DaoRunner {
 		//employesservice.update(employees);
 		//employesservice.delete(employees);
     	
-    	
+		SeviceOutputMarketologs seviceOutputMarketologs = new SeviceOutputMarketologs();
+		seviceOutputMarketologs.outputMarketologs();
+			
 		
 
 	}

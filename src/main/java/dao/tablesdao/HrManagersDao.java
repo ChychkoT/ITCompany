@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,25 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.ISalesDao;
-import dao.tables.Sales;
+import dao.interfacesdao.IHrManagersDao;
+import dao.tables.HrManagers;
 
-public class SalesService extends ConnectionPoolDB implements ISalesDao{
+public class HrManagersDao extends ConnectionPoolDB implements IHrManagersDao{
 	
-	private static final Logger LOGGER = Logger.getLogger(SalesService.class);
+	private static final Logger LOGGER = Logger.getLogger(HrManagersDao.class);
 
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 	@Override
-	public void insert(Sales sales) {
+	public void insert(HrManagers hrManagers) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO SALES (ID_SALES, MARKETING_ID) VALUES (?,?)";
+		String sql = "INSERT INTO HRMANAGERS (ID_HRMANAGERS, ADMINISTRATION_ID) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, sales.getId_sale());
-			preparedStatement.setInt(2, sales.getMarketing_id());
+			preparedStatement.setInt(1, hrManagers.getId_hrmanagers());
+			preparedStatement.setInt(2, hrManagers.getAdministration_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -40,14 +40,13 @@ public class SalesService extends ConnectionPoolDB implements ISalesDao{
 			close(preparedStatement);
 			close(connection);
 			}
-		
 	}
 
 	@Override
-	public List<Sales> getAll() {
-		List<Sales> saleslist = new ArrayList<>();
+	public List<HrManagers> getAll() {
+		List<HrManagers> hrmanagerslist = new ArrayList<>();
 
-		String sql = "SELECT * FROM SALES";
+		String sql = "SELECT * FROM HRMANAGERS";
 		
 		Statement preparedStatement =null;
 		try{
@@ -57,12 +56,12 @@ public class SalesService extends ConnectionPoolDB implements ISalesDao{
 		    
 		    while(resulSet.next()){
 		    	
-		    	Sales sales = new Sales();
+		    	HrManagers hrManagers = new HrManagers();
 		    	
-		    	sales.setId_sale(resulSet.getInt("ID_SALES"));
-		    	sales.setMarketing_id(resulSet.getInt("MARKETING_ID"));
+		    	hrManagers.setId_hrmanagers(resulSet.getInt("ID_HRMANAGERS"));
+		    	hrManagers.setAdministration_id(resulSet.getInt("ADMINISTRATION_ID"));
 		    	
-		    	saleslist.add(sales);
+		    	hrmanagerslist.add(hrManagers);
 		    }
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());
@@ -71,44 +70,24 @@ public class SalesService extends ConnectionPoolDB implements ISalesDao{
 			close(connection);
 		}
 
-		return saleslist;
+		return hrmanagerslist;
 	}
 
 	@Override
-	public Sales getById(int id) {
+	public HrManagers getById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(Sales sales) {
+	public void update(HrManagers hrManagers) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE SALES SET MARKETING_ID=? WHERE ID_SALES=?";
+		String sql = "UPDATE HRMANAGERS SET ADMINISTRATION_ID=? WHERE ID_HRMANAGERS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, sales.getId_sale());
-			preparedStatement.setInt(2, sales.getMarketing_id());
-			
-			preparedStatement.executeUpdate();
-			
-			}catch(SQLException e){
-				LOGGER.error(e.getMessage());
-			}finally{
-				close(preparedStatement);
-				close(connection);
-			}
-		
-	}
-
-	@Override
-	public void delete(Sales sales) {
-		PreparedStatement preparedStatement =null;
-		String sql = "DELETE FROM SALES WHERE ID_SALES=?";
-		try {
-			preparedStatement = connection.prepareStatement(sql);
-			
-			preparedStatement.setInt(1, sales.getId_sale());
+			preparedStatement.setInt(1, hrManagers.getId_hrmanagers());
+			preparedStatement.setInt(2, hrManagers.getAdministration_id());
 	    	
 			preparedStatement.executeUpdate();
 			
@@ -121,5 +100,24 @@ public class SalesService extends ConnectionPoolDB implements ISalesDao{
 		
 	}
 
-
+	@Override
+	public void delete(HrManagers hrManagers) {
+		PreparedStatement preparedStatement =null;
+		String sql = "DELETE FROM HRMANAGERS WHERE ID_HRMANAGERS=?";
+		try {
+			preparedStatement = connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, hrManagers.getId_hrmanagers());
+	    	
+			preparedStatement.executeUpdate();
+			
+			}catch(SQLException e){
+				LOGGER.error(e.getMessage());
+			}finally{
+				close(preparedStatement);
+				close(connection);
+			}
+		
+		
+	}
 }

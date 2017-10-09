@@ -13,10 +13,10 @@ public class MyBatisConnectionFactory {
 	
 	private static SqlSessionFactory sqlSessionFactory;
 	 
-    static {
+	public static SqlSessionFactory getSqlSessionFactory() {
         try {
  
-            String resource = "mybatis.xml";
+            String resource = "database/mybatis.xml";
             Reader reader = Resources.getResourceAsReader(resource);
  
             if (sqlSessionFactory == null) {
@@ -29,10 +29,11 @@ public class MyBatisConnectionFactory {
         catch (IOException iOException) {
             iOException.printStackTrace();
         }
-    }
-    public static SqlSessionFactory getSqlSessionFactory() {
         return sqlSessionFactory;
     }
+   /* public static SqlSessionFactory getSqlSessionFactory() {
+        return sqlSessionFactory;
+    }*/
 	
 	
 	}

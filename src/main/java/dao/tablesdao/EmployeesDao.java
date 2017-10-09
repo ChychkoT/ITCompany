@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,9 +15,9 @@ import dao.ConnectionPoolDB;
 import dao.interfacesdao.IEmployeesDao;
 import dao.tables.Employees;
 
-public class EmployeesService extends ConnectionPoolDB implements IEmployeesDao {
+public class EmployeesDao extends ConnectionPoolDB implements IEmployeesDao {
 	
-	private static final Logger LOGGER = Logger.getLogger(EmployeesService.class);
+	private static final Logger LOGGER = Logger.getLogger(EmployeesDao.class);
 	
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();
@@ -102,7 +102,8 @@ public class EmployeesService extends ConnectionPoolDB implements IEmployeesDao 
 			LOGGER.error(e.getMessage());
 		}finally{
 			close(preparedStatement);
-			close(connection);
+			//close(connection);
+			putBackConnection(connection);
 		}
 	
 		return employees;

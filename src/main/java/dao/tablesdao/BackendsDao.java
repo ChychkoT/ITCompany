@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,25 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.IDirectorsDao;
-import dao.tables.Directors;
+import dao.interfacesdao.IBackendsDao;
+import dao.tables.Backends;
 
-public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
+public class BackendsDao  extends ConnectionPoolDB implements IBackendsDao{
 	
-	private static final Logger LOGGER = Logger.getLogger(DirectorsService.class);
+	private static final Logger LOGGER = Logger.getLogger(BackendsDao.class);
 
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();
-	
+
 	@Override
-	public void insert(Directors directors) {
+	public void insert(Backends backends) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO DIRECTORS (ID_DIRECTORS, ADMINISTRATION_ID) VALUES (?,?)";
+		String sql = "INSERT INTO BACKENDS (ID_BACKENDS, DEVELOPMENT_ID) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, directors.getId_directors());
-			preparedStatement.setInt(2, directors.getAdministration_id());
+			preparedStatement.setInt(1, backends.getId_backend());
+			preparedStatement.setInt(2, backends.getDevelopment_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -40,14 +40,13 @@ public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
 			close(preparedStatement);
 			close(connection);
 			}
-		
 	}
 
 	@Override
-	public List<Directors> getAll() {
-		List<Directors> directorslist = new ArrayList<>();
+	public List<Backends> getAll() {
+		List<Backends> backendslist = new ArrayList<>();
 
-		String sql = "SELECT * FROM DIRECTORS";
+		String sql = "SELECT * FROM BACKENDS";
 		
 		Statement preparedStatement =null;
 		try{
@@ -57,12 +56,12 @@ public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
 		    
 		    while(resulSet.next()){
 		    	
-		    	Directors directors = new Directors();
+		    	Backends backends = new Backends();
 		    	
-		    	directors.setId_directors(resulSet.getInt("ID_DIRECTORS"));
-		    	directors.setAdministration_id(resulSet.getInt("ADMINISTRATION_ID"));
+		    	backends.setId_backend(resulSet.getInt("ID_BACKENDS"));
+		    	backends.setDevelopment_id(resulSet.getInt("DEVELOPMENT_ID"));
 		    	
-		    	directorslist.add(directors);
+		    	backendslist.add(backends);
 		    }
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());
@@ -71,26 +70,25 @@ public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
 			close(connection);
 		}
 
-		return directorslist;
-	
+		return backendslist;
 	}
 
 	@Override
-	public Directors getById(int id) {
+	public Backends getById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(Directors directors) {
+	public void update(Backends backends) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE DIRECTORS SET ADMINISTRATION_ID=? WHERE ID_DIRECTORS=?";
+		String sql = "UPDATE BACKENDS SET DEVELOPMENT_ID=? WHERE ID_FRONTENDS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, directors.getId_directors());
-			preparedStatement.setInt(2, directors.getAdministration_id());
-	    	
+			preparedStatement.setInt(1, backends.getId_backend());
+			preparedStatement.setInt(2, backends.getDevelopment_id());
+			
 			preparedStatement.executeUpdate();
 			
 			}catch(SQLException e){
@@ -99,17 +97,16 @@ public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
 				close(preparedStatement);
 				close(connection);
 			}
-		
 	}
 
 	@Override
-	public void delete(Directors directors) {
+	public void delete(Backends backends) {
 		PreparedStatement preparedStatement =null;
-		String sql = "DELETE FROM DIRECTORS WHERE ID_DIRECTORS=?";
+		String sql = "DELETE FROM BACKENDS WHERE ID_BACKENDS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, directors.getId_directors());
+			preparedStatement.setInt(1, backends.getId_backend());
 	    	
 			preparedStatement.executeUpdate();
 			
@@ -121,5 +118,4 @@ public class DirectorsService extends ConnectionPoolDB implements IDirectorsDao{
 			}
 		
 	}
-
 }

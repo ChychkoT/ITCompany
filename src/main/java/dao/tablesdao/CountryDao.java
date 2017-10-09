@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,26 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.IFrontendsDao;
-import dao.tables.Frontends;
+import dao.interfacesdao.ICountryDao;
+import dao.tables.Country;
 
-public class FrontendsService extends ConnectionPoolDB implements IFrontendsDao{
+public class CountryDao extends ConnectionPoolDB implements ICountryDao{
 	
-	private static final Logger LOGGER = Logger.getLogger(FrontendsService.class);
-
+private static final Logger LOGGER = Logger.getLogger(CountryDao.class);
+	
 	//Connection connection = getConnection();
-	Connection connection = ConnectionPoolDB.getInstance().getConnection();
-	
+   Connection connection = ConnectionPoolDB.getInstance().getConnection();
+     
+
 	@Override
-	public void insert(Frontends frontends) {
+	public void insert(Country country) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO FRONTENDS (ID_FRONTENDS, DEVELOPMENT_ID) VALUES (?,?)";
+		String sql = "INSERT INTO COUNTRY (ID, COUNTRY_NAME) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, frontends.getId_frontend());
-			preparedStatement.setInt(2, frontends.getDevelopment_id());
+			preparedStatement.setInt(1, country.getId());
+			preparedStatement.setString(2, country.getCountry_name());
 			
 			preparedStatement.executeUpdate();
 			
@@ -40,13 +41,15 @@ public class FrontendsService extends ConnectionPoolDB implements IFrontendsDao{
 			close(preparedStatement);
 			close(connection);
 			}
+		
 	}
 
 	@Override
-	public List<Frontends> getAll() {
-		List<Frontends> frontendslist = new ArrayList<>();
+	public List<Country> getAll() {
 
-		String sql = "SELECT * FROM FRONTENDS";
+		List<Country> countrylist = new ArrayList<>();
+
+		String sql = "SELECT * FROM COUNTRY";
 		
 		Statement preparedStatement =null;
 		try{
@@ -56,12 +59,12 @@ public class FrontendsService extends ConnectionPoolDB implements IFrontendsDao{
 		    
 		    while(resulSet.next()){
 		    	
-		    	Frontends frontends = new Frontends();
+		    	Country country = new Country();
 		    	
-		    	frontends.setId_frontend(resulSet.getInt("ID_FRONTENDS"));
-		    	frontends.setDevelopment_id(resulSet.getInt("DEVELOPMENT_ID"));
+		    	country.setId(resulSet.getInt("ID"));
+		    	country.setCountry_name(resulSet.getString("COUNTRY_NAME"));
 		    	
-		    	frontendslist.add(frontends);
+		    	countrylist.add(country);
 		    }
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());
@@ -70,25 +73,25 @@ public class FrontendsService extends ConnectionPoolDB implements IFrontendsDao{
 			close(connection);
 		}
 
-		return frontendslist;
+		return countrylist;
 	}
 
 	@Override
-	public Frontends getById(int id) {
+	public Country getById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(Frontends frontends) {
+	public void update(Country country) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE FRONTENDS SET DEVELOPMENT_ID=? WHERE ID_FRONTENDS=?";
+		String sql = "UPDATE COUNTRY SET COUNTRY_NAME=? WHERE ID=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, frontends.getId_frontend());
-			preparedStatement.setInt(2, frontends.getDevelopment_id());
-			
+			preparedStatement.setInt(1, country.getId());
+			preparedStatement.setString(2, country.getCountry_name());
+	    	
 			preparedStatement.executeUpdate();
 			
 			}catch(SQLException e){
@@ -97,17 +100,17 @@ public class FrontendsService extends ConnectionPoolDB implements IFrontendsDao{
 				close(preparedStatement);
 				close(connection);
 			}
-		
 	}
 
 	@Override
-	public void delete(Frontends frontends) {
+	public void delete(Country country) {
+		
 		PreparedStatement preparedStatement =null;
-		String sql = "DELETE FROM FRONTENDS WHERE ID_FRONTENDS=?";
+		String sql = "DELETE FROM COUNTRY WHERE ID=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, frontends.getId_frontend());
+			preparedStatement.setInt(1, country.getId());
 	    	
 			preparedStatement.executeUpdate();
 			

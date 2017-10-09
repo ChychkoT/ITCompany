@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,25 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.IBackendsDao;
-import dao.tables.Backends;
+import dao.interfacesdao.IFrontendsDao;
+import dao.tables.Frontends;
 
-public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
+public class FrontendsDao extends ConnectionPoolDB implements IFrontendsDao{
 	
-	private static final Logger LOGGER = Logger.getLogger(BackendsService.class);
+	private static final Logger LOGGER = Logger.getLogger(FrontendsDao.class);
 
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();
-
+	
 	@Override
-	public void insert(Backends backends) {
+	public void insert(Frontends frontends) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO BACKENDS (ID_BACKENDS, DEVELOPMENT_ID) VALUES (?,?)";
+		String sql = "INSERT INTO FRONTENDS (ID_FRONTENDS, DEVELOPMENT_ID) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, backends.getId_backend());
-			preparedStatement.setInt(2, backends.getDevelopment_id());
+			preparedStatement.setInt(1, frontends.getId_frontend());
+			preparedStatement.setInt(2, frontends.getDevelopment_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -43,10 +43,10 @@ public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
 	}
 
 	@Override
-	public List<Backends> getAll() {
-		List<Backends> backendslist = new ArrayList<>();
+	public List<Frontends> getAll() {
+		List<Frontends> frontendslist = new ArrayList<>();
 
-		String sql = "SELECT * FROM BACKENDS";
+		String sql = "SELECT * FROM FRONTENDS";
 		
 		Statement preparedStatement =null;
 		try{
@@ -56,12 +56,12 @@ public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
 		    
 		    while(resulSet.next()){
 		    	
-		    	Backends backends = new Backends();
+		    	Frontends frontends = new Frontends();
 		    	
-		    	backends.setId_backend(resulSet.getInt("ID_BACKENDS"));
-		    	backends.setDevelopment_id(resulSet.getInt("DEVELOPMENT_ID"));
+		    	frontends.setId_frontend(resulSet.getInt("ID_FRONTENDS"));
+		    	frontends.setDevelopment_id(resulSet.getInt("DEVELOPMENT_ID"));
 		    	
-		    	backendslist.add(backends);
+		    	frontendslist.add(frontends);
 		    }
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());
@@ -70,24 +70,24 @@ public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
 			close(connection);
 		}
 
-		return backendslist;
+		return frontendslist;
 	}
 
 	@Override
-	public Backends getById(int id) {
+	public Frontends getById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(Backends backends) {
+	public void update(Frontends frontends) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE BACKENDS SET DEVELOPMENT_ID=? WHERE ID_FRONTENDS=?";
+		String sql = "UPDATE FRONTENDS SET DEVELOPMENT_ID=? WHERE ID_FRONTENDS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, backends.getId_backend());
-			preparedStatement.setInt(2, backends.getDevelopment_id());
+			preparedStatement.setInt(1, frontends.getId_frontend());
+			preparedStatement.setInt(2, frontends.getDevelopment_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -97,16 +97,17 @@ public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
 				close(preparedStatement);
 				close(connection);
 			}
+		
 	}
 
 	@Override
-	public void delete(Backends backends) {
+	public void delete(Frontends frontends) {
 		PreparedStatement preparedStatement =null;
-		String sql = "DELETE FROM BACKENDS WHERE ID_BACKENDS=?";
+		String sql = "DELETE FROM FRONTENDS WHERE ID_FRONTENDS=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, backends.getId_backend());
+			preparedStatement.setInt(1, frontends.getId_frontend());
 	    	
 			preparedStatement.executeUpdate();
 			
@@ -117,5 +118,7 @@ public class BackendsService  extends ConnectionPoolDB implements IBackendsDao{
 				close(connection);
 			}
 		
+		
 	}
+
 }

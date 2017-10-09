@@ -15,6 +15,8 @@ import org.apache.log4j.Logger;
 
 
 public class ConnectionPoolDB {
+	
+	//private ConnectionPoolDB(){}
 
 	private static final Logger LOGGER = Logger.getLogger(ConnectionPoolDB.class);
 	private final static int MAX_CONNECTIONS = 3;
@@ -50,7 +52,7 @@ public class ConnectionPoolDB {
 
 			Properties prop = new Properties();
 			FileInputStream in = new FileInputStream(
-					"src\\main\\resources\\db.properties");
+					"src\\main\\resources\\database\\db.properties");
 			prop.load(in);
 			close(in);
 
@@ -86,6 +88,9 @@ public class ConnectionPoolDB {
 
 		} catch (Exception e) {
 			LOGGER.error("The driver class did not load :(");
+		}finally{
+			//close(connection);
+			putBackConnection(connection);
 		}
 		return connection;
 	}

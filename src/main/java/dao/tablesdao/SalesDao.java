@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,25 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.IMarketologsDao;
-import dao.tables.Marketologs;
+import dao.interfacesdao.ISalesDao;
+import dao.tables.Sales;
 
-public class MarketologsService extends ConnectionPoolDB implements IMarketologsDao{
+public class SalesDao extends ConnectionPoolDB implements ISalesDao{
 	
-	private static final Logger LOGGER = Logger.getLogger(MarketologsService.class);
+	private static final Logger LOGGER = Logger.getLogger(SalesDao.class);
 
 	//Connection connection = getConnection();
 	Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 	@Override
-	public void insert(Marketologs marketologs) {
+	public void insert(Sales sales) {
 		PreparedStatement preparedStatement =null;
-		String sql = "INSERT INTO MARKETOLOGS (ID_MARKETOLOGS, MARKETING_ID) VALUES (?,?)";
+		String sql = "INSERT INTO SALES (ID_SALES, MARKETING_ID) VALUES (?,?)";
 		try{
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, marketologs.getId_marketolog());
-			preparedStatement.setInt(2, marketologs.getMarketing_id());
+			preparedStatement.setInt(1, sales.getId_sale());
+			preparedStatement.setInt(2, sales.getMarketing_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -44,10 +44,10 @@ public class MarketologsService extends ConnectionPoolDB implements IMarketologs
 	}
 
 	@Override
-	public List<Marketologs> getAll() {
-		List<Marketologs> marketologslist = new ArrayList<>();
+	public List<Sales> getAll() {
+		List<Sales> saleslist = new ArrayList<>();
 
-		String sql = "SELECT * FROM MARKETOLOGS";
+		String sql = "SELECT * FROM SALES";
 		
 		Statement preparedStatement =null;
 		try{
@@ -57,12 +57,12 @@ public class MarketologsService extends ConnectionPoolDB implements IMarketologs
 		    
 		    while(resulSet.next()){
 		    	
-		    	Marketologs marketologs = new Marketologs();
+		    	Sales sales = new Sales();
 		    	
-		    	marketologs.setId_marketolog(resulSet.getInt("ID_MARKETOLOGS"));
-		    	marketologs.setMarketing_id(resulSet.getInt("MARKETING_ID"));
+		    	sales.setId_sale(resulSet.getInt("ID_SALES"));
+		    	sales.setMarketing_id(resulSet.getInt("MARKETING_ID"));
 		    	
-		    	marketologslist.add(marketologs);
+		    	saleslist.add(sales);
 		    }
 		}catch(SQLException e){
 			LOGGER.error(e.getMessage());
@@ -71,24 +71,24 @@ public class MarketologsService extends ConnectionPoolDB implements IMarketologs
 			close(connection);
 		}
 
-		return marketologslist;
+		return saleslist;
 	}
 
 	@Override
-	public Marketologs getById(int id) {
+	public Sales getById(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void update(Marketologs marketologs) {
+	public void update(Sales sales) {
 		PreparedStatement preparedStatement =null;
-		String sql = "UPDATE MARKETOLOGS SET MARKETING_ID=? WHERE ID_MARKETOLOGS=?";
+		String sql = "UPDATE SALES SET MARKETING_ID=? WHERE ID_SALES=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, marketologs.getId_marketolog());
-			preparedStatement.setInt(2, marketologs.getMarketing_id());
+			preparedStatement.setInt(1, sales.getId_sale());
+			preparedStatement.setInt(2, sales.getMarketing_id());
 			
 			preparedStatement.executeUpdate();
 			
@@ -99,17 +99,16 @@ public class MarketologsService extends ConnectionPoolDB implements IMarketologs
 				close(connection);
 			}
 		
-		
 	}
 
 	@Override
-	public void delete(Marketologs marketologs) {
+	public void delete(Sales sales) {
 		PreparedStatement preparedStatement =null;
-		String sql = "DELETE FROM MARKETOLOGS WHERE ID_MARKETOLOGS=?";
+		String sql = "DELETE FROM SALES WHERE ID_SALES=?";
 		try {
 			preparedStatement = connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, marketologs.getId_marketolog());
+			preparedStatement.setInt(1, sales.getId_sale());
 	    	
 			preparedStatement.executeUpdate();
 			
@@ -121,4 +120,6 @@ public class MarketologsService extends ConnectionPoolDB implements IMarketologs
 			}
 		
 	}
+
+
 }

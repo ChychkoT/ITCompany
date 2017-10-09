@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,9 +15,9 @@ import dao.ConnectionPoolDB;
 import dao.interfacesdao.IAdministrationDao;
 import dao.tables.Administration;
 
-public class AdministrationService extends ConnectionPoolDB implements IAdministrationDao{
+public class AdministrationDao extends ConnectionPoolDB implements IAdministrationDao{
 	
-private static final Logger LOGGER = Logger.getLogger(AdministrationService.class);
+private static final Logger LOGGER = Logger.getLogger(AdministrationDao.class);
 
 //Connection connection = getConnection();
 Connection connection = ConnectionPoolDB.getInstance().getConnection();

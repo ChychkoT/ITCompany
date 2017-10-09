@@ -1,4 +1,4 @@
-package dao.service;
+package dao.tablesdao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,25 +12,25 @@ import org.apache.log4j.Logger;
 
 //import dao.ConnectionDB;
 import dao.ConnectionPoolDB;
-import dao.interfacesdao.IMarketingDao;
-import dao.tables.Marketing;
+import dao.interfacesdao.IDevelopmentDao;
+import dao.tables.Development;
 
-public class MarketingService extends ConnectionPoolDB implements IMarketingDao{
+public class DevelopmentDao extends ConnectionPoolDB implements IDevelopmentDao{
 	
-private static final Logger LOGGER = Logger.getLogger(MarketingService.class);
+private static final Logger LOGGER = Logger.getLogger(DevelopmentDao.class);
 
 //Connection connection = getConnection();
 Connection connection = ConnectionPoolDB.getInstance().getConnection();
 
 @Override
-public void insert(Marketing marketing) {
+public void insert(Development development) {
 	PreparedStatement preparedStatement =null;
-	String sql = "INSERT INTO MARKETING (ID_MARKETING, EMPLOYEES_ID) VALUES (?,?)";
+	String sql = "INSERT INTO DEVELOPMENT (ID_DEVELOPMENT, EMPLOYEES_ID) VALUES (?,?)";
 	try{
 		preparedStatement = connection.prepareStatement(sql);
 		
-		preparedStatement.setInt(1, marketing.getId_marketing());
-		preparedStatement.setInt(2, marketing.getEmployees_id());
+		preparedStatement.setInt(1, development.getId_development());
+		preparedStatement.setInt(2, development.getEmployees_id());
 		
 		preparedStatement.executeUpdate();
 		
@@ -40,13 +40,14 @@ public void insert(Marketing marketing) {
 		close(preparedStatement);
 		close(connection);
 		}
+	
 }
 
 @Override
-public List<Marketing> getAll() {
-	List<Marketing> marketinglist = new ArrayList<>();
+public List<Development> getAll() {
+	List<Development> developmentlist = new ArrayList<>();
 
-	String sql = "SELECT * FROM MARKETING";
+	String sql = "SELECT * FROM DEVELOPMENT";
 	
 	Statement preparedStatement =null;
 	try{
@@ -56,12 +57,12 @@ public List<Marketing> getAll() {
 	    
 	    while(resulSet.next()){
 	    	
-	    	Marketing marketing = new Marketing();
+	    	Development development = new Development();
 	    	
-	    	marketing.setId_marketing(resulSet.getInt("ID_MARKETING"));
-	    	marketing.setEmployees_id(resulSet.getInt("EMPLOYEES_ID"));
+	    	development.setId_development(resulSet.getInt("ID_DEVELOPMENT"));
+	    	development.setEmployees_id(resulSet.getInt("EMPLOYEES_ID"));
 	    	
-	    	marketinglist.add(marketing);
+	    	developmentlist.add(development);
 	    }
 	}catch(SQLException e){
 		LOGGER.error(e.getMessage());
@@ -69,25 +70,24 @@ public List<Marketing> getAll() {
 		close(preparedStatement);
 		close(connection);
 	}
-
-	return marketinglist;
+	return developmentlist;
 }
 
 @Override
-public Marketing getById(int id) {
+public Development getById(int id) {
 	// TODO Auto-generated method stub
 	return null;
 }
 
 @Override
-public void update(Marketing marketing) {
+public void update(Development development) {
 	PreparedStatement preparedStatement =null;
-	String sql = "UPDATE MARKETING SET EMPLOYEES_ID=? WHERE ID_MARKETING=?";
+	String sql = "UPDATE DEVELOPMENT SET EMPLOYEES_ID=? WHERE ID_DEVELOPMENT=?";
 	try {
 		preparedStatement = connection.prepareStatement(sql);
 		
-		preparedStatement.setInt(1, marketing.getId_marketing());
-		preparedStatement.setInt(2, marketing.getEmployees_id());
+		preparedStatement.setInt(1, development.getId_development());
+		preparedStatement.setInt(2, development.getEmployees_id());
     	
 		preparedStatement.executeUpdate();
 		
@@ -101,13 +101,13 @@ public void update(Marketing marketing) {
 }
 
 @Override
-public void delete(Marketing marketing) {
+public void delete(Development development) {
 	PreparedStatement preparedStatement =null;
-	String sql = "DELETE FROM MARKETING WHERE ID_MARKETING=?";
+	String sql = "DELETE FROM DEVELOPMENT WHERE ID_DEVELOPMENT=?";
 	try {
 		preparedStatement = connection.prepareStatement(sql);
 		
-		preparedStatement.setInt(1, marketing.getId_marketing());
+		preparedStatement.setInt(1, development.getId_development());
     	
 		preparedStatement.executeUpdate();
 		
