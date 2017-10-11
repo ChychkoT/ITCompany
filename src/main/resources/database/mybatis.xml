@@ -3,7 +3,14 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<properties resource="database/db.properties" />
+
+  <properties resource="database/db.properties" />
+
+  <typeAliases>
+     <typeAlias alias="Employees" type="dao.tables.Employees" />
+	 <package name="dao.tables" />
+  </typeAliases>
+  
   <environments default="development">
     <environment id="development">
       <transactionManager type="JDBC"/>

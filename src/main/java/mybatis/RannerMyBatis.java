@@ -12,8 +12,10 @@ public class RannerMyBatis {
 		
 		SqlSessionFactory sf = MyBatisConnectionFactory.getSqlSessionFactory();
 		EmployeesMyBatisService employeesMyBatisService = new EmployeesMyBatisService(sf);
-		//Employees employees = new Employees();
-		System.out.println(employeesMyBatisService.getById(5));
+		Employees employees = new Employees();
+		employeesMyBatisService.getById(2);
+		
 	}
 
 }
+ 

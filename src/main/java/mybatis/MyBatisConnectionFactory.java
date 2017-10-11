@@ -2,6 +2,7 @@ package mybatis;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.Reader;
 
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -17,7 +18,7 @@ public class MyBatisConnectionFactory {
         try {
  
             String resource = "database/mybatis.xml";
-            Reader reader = Resources.getResourceAsReader(resource);
+            InputStream  reader = Resources.getResourceAsStream(resource);
  
             if (sqlSessionFactory == null) {
                 sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);

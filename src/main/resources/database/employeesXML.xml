@@ -21,12 +21,12 @@
  
     <select id="getById" parameterType="int" resultMap="result">
         <![CDATA[
-		SELECT ID as EMPLOYEE_ID,
-		       NAME_EMPLOYEE as NAME_EMPLOYEE,
-               DATE_OF_BIRTH as DATE_OF_BIRTH_EMPLOYEE,
-               SALARY as SALARY_EMPLOYEE			   
-		FROM EMPLOYEES u 
-		WHERE u.ID = #{ID};
+		SELECT ID,
+		       NAME_EMPLOYEE,
+               DATE_OF_BIRTH,
+               SALARY			   
+		FROM EMPLOYEES 
+		WHERE ID = #{ID};
 		]]>
     </select>
  

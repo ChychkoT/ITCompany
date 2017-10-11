@@ -8,6 +8,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.log4j.Logger;
 
 import dao.interfacesdao.IEmployeesDao;
 import dao.tables.Employees;
@@ -15,7 +16,7 @@ import dao.tables.Employees;
 
 public class EmployeesMyBatisService extends MyBatisConnectionFactory implements IEmployeesDao {
 	
-	
+	private static final Logger LOGGER = Logger.getLogger(EmployeesMyBatisService.class);
 	   private SqlSessionFactory sqlSessionFactory = null;
 	 
 	    public EmployeesMyBatisService(SqlSessionFactory sqlSessionFactory){
@@ -49,12 +50,13 @@ public class EmployeesMyBatisService extends MyBatisConnectionFactory implements
 			Employees employees = null;
 		        SqlSession session = sqlSessionFactory.openSession();
 		        try {
-		        	employees = session.selectOne("mybatis.Employees.getById", id);
+		        	employees = session.selectOne("dao.tables.Employees.getById", id);
 		 
 		        } finally {
 		            session.close();
 		        }
-		        System.out.println("getById("+id+") --> "+employees);
+		       
+		        LOGGER.info("getById("+id+") --> "+employees);
 		        return employees;
 		}
 
