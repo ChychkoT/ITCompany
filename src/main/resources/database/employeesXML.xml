@@ -15,10 +15,10 @@
 	<sql id="getEmployess">
 		<![CDATA[
 			SELECT
-			    ID ,
+			    ID AS ID_EMPLOYEES,
 				NAME_EMPLOYEE ,
-				DATE_OF_BIRTH ,
-				SALARY 
+				DATE_OF_BIRTH AS EMPLOYEE_DATE_OF_BIRTH,
+				SALARY AS EMPLOYEE_SALARY
 				
 			FROM
 				EMPLOYEES  ;
@@ -30,16 +30,8 @@
     </select>
  
     <select id="getById" parameterType="int" resultMap="result">
-	
+	<include refid="getEmployess" />
         <![CDATA[ 
-		SELECT
-			    
-				NAME_EMPLOYEE ,
-				DATE_OF_BIRTH ,
-				SALARY 
-				
-			FROM
-				EMPLOYEES
 		WHERE ID = #{id};
 		]]>
     </select>

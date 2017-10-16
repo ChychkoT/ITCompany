@@ -3420,3 +3420,7 @@ Salary: 550$
 2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:54 - Marketing [id_marketing=2, employees_id=6]
 2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:55 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
 2017-10-16 16:57:25 INFO  EmployeesMyBatisService:66 - getById(2) --> Employees [id=0, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
+2017-10-16 17:15:23 INFO  EmployeesMyBatisService:66 - getById(2) --> Employees [id=0, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
+2017-10-16 17:16:51 INFO  EmployeesMyBatisService:66 - getById(2) --> Employees [id=0, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
+2017-10-16 17:23:33 INFO  EmployeesMyBatisService:66 - getById(2) --> Employees [id=0, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
+2017-10-16 17:46:21 INFO  EmployeesMyBatisService:66 - getById(2) --> Employees [id=0, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
