@@ -29,7 +29,10 @@ public class SeviceOutputMarketologs extends ConnectionPoolDB {
 		MarketingDao markDao =new MarketingDao();*/
 
 			PreparedStatement preparedStatement =null;
-			String sql = "SELECT ID_MARKETOLOGS,MARKETING_ID,ID_MARKETING,EMPLOYEES_ID,ID,NAME_EMPLOYEE,DATE_OF_BIRTH,SALARY FROM  MARKETOLOGS h left join MARKETING ad  on h.MARKETING_ID = ad.ID_MARKETING left join EMPLOYEES e  on e.ID = ad.EMPLOYEES_ID";
+			String sql = "SELECT ID_MARKETOLOGS,MARKETING_ID,ID_MARKETING,EMPLOYEES_ID,ID,NAME_EMPLOYEE,DATE_OF_BIRTH,SALARY \r\n"
+					        + "FROM  MARKETOLOGS h \r\n"
+					        + "left join MARKETING ad  on h.MARKETING_ID = ad.ID_MARKETING \r\n"
+					        + "left join EMPLOYEES e  on e.ID = ad.EMPLOYEES_ID";
 
 			Marketologs marketologs = new Marketologs();
 			Marketing marketing = new Marketing();
@@ -57,7 +60,8 @@ public class SeviceOutputMarketologs extends ConnectionPoolDB {
 			}finally{
 				close(preparedStatement);
 				//close(connection);
-				putBackConnection(connection);
+				ConnectionPoolDB.getInstance().putBackConnection(connection);
+				
 			}
 	}
 	

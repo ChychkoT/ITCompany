@@ -3412,3 +3412,11 @@ Salary: 550$
 2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:51 - Marketing [id_marketing=2, employees_id=6]
 2017-10-09 13:46:42 INFO  SeviceOutputMarketologs:52 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
 2017-10-10 15:18:07 INFO  EmployeesMyBatisService:59 - getById(2) --> Employees [id=2, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
+2017-10-13 14:14:28 ERROR SeviceOutputMarketologs:59 - Column 'SALARY' not found.
+2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:53 - Marketologs [id_marketolog=1, marketing_id=1]
+2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:54 - Marketing [id_marketing=1, employees_id=5]
+2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:55 - Employees [id=5, name_employee=Belaja Cvetlana, date_of_birth=1986-06-08, salary=1200]
+2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:53 - Marketologs [id_marketolog=2, marketing_id=2]
+2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:54 - Marketing [id_marketing=2, employees_id=6]
+2017-10-13 14:20:28 INFO  SeviceOutputMarketologs:55 - Employees [id=6, name_employee=Demchog Nikolaj, date_of_birth=1987-09-03, salary=1400]
+2017-10-16 16:57:25 INFO  EmployeesMyBatisService:66 - getById(2) --> Employees [id=0, name_employee=Ivanovich Elena, date_of_birth=1992-02-10, salary=4500]
