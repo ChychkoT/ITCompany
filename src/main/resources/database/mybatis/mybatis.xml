@@ -7,7 +7,8 @@
   <properties resource="database/db.properties" />
 
   <typeAliases>
-     <typeAlias alias="Employees" type="dao.tables.Employees" />
+     <typeAlias alias="Sales" type="dao.tables.Sales" />
+	 <typeAlias alias="Address" type="dao.tables.Address" />
 	 <package name="dao.tables" />
   </typeAliases>
   
@@ -23,6 +24,7 @@
     </environment>
   </environments>
   <mappers>
-    <mapper resource="database/employeesXML.xml"/>
+    <mapper resource="database/mybatis/mapperSale.xml"/>
+	<mapper resource="database/mybatis/mapperAddress.xml"/>
   </mappers>
 </configuration>

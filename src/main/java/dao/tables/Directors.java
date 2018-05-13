@@ -1,11 +1,13 @@
 package dao.tables;
 
-public class Directors {
+public class Directors extends Administration{
 	
 	private int id_directors;
 	private int administration_id;
-	
-	public Directors(){}
+
+	public Directors() {
+		super();
+	}
 
 	public int getId_directors() {
 		return id_directors;
@@ -25,8 +27,10 @@ public class Directors {
 
 	@Override
 	public String toString() {
-		return "Directors [id_directors=" + id_directors
-				+ ", administration_id=" + administration_id + "]";
+		return "Directors [id_employees=" + getEmployees_id() + ", id_directors=" + id_directors
+				+ ", administration_id=" + administration_id
+				+ ", name=" + getName_employee()+ ", date of birth=" + getDate_of_birth() + ", salary=" + getSalary()
+				+ "]";
 	}
 	
 	

@@ -1,11 +1,12 @@
 package dao.tables;
 
-public class Marketing {
+public abstract class Marketing extends Employees {
 
 	private int id_marketing;
 	private int employees_id;
-	
+
 	public Marketing() {
+		super();		
 	}
 
 	public int getId_marketing() {

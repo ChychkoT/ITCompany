@@ -1,11 +1,13 @@
 package dao.tables;
 
-public class Administration {
+public class Administration extends Employees {
 	
 	private int id_administration;
 	private int employees_id;
-	
-	public Administration(){}
+
+	public Administration() {
+		super();
+	}
 
 	public int getId_administration() {
 		return id_administration;
@@ -27,8 +29,6 @@ public class Administration {
 	public String toString() {
 		return "Administration [id_administration=" + id_administration
 				+ ", employees_id=" + employees_id + "]";
-	}
-	
-	
+	}	
 
 }

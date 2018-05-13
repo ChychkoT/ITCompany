@@ -10,7 +10,7 @@ public interface IMarketologsDao {
 	
 	List<Marketologs> getAll();
 	
-	Marketologs getById(int id);
+	Marketologs  getById(int id);
 	
 	void update (Marketologs marketologs);
 	

@@ -23,7 +23,7 @@ public class MyBatisConnectionFactory {
 	private static SqlSessionFactory sqlSessionFactory;
 	
 	public static SqlSessionFactory getSqlSessionFactory() {
-		String resource = "database/mybatis.xml";
+		String resource = "database/mybatis/mybatis.xml";
 		InputStream  reader = null; 
         try {
         	reader = Resources.getResourceAsStream(resource);
@@ -33,10 +33,10 @@ public class MyBatisConnectionFactory {
             }
         }
         catch (FileNotFoundException fileNotFoundException) {
-            fileNotFoundException.printStackTrace();
+        	LOGGER.info(fileNotFoundException);
         }
         catch (IOException iOException) {
-            iOException.printStackTrace();
+        	LOGGER.info(iOException); 
         }
         return sqlSessionFactory;
     }

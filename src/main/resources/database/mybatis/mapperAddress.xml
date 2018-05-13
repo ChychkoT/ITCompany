@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace="mybatis.MyBatisAddressDAO">
+	
+	<insert id="createAddress" useGeneratedKeys="true" keyProperty="id">
+		<![CDATA[
+			INSERT INTO itdb.ADDRESSES (ID, COUNTRY_ID, CITY, STREET, HOUSE, A_EMPLOYEES_ID)
+			VALUES (
+			    #{id},
+				#{country_id},
+				#{city},
+				#{street},
+				#{house},
+				#{employees_id}
+			)
+		]]>
+	</insert>
+	
+	<sql id="getAddress">
+		<![CDATA[
+			SELECT COUNTRY_ID, CITY,STREET,HOUSE,A_EMPLOYEES_ID FROM itdb.ADDRESSES a	
+		]]>	
+	</sql>
+	
+	<select id="getAddressById" parameterType="int" resultMap="AddressResultMap">
+		<include refid="getAddress" />
+		<![CDATA[
+			WHERE a.ID = #{id}
+		]]>
+	</select>
+	
+	<select id="getAddressAll" resultMap="AddressResultMap">
+	    <include refid="getAddress" />
+	</select>
+	
+	<update id="updateAddress">
+		<![CDATA[
+        	UPDATE
+        		itdb.ADDRESSES
+          	SET
+          		COUNTRY_ID = #{country_id},
+				CITY = #{city},
+				STREET = #{street},
+				HOUSE = #{house},
+				A_EMPLOYEES_ID = #{employees_id}
+          	WHERE
+			 	ID = #{id}
+        ]]>
+	</update>
+	
+	<delete id="deleteAddress">
+        <![CDATA[
+        	DELETE
+          	FROM 
+          		itdb.ADDRESSES
+          	WHERE
+          		ID = #{id}
+        ]]>
+    </delete>
+		
+	<resultMap type="dao.tables.Address" id="AddressResultMap" autoMapping="false">
+	    <id property="id" column="ID"/>
+		<result property="country_id" column="COUNTRY_ID"/>  
+		<result property="city" column="CITY"/>
+        <result property="street" column="STREET"/>  
+        <result property="house" column="HOUSE"/> 
+        <result property="employees_id" column="A_EMPLOYEES_ID"/>	
+	</resultMap>
+	
+	</mapper>

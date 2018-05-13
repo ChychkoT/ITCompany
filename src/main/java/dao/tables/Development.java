@@ -1,11 +1,13 @@
 package dao.tables;
 
-public class Development {
+public class Development extends Employees{
 	
 	private int id_development;
 	private int employees_id;
-	
-	public Development(){}
+
+	public Development() {
+		super();
+	}
 
 	public int getId_development() {
 		return id_development;

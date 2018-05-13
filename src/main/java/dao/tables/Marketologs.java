@@ -1,11 +1,15 @@
 package dao.tables;
 
-public class Marketologs {
+public class Marketologs extends Marketing{
 
 	private int id_marketolog;
 	private int marketing_id;
 	
-	public Marketologs(){}
+    
+
+	public Marketologs() {
+		super();	
+	}
 
 	public int getId_marketolog() {
 		return id_marketolog;
@@ -25,9 +29,13 @@ public class Marketologs {
 
 	@Override
 	public String toString() {
-		return "Marketologs [id_marketolog=" + id_marketolog
-				+ ", marketing_id=" + marketing_id + "]";
+		return "Marketolog [id_employee=" + getEmployees_id() + ", marketing_id=" + marketing_id + ", id_marketolog=" + id_marketolog
+				+ ", name=" + getName_employee()+ ", date of birth=" + getDate_of_birth() + ", salary=" + getSalary() 
+				+ ", Address: { country= " + getAddress().getCountry_id()+", city=  "+ getAddress().getCity() +", street=  "+
+		                  getAddress().getStreet()+", house=  " + getAddress().getHouse()+ "}"
+				+ "]";
 	}
+
 	
 
 }

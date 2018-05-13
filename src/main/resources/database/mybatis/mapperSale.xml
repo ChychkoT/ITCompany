@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace="mybatis.MyBatisSalesDAO">
+	
+	  
+	  <insert id="createSales" useGeneratedKeys="true" keyProperty="id">
+	   <![CDATA[
+			INSERT INTO itdb.EMPLOYEES (ID, NAME_EMPLOYEE, DATE_OF_BIRTH, SALARY)
+			VALUES (
+			    #{id},
+				#{name_employee},
+				#{date_of_birth},
+				#{salary}
+			)
+		]]>
+		<![CDATA[
+			INSERT INTO itdb.MARKETING ( ID_MARKETING, EMPLOYEES_ID)
+			VALUES (
+			    #{id_marketing},
+				#{employees_id}
+			)
+		]]>
+		<![CDATA[
+			INSERT INTO itdb.SALES (ID_SALES, MARKETING_ID)
+			VALUES (
+			    #{id_sale},
+				#{marketing_id}
+			)
+		]]>
+	  </insert>
+	
+	
+	<sql id="getSales">
+		<![CDATA[
+			SELECT  ID , ID_SALES, MARKETING_ID , NAME_EMPLOYEE, DATE_OF_BIRTH, SALARY
+			FROM itdb.SALES s 
+				LEFT JOIN MARKETING m ON m.ID_MARKETING = s.MARKETING_ID 
+				LEFT JOIN EMPLOYEES e ON e.ID = m.EMPLOYEES_ID 
+		]]>	
+	</sql>
+	
+	<select id="getSalesById" resultMap="SalesResultMap">
+		<include refid="getSales" />
+		<![CDATA[
+			WHERE s.ID_SALES = #{id_sale};
+		]]>
+	</select>
+	
+	<select id="getSalesAll" resultMap="SalesResultMap">
+	    <include refid="getSales" />
+	</select>
+	
+	
+	<update id="updateSales">
+	    <![CDATA[
+        	UPDATE
+        		itdb.EMPLOYEES
+          	SET
+          		NAME_EMPLOYEE = #{name_employee},
+				DATE_OF_BIRTH = #{date_of_birth},
+				SALARY = #{salary}
+          	WHERE
+			 	ID = #{id}
+        ]]>
+        <![CDATA[
+        	UPDATE
+        		itdb.MARKETING
+          	SET
+          		EMPLOYEES_ID = #{employees_id}
+          	WHERE
+			 	ID_MARKETING = #{id_marketing}
+        ]]>
+		<![CDATA[
+        	UPDATE
+        		itdb.SALES
+          	SET
+          		MARKETING_ID = #{marketing_id}
+          	WHERE
+			 	ID_SALES = #{id_sale}
+        ]]>
+	</update>
+	
+
+	
+	<delete id="deleteSales">
+        
+        <![CDATA[
+        	DELETE
+          	FROM 
+          		itdb.SALES
+          	WHERE
+          		ID_SALES = #{id_sale}
+        ]]>
+        
+         <![CDATA[
+        	DELETE
+          	FROM 
+          		itdb.MARKETING
+          	WHERE
+          		ID_MARKETING = #{"src/main/java/dao/interfacesdao/ISalesDao.java"}
+        ]]>
+        
+        <![CDATA[
+        	DELETE
+          	FROM 
+          		itdb.EMPLOYEES
+          	WHERE
+          		ID = #{id}
+        ]]>
+        
+    </delete>
+
+	
+	<resultMap type="dao.tables.Sales" id="SalesResultMap" autoMapping="false">
+	    <id property="id_sale" column="ID_SALES"/>
+	    <result property="employees_id" column="EMPLOYEES_ID"/>
+		<result property="marketing_id" column="MARKETING_ID"/>  
+		<result property="id_marketing" column="ID_MARKETING"/>  
+		<result property="id" column="ID"/>
+        <result property="name_employee" column="NAME_EMPLOYEE"/>  
+        <result property="date_of_birth" column="DATE_OF_BIRTH"/> 
+        <result property="salary" column="SALARY"/>	
+	</resultMap>
+	
+	</mapper>

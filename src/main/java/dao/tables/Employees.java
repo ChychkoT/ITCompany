@@ -2,13 +2,16 @@ package dao.tables;
 
 import java.sql.Date;
 
-public class Employees {
+public abstract class Employees {
 	
 
 	private int id;
 	private String name_employee;
 	private Date date_of_birth;
 	private int salary; 
+	private Address address;
+	
+
 	
 	public Employees(){}
 	
@@ -44,7 +47,17 @@ public class Employees {
 
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}	
+	
+	public Address getAddress() {
+		return address;
 	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	
 
 	@Override
 	public String toString() {

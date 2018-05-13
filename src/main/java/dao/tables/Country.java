@@ -1,11 +1,16 @@
 package dao.tables;
 
-public class Country {
+public enum Country {
+	
+	BELARUS, 
+	RUSSIA, 
+	UKRAINE, 
+	POLAND, 
+	LITHUANIA, 
+	LATVIA;
 	
 	private int id;
 	private String country_name;
-	
-	public Country(){}
 
 	public int getId() {
 		return id;

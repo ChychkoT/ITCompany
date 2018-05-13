@@ -3,18 +3,16 @@ package dao;
 import java.util.Calendar;
 import java.util.List;
 
-import dao.services.SeviceOutputMarketologs;
+import dao.services.ServiceSales;
+import dao.services.SeviceMarketologs;
 import dao.tables.Address;
 import dao.tables.Administration;
 import dao.tables.Country;
 import dao.tables.Directors;
 import dao.tables.Employees;
 import dao.tables.Marketologs;
-import dao.tablesdao.AddressDao;
-import dao.tablesdao.AdministrationDao;
-import dao.tablesdao.CountryDao;
-import dao.tablesdao.DirectorsDao;
-import dao.tablesdao.EmployeesDao;
+import dao.tables.Sales;
+import dao.tablesdao.JDBCMarketologsDao;
 
 public class DaoRunner {
 	
@@ -68,10 +66,69 @@ public class DaoRunner {
 		//employesservice.update(employees);
 		//employesservice.delete(employees);
     	
-		SeviceOutputMarketologs seviceOutputMarketologs = new SeviceOutputMarketologs();
-		seviceOutputMarketologs.outputMarketologs();
+		//SeviceOutputMarketologs seviceOutputMarketologs = new SeviceOutputMarketologs();
+		//seviceOutputMarketologs.outputMarketologs();
 			
+		/*JDBCMarketologsDao mar = new JDBCMarketologsDao();
+		List<Marketologs> emploeeslist = mar.getAll();
+		for(Marketologs e:emploeeslist){
+			System.out.println(e);
+		}*/
+	
+		//mar.getById(2);
 		
+		
+	//////////////////////////////////////////////////////////////////////////////////////////////	
+		
+		
+		ServiceSales servicSales = new ServiceSales();
+		SeviceMarketologs seviceMarketologs = new SeviceMarketologs();
+		Marketologs marketologs = new Marketologs();
+		Address address = new Address();
+		
+//////////////GET BY ID MARKETOLOG///////////		
+		//seviceMarketologs.getByIdMarcetolog(2);
+		servicSales.getByIdSales(2);
+		
+//////////////GET LIST MARKETOLOGS///////////			
+		//seviceMarketologs.ListMarketologs();
+		
+//////////////INSERT MARKETOLOG///////////	
+		/*marketologs.setId(13);
+    	marketologs.setName_employee("Livanov Ilia");
+		Calendar calendar =Calendar.getInstance();
+		calendar.set(1990,Calendar.AUGUST,06);
+		marketologs.setDate_of_birth(new java.sql.Date(calendar.getTime().getTime()));
+		marketologs.setSalary(2600);
+		marketologs.setId_marketing(5);
+		marketologs.setEmployees_id(13);
+		marketologs.setId_marketolog(3);
+		marketologs.setMarketing_id(5);
+		
+				
+		address.setId(13);
+    	address.setCountry_id(4);
+        address.setCity("Gdansk");
+    	address.setStreet("Gdanskaja");
+    	address.setHouse("15");
+    	//address.setEmployees_id(13);
+    	marketologs.setAddress(address);*/
+    	
+		//seviceMarketologs.insertMarketolog(marketologs, address);
+
+		
+		
+///////////DELETE MARKETOLOG/////////////
+		
+		/*marketologs.setId(13);
+		marketologs.setId_marketing(5);
+		marketologs.setId_marketolog(3);
+		address.setId(14);
+		marketologs.setAddress(address);
+		seviceMarketologs.deleteMarketolog(marketologs);*/
+
+///////////UPDATE MARKETOLOG/////////////		
+		seviceMarketologs.updateMarketolog(marketologs);
 
 	}
 

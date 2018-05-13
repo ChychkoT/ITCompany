@@ -1,10 +1,12 @@
 package dao.tables;
 
-public class Sales {
+public class Sales extends Marketing{
 	private int id_sale;
 	private int marketing_id;
-	
-	public Sales(){}
+
+	public Sales() {
+		super();
+	}
 
 	public int getId_sale() {
 		return id_sale;
@@ -24,8 +26,11 @@ public class Sales {
 
 	@Override
 	public String toString() {
-		return "Sales [id_sale=" + id_sale + ", marketing_id=" + marketing_id
-				+ "]";
+		return "Sales [id_employees=" + getId() + ", marketing_id=" + marketing_id +  ", id_sale=" + id_sale + ", name=" + getName_employee()+ 
+				", date of birth=" + getDate_of_birth() + ", salary=" + getSalary()
+				+ ", Address: { country= " + getAddress().getCountry_id()+", city=  "+ getAddress().getCity() +", street=  "+
+                getAddress().getStreet()+", house=  " + getAddress().getHouse()+ "}"
+		        + "]"; 
 	}
-    
+
 }
